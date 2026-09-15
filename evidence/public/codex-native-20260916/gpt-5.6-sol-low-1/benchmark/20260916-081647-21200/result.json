@@ -1,0 +1,13 @@
+{
+  "benchmark":"CHERS","version":"0.2.0",
+  "completed":true,"valid":true,"invalid_reason":"",
+  "lanes":8,"density_attempts_per_second":20,
+  "entropy_source":"CPU RDSEED hardware entropy (no PRNG expansion)",
+  "trial":{"notes":990,"perfect":0,"good":0,"empty":0,"missed":990,"raw_score":0,"score":0,"delaySum_ms":0,"hit_delay_sum_ms":0},
+  "calibration":{"notes":86,"perfect":0,"good":0,"empty":0,"missed":86,"raw_score":0,"score":0,"delaySum_ms":0,"hit_delay_sum_ms":0},
+  "generation":{"attempts":990,"emitted":990,"dropped":0,"actual_notes_per_second":19.8},
+  "observation":{"width":640,"height":360,"format":"RGBA8","target_fps":80,"target_max_gap_ms":16,"timing_compliant":true,"publication_gaps":{"count":4883,"mean_ms":12.4999984157,"p50_ms":12.499208,"p99_ms":12.691989,"max_ms":14.864413,"over_16ms":0,"over_2ms":4883},"render_and_publish":{"count":4883,"mean_ms":0.167510470817,"p50_ms":0.150867,"p99_ms":0.251819,"max_ms":0.571768,"over_16ms":0,"over_2ms":0}},
+  "input_poll_gaps":{"count":61019,"mean_ms":1.00035351864,"p50_ms":0.999906,"p99_ms":1.088521,"max_ms":3.722198,"over_16ms":0,"over_2ms":23},
+  "system":{"kernel":"7.1.5-arch1-2","input_cpu":15,"model_cpu":14,"human_gui":true,"compiler":"16.1.1 20260728","build_type":"Release","sanitizers":false},
+  "timeline_ns":{"calibration_start":1000000000,"calibration_end":6000000000,"scored_start":11020000000,"scored_end":61020000000,"finish":61040000000}
+}

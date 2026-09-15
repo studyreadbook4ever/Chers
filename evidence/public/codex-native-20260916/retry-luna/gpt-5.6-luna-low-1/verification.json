@@ -1,0 +1,78 @@
+{
+  "directory": "/tmp/chers-readme-20260916/evidence/public/codex-native-20260916/retry-luna/gpt-5.6-luna-low-1/benchmark/20260916-082346-25658",
+  "passed": false,
+  "artifacts_consistent": true,
+  "completed": false,
+  "run_valid": false,
+  "timing_compliant": true,
+  "require_timing": false,
+  "errors": [
+    "run did not complete",
+    "run is not marked valid: interrupted by signal"
+  ],
+  "limits": [
+    "Timing summaries are recomputed from recorded duration samples; these are producer measurements, not an independent wall-clock attestation.",
+    "Discarded attempts and hardware entropy provenance are declared evidence; the emitted chart cannot independently prove them.",
+    "Replay detects inconsistent records, not coordinated replacement of all artifacts; it is not a cryptographic attestation."
+  ],
+  "invalid_reason": "interrupted by signal",
+  "recomputed": {
+    "trial": {
+      "notes": 1019,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 1019,
+      "raw_score": 0,
+      "delay_sum_ns": 0,
+      "hit_delay_sum_ns": 0,
+      "score": 0.0,
+      "delaySum_ms": 0.0,
+      "hit_delay_sum_ms": 0.0
+    },
+    "calibration": {
+      "notes": 103,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 103,
+      "raw_score": 0,
+      "delay_sum_ns": 0,
+      "hit_delay_sum_ns": 0,
+      "score": 0.0,
+      "delaySum_ms": 0.0,
+      "hit_delay_sum_ms": 0.0
+    }
+  },
+  "replayed_notes": 1122,
+  "replayed_inputs": 0,
+  "recomputed_timing": {
+    "frame_gap": {
+      "count": 2836,
+      "mean_ms": 12.499993144217209,
+      "p50_ms": 12.499389,
+      "p99_ms": 13.189185,
+      "max_ms": 15.047706,
+      "over_16ms": 0,
+      "over_2ms": 2836
+    },
+    "render": {
+      "count": 2836,
+      "mean_ms": 0.18702531911142453,
+      "p50_ms": 0.156947,
+      "p99_ms": 0.490055,
+      "max_ms": 0.940791,
+      "over_16ms": 0,
+      "over_2ms": 0
+    },
+    "poll": {
+      "count": 35394,
+      "mean_ms": 1.0014687084251568,
+      "p50_ms": 0.999926,
+      "p99_ms": 1.226687,
+      "max_ms": 3.828358,
+      "over_16ms": 0,
+      "over_2ms": 53
+    }
+  }
+}

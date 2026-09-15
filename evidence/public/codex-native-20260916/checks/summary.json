@@ -1,0 +1,8 @@
+{
+  "release_ctest": "9/9 groups passed",
+  "asan_ubsan_ctest": "9/9 groups passed",
+  "native_bridge_unit_cases": 22,
+  "evaluation_unit_cases": 13,
+  "report_unit_cases": 16,
+  "notes": "CTest checks are correctness evidence; trial timing comes only from Release model runs. Test logs include original local paths."
+}

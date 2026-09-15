@@ -1,0 +1,240 @@
+{
+  "requested_model": "gpt-5.6-luna",
+  "effort": "max",
+  "lanes": 8,
+  "density": 20,
+  "evaluation_type": "native-full-frame-vision-with-XTest-keyboard",
+  "status": "completed",
+  "started_utc": "2026-09-15T23:23:46Z",
+  "prompt_sha256": "9b8de11f5b4da0ef69274da242f146e9666eb6d961b15d54f26b710fdb5fa23d",
+  "model_decisions": [
+    {
+      "received_local_ns": 2156505377510,
+      "arguments": {
+        "actions": []
+      },
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000001"
+    },
+    {
+      "received_local_ns": 2159007019722,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000001",
+      "observation_to_tool_ms": 2488.618425,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000002"
+    },
+    {
+      "received_local_ns": 2163758788645,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000002",
+      "observation_to_tool_ms": 4752.872332,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000003"
+    },
+    {
+      "received_local_ns": 2169391732537,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000003",
+      "observation_to_tool_ms": 5635.796794,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000004"
+    },
+    {
+      "received_local_ns": 2195155708719,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000004",
+      "observation_to_tool_ms": 25774.760957,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000005"
+    },
+    {
+      "received_local_ns": 2217344878154,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000005",
+      "observation_to_tool_ms": 22201.493997,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000006"
+    }
+  ],
+  "model_errors": [],
+  "turns": [
+    {
+      "id": "01a0a762-36f8-7910-8a19-2db7567080eb",
+      "started_local_ns": 2153176313934
+    }
+  ],
+  "continuation_prompts": 0,
+  "thread_settings": {
+    "model": "gpt-5.6-luna",
+    "modelProvider": "openai",
+    "serviceTier": "priority",
+    "cwd": "/tmp/chers-model-empty-5_0_os6e",
+    "runtimeWorkspaceRoots": [],
+    "instructionSources": [],
+    "approvalPolicy": "never",
+    "approvalsReviewer": "user",
+    "sandbox": {
+      "type": "readOnly",
+      "networkAccess": false
+    },
+    "activePermissionProfile": null,
+    "reasoningEffort": "max",
+    "multiAgentMode": "explicitRequestOnly"
+  },
+  "start_key_return_local_ns": 2156505731540,
+  "token_usage": {
+    "total": {
+      "totalTokens": 80265,
+      "inputTokens": 75802,
+      "cachedInputTokens": 52992,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 4463,
+      "reasoningOutputTokens": 4123
+    },
+    "last": {
+      "totalTokens": 21042,
+      "inputTokens": 19330,
+      "cachedInputTokens": 16128,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1712,
+      "reasoningOutputTokens": 1655
+    },
+    "modelContextWindow": 258400
+  },
+  "game_exit": 0,
+  "ended_utc": "2026-09-15T23:24:51Z",
+  "final_observation_unanswered_age_ms": 840.971631,
+  "observation_to_tool_ms": {
+    "count": 5,
+    "mean": 12170.708501,
+    "median": 5635.796794,
+    "max": 25774.760957
+  },
+  "verification_passed": true,
+  "benchmark_result": "benchmark/20260916-082451-26644/result.json",
+  "benchmark": {
+    "benchmark": "CHERS",
+    "version": "0.2.0",
+    "completed": true,
+    "valid": true,
+    "invalid_reason": "",
+    "lanes": 8,
+    "density_attempts_per_second": 20,
+    "entropy_source": "CPU RDSEED hardware entropy (no PRNG expansion)",
+    "trial": {
+      "notes": 1010,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 1010,
+      "raw_score": 0,
+      "score": 0,
+      "delaySum_ms": 0,
+      "hit_delay_sum_ms": 0
+    },
+    "calibration": {
+      "notes": 116,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 116,
+      "raw_score": 0,
+      "score": 0,
+      "delaySum_ms": 0,
+      "hit_delay_sum_ms": 0
+    },
+    "generation": {
+      "attempts": 1010,
+      "emitted": 1010,
+      "dropped": 0,
+      "actual_notes_per_second": 20.2
+    },
+    "observation": {
+      "width": 640,
+      "height": 360,
+      "format": "RGBA8",
+      "target_fps": 80,
+      "target_max_gap_ms": 16,
+      "timing_compliant": true,
+      "publication_gaps": {
+        "count": 4883,
+        "mean_ms": 12.499983539,
+        "p50_ms": 12.499621,
+        "p99_ms": 12.636586,
+        "max_ms": 13.394716,
+        "over_16ms": 0,
+        "over_2ms": 4883
+      },
+      "render_and_publish": {
+        "count": 4883,
+        "mean_ms": 0.153945315585,
+        "p50_ms": 0.144603,
+        "p99_ms": 0.24165,
+        "max_ms": 0.639106,
+        "over_16ms": 0,
+        "over_2ms": 0
+      }
+    },
+    "input_poll_gaps": {
+      "count": 61036,
+      "mean_ms": 1.00006854802,
+      "p50_ms": 0.99992,
+      "p99_ms": 1.035863,
+      "max_ms": 3.752047,
+      "over_16ms": 0,
+      "over_2ms": 6
+    },
+    "system": {
+      "kernel": "7.1.5-arch1-2",
+      "input_cpu": 15,
+      "model_cpu": 14,
+      "human_gui": true,
+      "compiler": "16.1.1 20260728",
+      "build_type": "Release",
+      "sanitizers": false
+    },
+    "timeline_ns": {
+      "calibration_start": 1000000000,
+      "calibration_end": 6000000000,
+      "scored_start": 11020000000,
+      "scored_end": 61020000000,
+      "finish": 61040000000
+    }
+  },
+  "publishable": true
+}

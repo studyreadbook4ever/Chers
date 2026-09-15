@@ -1,0 +1,35 @@
+{
+  "benchmark_base_commit": "654268fdd3e9643562079f1ca9104582fedb47db",
+  "source_sha256": {
+    "examples/codex_appserver_client.py": "1ab3f2f2261ce9a1ea86c3a5186073e8e29788fa589b47be4a72a68e2828a6e0",
+    "examples/codex_vision_bridge.py": "f21f80e7d0d8d1ff10781b7cdf7745417a400f4b1180364c5a78f99ea561441c",
+    "tools/run_codex_evaluations.py": "93ceabcc41fb1c52cee11a8935693da5b3a73648400e25e7914a9d60631d81a6",
+    "examples/python_client.py": "3cc8ef3685b33ccd0610a9c7eff08002183b6bca4362cc89e5fe257f2cf99599",
+    "src/main.cpp": "ca79867036ff69a737fc34597a218a433badf9bebff3b2878fd866214ce246bd",
+    "src/core.cpp": "ab6fd3165848fe0332092da34988df484743ad83a8a682f97f0b4856404e3c38",
+    "src/render.cpp": "350b0fcb204ca1226e2f893afe9d23c5e51c83041b9e3e1baf14225f10e42187",
+    "src/client.cpp": "d817df16ee41a506dd6d753c213d66dc85bf1db4dbc41d1e1b34fa287ca8ea27",
+    "src/ipc.cpp": "736b23ca623ca1bd99e26d82f76de00be3d8f2b73138f39b994e96da943b5085"
+  },
+  "binary_sha256": {
+    "build/chers": "ef1d92b605bf331a659cd6b184879e94e20511d695f41feda7ce8e1911654bd2",
+    "build/libchers_client.so": "70a0ac9326ed833a9266892c8d8161f47e06b41d3bc323ffde7640fd1ee6bf56"
+  },
+  "system": {
+    "kernel": "7.1.5-arch1-2",
+    "architecture": "x86_64",
+    "cpu": "Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz",
+    "python": "3.14.6",
+    "SDL3": "3.4.12"
+  },
+  "workload": {
+    "lanes": 8,
+    "total_attempt_density": 20,
+    "repeats_per_configuration": 1
+  },
+  "authentication": "existing ChatGPT sign-in managed by official Codex; no API key",
+  "code_mode_host": "enabled: required for dynamic tool routing; no model filesystem execution environment",
+  "comparison": "single-run system pilots; no concurrent benchmark trials",
+  "revision_note": "NativeVisionBridge v2: fresh captured frames per observation; capacity8192. PNG pixels, model prompt, keyboard route, scoring and scheduler unchanged.",
+  "applies_to": "retry-final/*"
+}

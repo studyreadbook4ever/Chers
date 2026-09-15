@@ -1,0 +1,332 @@
+{
+  "adapter": "native-full-frame-vision-explicit-keyboard-v1",
+  "input_mode": "keyboard",
+  "window_id": 83886134,
+  "lanes": 8,
+  "frame_shape": [
+    640,
+    360,
+    4
+  ],
+  "preprocessing": "lossless PNG encoding only; no image feature extraction",
+  "scheduler": {
+    "reference": "local observation receipt",
+    "max_delay_ms": 1000,
+    "drop_when_late_over_ms": 20,
+    "duplicates": "each dispatched separately"
+  },
+  "frames_received": 5157,
+  "receipt_gap_scope": "entire connected capture session; not scored-window compliance",
+  "receipt_gap_count": 5156,
+  "receipt_gap_mean_ms": 12.499670010279287,
+  "receipt_gap_max_ms": 13.244498,
+  "receipt_gaps_over_16ms": 0,
+  "observations_returned": 5,
+  "pending_actions": 0,
+  "started": true,
+  "closed": true,
+  "error": "disconnected",
+  "counts": {
+    "start": 1,
+    "observation": 5,
+    "action_proposed": 17,
+    "action_dropped": 17,
+    "error": 1
+  },
+  "events": [
+    {
+      "type": "start",
+      "local_ns": 1876555924088
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000001",
+      "local_receipt_ns": 1876570265263,
+      "local_return_ns": 1876583212465
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000002",
+      "local_receipt_ns": 1879295248172,
+      "local_return_ns": 1879299927686
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000003",
+      "local_receipt_ns": 1882945290630,
+      "local_return_ns": 1882956403867
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000004",
+      "local_receipt_ns": 1887320379684,
+      "local_return_ns": 1887331657293
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 1,
+      "observation_id": "obs-000004",
+      "lane": 0,
+      "delay_ms": 391.0,
+      "local_due_ns": 1887711379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 1,
+      "reason": "late_at_submission",
+      "lateness_ms": 32755.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 2,
+      "observation_id": "obs-000004",
+      "lane": 5,
+      "delay_ms": 416.0,
+      "local_due_ns": 1887736379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 2,
+      "reason": "late_at_submission",
+      "lateness_ms": 32730.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 3,
+      "observation_id": "obs-000004",
+      "lane": 1,
+      "delay_ms": 428.0,
+      "local_due_ns": 1887748379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 3,
+      "reason": "late_at_submission",
+      "lateness_ms": 32718.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 4,
+      "observation_id": "obs-000004",
+      "lane": 6,
+      "delay_ms": 428.0,
+      "local_due_ns": 1887748379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 4,
+      "reason": "late_at_submission",
+      "lateness_ms": 32718.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 5,
+      "observation_id": "obs-000004",
+      "lane": 0,
+      "delay_ms": 463.0,
+      "local_due_ns": 1887783379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 5,
+      "reason": "late_at_submission",
+      "lateness_ms": 32683.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 6,
+      "observation_id": "obs-000004",
+      "lane": 3,
+      "delay_ms": 475.0,
+      "local_due_ns": 1887795379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 6,
+      "reason": "late_at_submission",
+      "lateness_ms": 32671.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 7,
+      "observation_id": "obs-000004",
+      "lane": 0,
+      "delay_ms": 559.0,
+      "local_due_ns": 1887879379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 7,
+      "reason": "late_at_submission",
+      "lateness_ms": 32587.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 8,
+      "observation_id": "obs-000004",
+      "lane": 6,
+      "delay_ms": 566.0,
+      "local_due_ns": 1887886379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 8,
+      "reason": "late_at_submission",
+      "lateness_ms": 32580.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 9,
+      "observation_id": "obs-000004",
+      "lane": 5,
+      "delay_ms": 591.0,
+      "local_due_ns": 1887911379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 9,
+      "reason": "late_at_submission",
+      "lateness_ms": 32555.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 10,
+      "observation_id": "obs-000004",
+      "lane": 7,
+      "delay_ms": 731.0,
+      "local_due_ns": 1888051379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 10,
+      "reason": "late_at_submission",
+      "lateness_ms": 32415.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 11,
+      "observation_id": "obs-000004",
+      "lane": 1,
+      "delay_ms": 856.0,
+      "local_due_ns": 1888176379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 11,
+      "reason": "late_at_submission",
+      "lateness_ms": 32290.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 12,
+      "observation_id": "obs-000004",
+      "lane": 7,
+      "delay_ms": 859.0,
+      "local_due_ns": 1888179379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 12,
+      "reason": "late_at_submission",
+      "lateness_ms": 32287.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 13,
+      "observation_id": "obs-000004",
+      "lane": 6,
+      "delay_ms": 872.0,
+      "local_due_ns": 1888192379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 13,
+      "reason": "late_at_submission",
+      "lateness_ms": 32274.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 14,
+      "observation_id": "obs-000004",
+      "lane": 5,
+      "delay_ms": 884.0,
+      "local_due_ns": 1888204379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 14,
+      "reason": "late_at_submission",
+      "lateness_ms": 32262.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 15,
+      "observation_id": "obs-000004",
+      "lane": 3,
+      "delay_ms": 897.0,
+      "local_due_ns": 1888217379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 15,
+      "reason": "late_at_submission",
+      "lateness_ms": 32249.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 16,
+      "observation_id": "obs-000004",
+      "lane": 1,
+      "delay_ms": 931.0,
+      "local_due_ns": 1888251379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 16,
+      "reason": "late_at_submission",
+      "lateness_ms": 32215.913336
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 17,
+      "observation_id": "obs-000004",
+      "lane": 3,
+      "delay_ms": 991.0,
+      "local_due_ns": 1888311379684,
+      "local_submit_ns": 1920467293020
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 17,
+      "reason": "late_at_submission",
+      "lateness_ms": 32155.913336
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000005",
+      "local_receipt_ns": 1920457846948,
+      "local_return_ns": 1920469332522
+    },
+    {
+      "type": "error",
+      "local_ns": 1938121338062,
+      "message": "disconnected"
+    }
+  ]
+}

@@ -1,0 +1,611 @@
+{
+  "requested_model": "gpt-5.6-sol",
+  "effort": "low",
+  "lanes": 8,
+  "density": 20,
+  "evaluation_type": "native-full-frame-vision-with-XTest-keyboard",
+  "status": "completed",
+  "started_utc": "2026-09-15T23:15:41Z",
+  "prompt_sha256": "9b8de11f5b4da0ef69274da242f146e9666eb6d961b15d54f26b710fdb5fa23d",
+  "model_decisions": [
+    {
+      "received_local_ns": 1672438869548,
+      "arguments": {
+        "actions": []
+      },
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000001"
+    },
+    {
+      "received_local_ns": 1675020734484,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000001",
+      "observation_to_tool_ms": 2561.278308,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000002"
+    },
+    {
+      "received_local_ns": 1679547386881,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000002",
+      "observation_to_tool_ms": 4537.957189,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000003"
+    },
+    {
+      "received_local_ns": 1682114623646,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000003",
+      "observation_to_tool_ms": 2567.675651,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000004"
+    },
+    {
+      "received_local_ns": 1685133274963,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000004",
+      "observation_to_tool_ms": 3023.839547,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000005"
+    },
+    {
+      "received_local_ns": 1693235577896,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "A",
+            "delay_ms": 277
+          },
+          {
+            "lane": "B",
+            "delay_ms": 0
+          },
+          {
+            "lane": "B",
+            "delay_ms": 323
+          },
+          {
+            "lane": "B",
+            "delay_ms": 367
+          },
+          {
+            "lane": "B",
+            "delay_ms": 473
+          },
+          {
+            "lane": "B",
+            "delay_ms": 597
+          },
+          {
+            "lane": "B",
+            "delay_ms": 673
+          },
+          {
+            "lane": "B",
+            "delay_ms": 883
+          },
+          {
+            "lane": "C",
+            "delay_ms": 553
+          },
+          {
+            "lane": "D",
+            "delay_ms": 207
+          },
+          {
+            "lane": "D",
+            "delay_ms": 360
+          },
+          {
+            "lane": "D",
+            "delay_ms": 433
+          },
+          {
+            "lane": "D",
+            "delay_ms": 543
+          },
+          {
+            "lane": "F",
+            "delay_ms": 160
+          },
+          {
+            "lane": "F",
+            "delay_ms": 223
+          },
+          {
+            "lane": "F",
+            "delay_ms": 277
+          },
+          {
+            "lane": "F",
+            "delay_ms": 587
+          },
+          {
+            "lane": "F",
+            "delay_ms": 780
+          },
+          {
+            "lane": "G",
+            "delay_ms": 150
+          },
+          {
+            "lane": "G",
+            "delay_ms": 443
+          },
+          {
+            "lane": "H",
+            "delay_ms": 160
+          },
+          {
+            "lane": "H",
+            "delay_ms": 303
+          },
+          {
+            "lane": "H",
+            "delay_ms": 527
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000005",
+      "observation_to_tool_ms": 8113.554041,
+      "outcome": {
+        "accepted": 23,
+        "scheduled": 0,
+        "dropped_late": 23
+      },
+      "returned_observation_id": "obs-000006"
+    },
+    {
+      "received_local_ns": 1700000948734,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "A",
+            "delay_ms": 327
+          },
+          {
+            "lane": "A",
+            "delay_ms": 890
+          },
+          {
+            "lane": "B",
+            "delay_ms": 397
+          },
+          {
+            "lane": "B",
+            "delay_ms": 787
+          },
+          {
+            "lane": "C",
+            "delay_ms": 450
+          },
+          {
+            "lane": "C",
+            "delay_ms": 823
+          },
+          {
+            "lane": "D",
+            "delay_ms": 283
+          },
+          {
+            "lane": "E",
+            "delay_ms": 923
+          },
+          {
+            "lane": "E",
+            "delay_ms": 997
+          },
+          {
+            "lane": "F",
+            "delay_ms": 600
+          },
+          {
+            "lane": "F",
+            "delay_ms": 667
+          },
+          {
+            "lane": "G",
+            "delay_ms": 283
+          },
+          {
+            "lane": "H",
+            "delay_ms": 0
+          },
+          {
+            "lane": "H",
+            "delay_ms": 140
+          },
+          {
+            "lane": "H",
+            "delay_ms": 267
+          },
+          {
+            "lane": "H",
+            "delay_ms": 433
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000006",
+      "observation_to_tool_ms": 6766.548665,
+      "outcome": {
+        "accepted": 16,
+        "scheduled": 0,
+        "dropped_late": 16
+      },
+      "returned_observation_id": "obs-000007"
+    },
+    {
+      "received_local_ns": 1709035134289,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "B",
+            "delay_ms": 0
+          },
+          {
+            "lane": "B",
+            "delay_ms": 627
+          },
+          {
+            "lane": "B",
+            "delay_ms": 807
+          },
+          {
+            "lane": "C",
+            "delay_ms": 0
+          },
+          {
+            "lane": "C",
+            "delay_ms": 737
+          },
+          {
+            "lane": "C",
+            "delay_ms": 783
+          },
+          {
+            "lane": "D",
+            "delay_ms": 180
+          },
+          {
+            "lane": "D",
+            "delay_ms": 830
+          },
+          {
+            "lane": "E",
+            "delay_ms": 553
+          },
+          {
+            "lane": "E",
+            "delay_ms": 633
+          },
+          {
+            "lane": "E",
+            "delay_ms": 773
+          },
+          {
+            "lane": "F",
+            "delay_ms": 430
+          },
+          {
+            "lane": "F",
+            "delay_ms": 793
+          },
+          {
+            "lane": "F",
+            "delay_ms": 920
+          },
+          {
+            "lane": "G",
+            "delay_ms": 473
+          },
+          {
+            "lane": "G",
+            "delay_ms": 560
+          },
+          {
+            "lane": "G",
+            "delay_ms": 853
+          },
+          {
+            "lane": "H",
+            "delay_ms": 630
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000007",
+      "observation_to_tool_ms": 9038.282253,
+      "outcome": {
+        "accepted": 18,
+        "scheduled": 0,
+        "dropped_late": 18
+      },
+      "returned_observation_id": "obs-000008"
+    },
+    {
+      "received_local_ns": 1712574951401,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000008",
+      "observation_to_tool_ms": 3540.507777,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000009"
+    },
+    {
+      "received_local_ns": 1715494896193,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000009",
+      "observation_to_tool_ms": 2923.018772,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000010"
+    },
+    {
+      "received_local_ns": 1718209241982,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000010",
+      "observation_to_tool_ms": 2724.854457,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000011"
+    },
+    {
+      "received_local_ns": 1720844131601,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000011",
+      "observation_to_tool_ms": 2647.163537,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000012"
+    },
+    {
+      "received_local_ns": 1723181785973,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000012",
+      "observation_to_tool_ms": 2347.427118,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000013"
+    },
+    {
+      "received_local_ns": 1726468736805,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000013",
+      "observation_to_tool_ms": 3296.804941,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000014"
+    },
+    {
+      "received_local_ns": 1729677506423,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000014",
+      "observation_to_tool_ms": 3218.116189,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000015"
+    },
+    {
+      "received_local_ns": 1731974819474,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000015",
+      "observation_to_tool_ms": 2302.921184,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000016"
+    }
+  ],
+  "model_errors": [],
+  "turns": [
+    {
+      "id": "01a0a75a-cf62-7341-b5f2-2df55a0d2bed",
+      "started_local_ns": 1667906727248
+    }
+  ],
+  "continuation_prompts": 0,
+  "thread_settings": {
+    "model": "gpt-5.6-sol",
+    "modelProvider": "openai",
+    "serviceTier": "priority",
+    "cwd": "/tmp/chers-model-empty-5sp5y4av",
+    "runtimeWorkspaceRoots": [],
+    "instructionSources": [],
+    "approvalPolicy": "never",
+    "approvalsReviewer": "user",
+    "sandbox": {
+      "type": "readOnly",
+      "networkAccess": false
+    },
+    "activePermissionProfile": null,
+    "reasoningEffort": "low",
+    "multiAgentMode": "explicitRequestOnly"
+  },
+  "start_key_return_local_ns": 1672439158487,
+  "token_usage": {
+    "total": {
+      "totalTokens": 489171,
+      "inputTokens": 486451,
+      "cachedInputTokens": 445952,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2720,
+      "reasoningOutputTokens": 1240
+    },
+    "last": {
+      "totalTokens": 37865,
+      "inputTokens": 37797,
+      "cachedInputTokens": 37376,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 68,
+      "reasoningOutputTokens": 10
+    },
+    "modelContextWindow": 258400
+  },
+  "game_exit": 0,
+  "ended_utc": "2026-09-15T23:16:47Z",
+  "final_observation_unanswered_age_ms": 2091.901341,
+  "observation_to_tool_ms": {
+    "count": 15,
+    "mean": 3973.996641933333,
+    "median": 3023.839547,
+    "max": 9038.282253
+  },
+  "verification_passed": true,
+  "benchmark_result": "benchmark/20260916-081647-21200/result.json",
+  "benchmark": {
+    "benchmark": "CHERS",
+    "version": "0.2.0",
+    "completed": true,
+    "valid": true,
+    "invalid_reason": "",
+    "lanes": 8,
+    "density_attempts_per_second": 20,
+    "entropy_source": "CPU RDSEED hardware entropy (no PRNG expansion)",
+    "trial": {
+      "notes": 990,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 990,
+      "raw_score": 0,
+      "score": 0,
+      "delaySum_ms": 0,
+      "hit_delay_sum_ms": 0
+    },
+    "calibration": {
+      "notes": 86,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 86,
+      "raw_score": 0,
+      "score": 0,
+      "delaySum_ms": 0,
+      "hit_delay_sum_ms": 0
+    },
+    "generation": {
+      "attempts": 990,
+      "emitted": 990,
+      "dropped": 0,
+      "actual_notes_per_second": 19.8
+    },
+    "observation": {
+      "width": 640,
+      "height": 360,
+      "format": "RGBA8",
+      "target_fps": 80,
+      "target_max_gap_ms": 16,
+      "timing_compliant": true,
+      "publication_gaps": {
+        "count": 4883,
+        "mean_ms": 12.4999984157,
+        "p50_ms": 12.499208,
+        "p99_ms": 12.691989,
+        "max_ms": 14.864413,
+        "over_16ms": 0,
+        "over_2ms": 4883
+      },
+      "render_and_publish": {
+        "count": 4883,
+        "mean_ms": 0.167510470817,
+        "p50_ms": 0.150867,
+        "p99_ms": 0.251819,
+        "max_ms": 0.571768,
+        "over_16ms": 0,
+        "over_2ms": 0
+      }
+    },
+    "input_poll_gaps": {
+      "count": 61019,
+      "mean_ms": 1.00035351864,
+      "p50_ms": 0.999906,
+      "p99_ms": 1.088521,
+      "max_ms": 3.722198,
+      "over_16ms": 0,
+      "over_2ms": 23
+    },
+    "system": {
+      "kernel": "7.1.5-arch1-2",
+      "input_cpu": 15,
+      "model_cpu": 14,
+      "human_gui": true,
+      "compiler": "16.1.1 20260728",
+      "build_type": "Release",
+      "sanitizers": false
+    },
+    "timeline_ns": {
+      "calibration_start": 1000000000,
+      "calibration_end": 6000000000,
+      "scored_start": 11020000000,
+      "scored_end": 61020000000,
+      "finish": 61040000000
+    }
+  },
+  "publishable": true
+}

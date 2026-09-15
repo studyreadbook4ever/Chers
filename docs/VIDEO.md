@@ -1,8 +1,7 @@
 # CHERS demonstration video
 
-The demonstration is recorded locally for the project owner to upload to
-YouTube. The README's image is a gameplay-only poster; it does not link to a
-video until the owner adds the actual published URL.
+[Watch the CHERS demonstration on YouTube](https://youtu.be/eflUBbF9UCc).
+The README uses a linked gameplay poster; clicking it opens the published video.
 
 ## What the video shows
 
@@ -32,12 +31,11 @@ media/CHERS-demo-1080p.srt
 
 These files and raw desktop/session captures are ignored by Git. The source
 repository contains only the curated gameplay poster and public verification
-artifacts. The local video may include the user's own Cursor conversation and
-is left for the owner to publish.
+artifacts. The published video is linked above; raw desktop/session captures
+remain outside the repository.
 
-## Add the YouTube link
+## README presentation
 
-After the owner uploads the video, replace the README's demo image with a
-linked image using the actual video URL. A comment next to the image marks the
-edit location. Keep the description of the diagnostic player so viewers can
-distinguish benchmark engineering from an evaluation of a trained model.
+The poster links to the video without sharing-query parameters. Its description
+identifies the deterministic diagnostic player so viewers can distinguish the
+demonstration from the separately reported native-model evaluations.

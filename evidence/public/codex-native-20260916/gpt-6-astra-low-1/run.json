@@ -1,0 +1,346 @@
+{
+  "requested_model": "gpt-6-astra",
+  "effort": "low",
+  "lanes": 8,
+  "density": 20,
+  "evaluation_type": "native-full-frame-vision-with-XTest-keyboard",
+  "status": "failed",
+  "started_utc": "2026-09-15T23:13:20Z",
+  "prompt_sha256": "9b8de11f5b4da0ef69274da242f146e9666eb6d961b15d54f26b710fdb5fa23d",
+  "model_decisions": [
+    {
+      "received_local_ns": 1530075554427,
+      "arguments": {
+        "actions": []
+      },
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000001"
+    },
+    {
+      "received_local_ns": 1532091978716,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000001",
+      "observation_to_tool_ms": 1992.028907,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000002"
+    },
+    {
+      "received_local_ns": 1534566123785,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000002",
+      "observation_to_tool_ms": 2478.72886,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000003"
+    },
+    {
+      "received_local_ns": 1542685128500,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000003",
+      "observation_to_tool_ms": 8122.717681,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000004"
+    },
+    {
+      "received_local_ns": 1554265461889,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000004",
+      "observation_to_tool_ms": 11590.575763,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000005"
+    },
+    {
+      "received_local_ns": 1568000039176,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "C",
+            "delay_ms": 56
+          },
+          {
+            "lane": "E",
+            "delay_ms": 225
+          },
+          {
+            "lane": "H",
+            "delay_ms": 265
+          },
+          {
+            "lane": "F",
+            "delay_ms": 525
+          },
+          {
+            "lane": "F",
+            "delay_ms": 615
+          },
+          {
+            "lane": "H",
+            "delay_ms": 665
+          },
+          {
+            "lane": "H",
+            "delay_ms": 742
+          },
+          {
+            "lane": "E",
+            "delay_ms": 785
+          },
+          {
+            "lane": "H",
+            "delay_ms": 803
+          },
+          {
+            "lane": "D",
+            "delay_ms": 832
+          },
+          {
+            "lane": "H",
+            "delay_ms": 875
+          },
+          {
+            "lane": "B",
+            "delay_ms": 895
+          },
+          {
+            "lane": "H",
+            "delay_ms": 930
+          },
+          {
+            "lane": "D",
+            "delay_ms": 944
+          },
+          {
+            "lane": "B",
+            "delay_ms": 956
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000005",
+      "observation_to_tool_ms": 13737.619,
+      "outcome": {
+        "accepted": 15,
+        "scheduled": 0,
+        "dropped_late": 15
+      },
+      "returned_observation_id": "obs-000006"
+    },
+    {
+      "received_local_ns": 1579349871824,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000006",
+      "observation_to_tool_ms": 11362.486044,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000007"
+    }
+  ],
+  "model_errors": [
+    {
+      "message": "Reconnecting... 2/5",
+      "codexErrorInfo": {
+        "responseStreamDisconnected": {
+          "httpStatusCode": null
+        }
+      },
+      "additionalDetails": "stream disconnected before completion: An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID 0538014f-9a36-4b39-a380-1da6f5a8f691 in your message.",
+      "misalignment": null
+    },
+    {
+      "message": "Reconnecting... 3/5",
+      "codexErrorInfo": {
+        "responseStreamDisconnected": {
+          "httpStatusCode": null
+        }
+      },
+      "additionalDetails": "stream disconnected before completion: An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID 1a9d868b-705c-4180-85ab-583d847c531c in your message.",
+      "misalignment": null
+    },
+    {
+      "message": "Reconnecting... 4/5",
+      "codexErrorInfo": {
+        "responseStreamDisconnected": {
+          "httpStatusCode": null
+        }
+      },
+      "additionalDetails": "stream disconnected before completion: An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID 053ac1c2-4f33-4c62-8426-4dfbea15283a in your message.",
+      "misalignment": null
+    }
+  ],
+  "turns": [
+    {
+      "id": "01a0a758-ab88-7e93-93ec-79b8bfe154dd",
+      "started_local_ns": 1527656654179
+    }
+  ],
+  "continuation_prompts": 0,
+  "thread_settings": {
+    "model": "gpt-6-astra",
+    "modelProvider": "openai",
+    "serviceTier": "priority",
+    "cwd": "/tmp/chers-model-empty-5sp5y4av",
+    "runtimeWorkspaceRoots": [],
+    "instructionSources": [],
+    "approvalPolicy": "never",
+    "approvalsReviewer": "user",
+    "sandbox": {
+      "type": "readOnly",
+      "networkAccess": false
+    },
+    "activePermissionProfile": null,
+    "reasoningEffort": "low",
+    "multiAgentMode": "explicitRequestOnly"
+  },
+  "start_key_return_local_ns": 1530075795882,
+  "token_usage": {
+    "total": {
+      "totalTokens": 28236,
+      "inputTokens": 28107,
+      "cachedInputTokens": 10624,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 129,
+      "reasoningOutputTokens": 0
+    },
+    "last": {
+      "totalTokens": 17209,
+      "inputTokens": 17158,
+      "cachedInputTokens": 5376,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 51,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 258400
+  },
+  "game_exit": 0,
+  "ended_utc": "2026-09-15T23:14:25Z",
+  "final_observation_unanswered_age_ms": 12400.458408,
+  "observation_to_tool_ms": {
+    "count": 6,
+    "mean": 8214.0260425,
+    "median": 9742.6018625,
+    "max": 13737.619
+  },
+  "verification_passed": true,
+  "benchmark_result": "benchmark/20260916-081424-19801/result.json",
+  "benchmark": {
+    "benchmark": "CHERS",
+    "version": "0.2.0",
+    "completed": true,
+    "valid": true,
+    "invalid_reason": "",
+    "lanes": 8,
+    "density_attempts_per_second": 20,
+    "entropy_source": "CPU RDSEED hardware entropy (no PRNG expansion)",
+    "trial": {
+      "notes": 1024,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 1024,
+      "raw_score": 0,
+      "score": 0,
+      "delaySum_ms": 0,
+      "hit_delay_sum_ms": 0
+    },
+    "calibration": {
+      "notes": 92,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 92,
+      "raw_score": 0,
+      "score": 0,
+      "delaySum_ms": 0,
+      "hit_delay_sum_ms": 0
+    },
+    "generation": {
+      "attempts": 1024,
+      "emitted": 1024,
+      "dropped": 0,
+      "actual_notes_per_second": 20.48
+    },
+    "observation": {
+      "width": 640,
+      "height": 360,
+      "format": "RGBA8",
+      "target_fps": 80,
+      "target_max_gap_ms": 16,
+      "timing_compliant": true,
+      "publication_gaps": {
+        "count": 4883,
+        "mean_ms": 12.4999843973,
+        "p50_ms": 12.499945,
+        "p99_ms": 12.633816,
+        "max_ms": 13.956415,
+        "over_16ms": 0,
+        "over_2ms": 4883
+      },
+      "render_and_publish": {
+        "count": 4883,
+        "mean_ms": 0.153125342003,
+        "p50_ms": 0.145004,
+        "p99_ms": 0.252006,
+        "max_ms": 0.622058,
+        "over_16ms": 0,
+        "over_2ms": 0
+      }
+    },
+    "input_poll_gaps": {
+      "count": 61028,
+      "mean_ms": 1.0001987293,
+      "p50_ms": 0.999963,
+      "p99_ms": 1.041911,
+      "max_ms": 4.061707,
+      "over_16ms": 0,
+      "over_2ms": 11
+    },
+    "system": {
+      "kernel": "7.1.5-arch1-2",
+      "input_cpu": 15,
+      "model_cpu": 14,
+      "human_gui": true,
+      "compiler": "16.1.1 20260728",
+      "build_type": "Release",
+      "sanitizers": false
+    },
+    "timeline_ns": {
+      "calibration_start": 1000000000,
+      "calibration_end": 6000000000,
+      "scored_start": 11020000000,
+      "scored_end": 61020000000,
+      "finish": 61040000000
+    }
+  },
+  "publishable": false
+}

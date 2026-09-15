@@ -1,0 +1,402 @@
+[
+  {
+    "received_local_ns": 2153905846654,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "userMessage",
+        "id": "01a0a762-39d2-7420-b341-7dd2db341631",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "The game is ready. Call chers_step with empty actions to START, then play continuously using the full images.",
+            "text_elements": []
+          }
+        ]
+      },
+      "threadId": "01a0a762-35e0-7fa0-a7a5-5cb8e005f253",
+      "turnId": "01a0a762-36f8-7910-8a19-2db7567080eb",
+      "completedAtMs": 1789514627538
+    },
+    "emittedAtMs": 1789514627538
+  },
+  {
+    "received_local_ns": 2156534238990,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-c0e0cc04-fe5f-438b-a30f-15b33d559662",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": []
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000001\", \"previous_actions\": {\"accepted\": 0, \"scheduled\": 0, \"dropped_late\": 0}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "5368becfee216f3c9acc509a2dda052110f53728d8daa21fffceb94069c2d3ee"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 28
+      },
+      "threadId": "01a0a762-35e0-7fa0-a7a5-5cb8e005f253",
+      "turnId": "01a0a762-36f8-7910-8a19-2db7567080eb",
+      "completedAtMs": 1789514630166
+    },
+    "emittedAtMs": 1789514630166
+  },
+  {
+    "received_local_ns": 2156534847651,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a762-35e0-7fa0-a7a5-5cb8e005f253",
+      "turnId": "01a0a762-36f8-7910-8a19-2db7567080eb",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 3421,
+          "inputTokens": 3304,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 117,
+          "reasoningOutputTokens": 53
+        },
+        "last": {
+          "totalTokens": 3421,
+          "inputTokens": 3304,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 117,
+          "reasoningOutputTokens": 53
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514630167
+  },
+  {
+    "received_local_ns": 2159009976459,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-143d5c15-752c-45bd-971a-11ea4a885bfa",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": []
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000002\", \"previous_actions\": {\"accepted\": 0, \"scheduled\": 0, \"dropped_late\": 0}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "f429fb414d885f0880b0be65141b03f2a588369d2e162096c2975260177af4fd"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 2
+      },
+      "threadId": "01a0a762-35e0-7fa0-a7a5-5cb8e005f253",
+      "turnId": "01a0a762-36f8-7910-8a19-2db7567080eb",
+      "completedAtMs": 1789514632642
+    },
+    "emittedAtMs": 1789514632642
+  },
+  {
+    "received_local_ns": 2159036608296,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a762-35e0-7fa0-a7a5-5cb8e005f253",
+      "turnId": "01a0a762-36f8-7910-8a19-2db7567080eb",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 6987,
+          "inputTokens": 6748,
+          "cachedInputTokens": 2816,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 239,
+          "reasoningOutputTokens": 145
+        },
+        "last": {
+          "totalTokens": 3566,
+          "inputTokens": 3444,
+          "cachedInputTokens": 2816,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 122,
+          "reasoningOutputTokens": 92
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514632669
+  },
+  {
+    "received_local_ns": 2163762111937,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-d0af8d38-a883-422b-8e5b-74ea372f56c5",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": []
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000003\", \"previous_actions\": {\"accepted\": 0, \"scheduled\": 0, \"dropped_late\": 0}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "d84d3e85b895817fbcec1a1fb6777c01af380d9163f686199336e63c1475fa4d"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 3
+      },
+      "threadId": "01a0a762-35e0-7fa0-a7a5-5cb8e005f253",
+      "turnId": "01a0a762-36f8-7910-8a19-2db7567080eb",
+      "completedAtMs": 1789514637394
+    },
+    "emittedAtMs": 1789514637394
+  },
+  {
+    "received_local_ns": 2163784770395,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a762-35e0-7fa0-a7a5-5cb8e005f253",
+      "turnId": "01a0a762-36f8-7910-8a19-2db7567080eb",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 23275,
+          "inputTokens": 22723,
+          "cachedInputTokens": 5632,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 552,
+          "reasoningOutputTokens": 389
+        },
+        "last": {
+          "totalTokens": 16288,
+          "inputTokens": 15975,
+          "cachedInputTokens": 2816,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 313,
+          "reasoningOutputTokens": 244
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514637417
+  },
+  {
+    "received_local_ns": 2169394859589,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-0632bd1e-cd7c-49cb-be57-fe6dd19d4389",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": []
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000004\", \"previous_actions\": {\"accepted\": 0, \"scheduled\": 0, \"dropped_late\": 0}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "46c881bacd8d3b10ab3d00178cdcae0a73d4066157cb39a749bc7a341021d469"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 3
+      },
+      "threadId": "01a0a762-35e0-7fa0-a7a5-5cb8e005f253",
+      "turnId": "01a0a762-36f8-7910-8a19-2db7567080eb",
+      "completedAtMs": 1789514643027
+    },
+    "emittedAtMs": 1789514643027
+  },
+  {
+    "received_local_ns": 2169454489650,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a762-35e0-7fa0-a7a5-5cb8e005f253",
+      "turnId": "01a0a762-36f8-7910-8a19-2db7567080eb",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 40241,
+          "inputTokens": 39359,
+          "cachedInputTokens": 20736,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 882,
+          "reasoningOutputTokens": 659
+        },
+        "last": {
+          "totalTokens": 16966,
+          "inputTokens": 16636,
+          "cachedInputTokens": 15104,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 330,
+          "reasoningOutputTokens": 270
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514643087
+  },
+  {
+    "received_local_ns": 2195158837512,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-823e7626-a6bb-4b5d-af92-ebadd20af1a1",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": []
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000005\", \"previous_actions\": {\"accepted\": 0, \"scheduled\": 0, \"dropped_late\": 0}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "1c67d9c256fd09a5311c741e5576318252c1844d52a23642f2d31367232d6c88"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 3
+      },
+      "threadId": "01a0a762-35e0-7fa0-a7a5-5cb8e005f253",
+      "turnId": "01a0a762-36f8-7910-8a19-2db7567080eb",
+      "completedAtMs": 1789514668791
+    },
+    "emittedAtMs": 1789514668791
+  },
+  {
+    "received_local_ns": 2195192598350,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a762-35e0-7fa0-a7a5-5cb8e005f253",
+      "turnId": "01a0a762-36f8-7910-8a19-2db7567080eb",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 59223,
+          "inputTokens": 56472,
+          "cachedInputTokens": 36864,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 2751,
+          "reasoningOutputTokens": 2468
+        },
+        "last": {
+          "totalTokens": 18982,
+          "inputTokens": 17113,
+          "cachedInputTokens": 16128,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 1869,
+          "reasoningOutputTokens": 1809
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514668825
+  },
+  {
+    "received_local_ns": 2217347687198,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-a1449e0b-7acb-44bb-8a24-52b3a2f67362",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": []
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000006\", \"previous_actions\": {\"accepted\": 0, \"scheduled\": 0, \"dropped_late\": 0}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "c56879b07a2fa6fb8affe2a870bf60dbe036451314deea0e25816973778b8b9a"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 2
+      },
+      "threadId": "01a0a762-35e0-7fa0-a7a5-5cb8e005f253",
+      "turnId": "01a0a762-36f8-7910-8a19-2db7567080eb",
+      "completedAtMs": 1789514690980
+    },
+    "emittedAtMs": 1789514690980
+  },
+  {
+    "received_local_ns": 2217381939032,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a762-35e0-7fa0-a7a5-5cb8e005f253",
+      "turnId": "01a0a762-36f8-7910-8a19-2db7567080eb",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 80265,
+          "inputTokens": 75802,
+          "cachedInputTokens": 52992,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 4463,
+          "reasoningOutputTokens": 4123
+        },
+        "last": {
+          "totalTokens": 21042,
+          "inputTokens": 19330,
+          "cachedInputTokens": 16128,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 1712,
+          "reasoningOutputTokens": 1655
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514691014
+  }
+]

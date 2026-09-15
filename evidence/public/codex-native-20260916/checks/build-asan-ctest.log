@@ -1,0 +1,164 @@
+Start testing: Sep 16 08:33 KST
+----------------------------------------------------------
+1/9 Testing: core
+1/9 Test: core
+Command: "/tmp/chers-readme-20260916/build-asan/core_tests"
+Directory: /tmp/chers-readme-20260916/build-asan
+"core" start time: Sep 16 08:33 KST
+Output:
+----------------------------------------------------------
+CHERS core: 263997 checks passed
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"core" end time: Sep 16 08:33 KST
+"core" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/9 Testing: render
+2/9 Test: render
+Command: "/tmp/chers-readme-20260916/build-asan/render_tests"
+Directory: /tmp/chers-readme-20260916/build-asan
+"render" start time: Sep 16 08:33 KST
+Output:
+----------------------------------------------------------
+renderer tests passed
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"render" end time: Sep 16 08:33 KST
+"render" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/9 Testing: ipc
+3/9 Test: ipc
+Command: "/tmp/chers-readme-20260916/build-asan/ipc_tests"
+Directory: /tmp/chers-readme-20260916/build-asan
+"ipc" start time: Sep 16 08:33 KST
+Output:
+----------------------------------------------------------
+IPC: fork/exec C ABI, immutable leases, latest frames, readonly FD, input order,
+timeouts, reconnect, exclusive client, malformed/overflow rejection, cleanup passed
+<end of output>
+Test time =   1.31 sec
+----------------------------------------------------------
+Test Passed.
+"ipc" end time: Sep 16 08:33 KST
+"ipc" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/9 Testing: pixel_agent
+4/9 Test: pixel_agent
+Command: "/tmp/chers-readme-20260916/build-asan/pixel_agent_tests"
+Directory: /tmp/chers-readme-20260916/build-asan
+"pixel_agent" start time: Sep 16 08:33 KST
+Output:
+----------------------------------------------------------
+pixel diagnostic tests passed
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"pixel_agent" end time: Sep 16 08:33 KST
+"pixel_agent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/9 Testing: verifier
+5/9 Test: verifier
+Command: "/home/baemo_pc/.local/bin/python3.12" "/tmp/chers-readme-20260916/tests/verifier_tests.py"
+Directory: /tmp/chers-readme-20260916/build-asan
+"verifier" start time: Sep 16 08:33 KST
+Output:
+----------------------------------------------------------
+..................................
+----------------------------------------------------------------------
+Ran 34 tests in 0.079s
+
+OK
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"verifier" end time: Sep 16 08:33 KST
+"verifier" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/9 Testing: codex_vision_bridge
+6/9 Test: codex_vision_bridge
+Command: "/home/baemo_pc/.local/bin/python3.12" "/tmp/chers-readme-20260916/tests/codex_vision_bridge_tests.py"
+Directory: /tmp/chers-readme-20260916/build-asan
+"codex_vision_bridge" start time: Sep 16 08:33 KST
+Output:
+----------------------------------------------------------
+......................
+----------------------------------------------------------------------
+Ran 22 tests in 0.193s
+
+OK
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"codex_vision_bridge" end time: Sep 16 08:33 KST
+"codex_vision_bridge" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/9 Testing: codex_evaluation
+7/9 Test: codex_evaluation
+Command: "/home/baemo_pc/.local/bin/python3.12" "/tmp/chers-readme-20260916/tests/codex_evaluation_tests.py"
+Directory: /tmp/chers-readme-20260916/build-asan
+"codex_evaluation" start time: Sep 16 08:33 KST
+Output:
+----------------------------------------------------------
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 0.016s
+
+OK
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"codex_evaluation" end time: Sep 16 08:33 KST
+"codex_evaluation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/9 Testing: codex_report
+8/9 Test: codex_report
+Command: "/home/baemo_pc/.local/bin/python3.12" "/tmp/chers-readme-20260916/tests/codex_report_tests.py"
+Directory: /tmp/chers-readme-20260916/build-asan
+"codex_report" start time: Sep 16 08:33 KST
+Output:
+----------------------------------------------------------
+................
+----------------------------------------------------------------------
+Ran 16 tests in 0.008s
+
+OK
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"codex_report" end time: Sep 16 08:33 KST
+"codex_report" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/9 Testing: cli
+9/9 Test: cli
+Command: "/home/baemo_pc/.local/bin/python3.12" "/tmp/chers-readme-20260916/tests/main_cli_tests.py" "/tmp/chers-readme-20260916/build-asan/chers"
+Directory: /tmp/chers-readme-20260916/build-asan
+"cli" start time: Sep 16 08:33 KST
+Output:
+----------------------------------------------------------
+CLI: invalid arguments, parameter boundaries, live/file endpoint collisions, GUI failure cleanup, signal shutdown, invalid abort artifacts passed
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"cli" end time: Sep 16 08:33 KST
+"cli" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 16 08:33 KST

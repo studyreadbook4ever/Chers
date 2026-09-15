@@ -1,0 +1,38 @@
+{
+  "requested_model": "gpt-6-astra",
+  "effort": "low",
+  "expected": "48397",
+  "png_sha256": "c2ca63c27c24b5ed72c7a719a0674947271e1c4b25ed1049fa95d6fb98d4bd85",
+  "passed": true,
+  "thread_settings": {
+    "model": "gpt-6-astra",
+    "modelProvider": "openai",
+    "serviceTier": "priority",
+    "cwd": "/tmp/chers-model-empty-xmwjwe5c",
+    "runtimeWorkspaceRoots": [],
+    "instructionSources": [],
+    "approvalPolicy": "never",
+    "approvalsReviewer": "user",
+    "sandbox": {
+      "type": "readOnly",
+      "networkAccess": false
+    },
+    "activePermissionProfile": null,
+    "reasoningEffort": "low",
+    "multiAgentMode": "explicitRequestOnly"
+  },
+  "image_route": "dynamic tool response contentItems.inputImage (same as gameplay)",
+  "tool_calls": [
+    {
+      "tool": "vision_probe",
+      "arguments": {}
+    },
+    {
+      "tool": "vision_probe",
+      "arguments": {}
+    }
+  ],
+  "turn_status": "completed",
+  "response": "48397",
+  "duration_ms": 6542.049494000366
+}

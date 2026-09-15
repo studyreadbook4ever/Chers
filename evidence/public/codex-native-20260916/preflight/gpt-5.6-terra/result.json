@@ -1,0 +1,38 @@
+{
+  "requested_model": "gpt-5.6-terra",
+  "effort": "low",
+  "expected": "79517",
+  "png_sha256": "75f60b65092bc1ef6c75a7a97c777623abaf3bed52a8e01ffd45a4b32c6a860c",
+  "passed": true,
+  "thread_settings": {
+    "model": "gpt-5.6-terra",
+    "modelProvider": "openai",
+    "serviceTier": "priority",
+    "cwd": "/tmp/chers-model-empty-5sp5y4av",
+    "runtimeWorkspaceRoots": [],
+    "instructionSources": [],
+    "approvalPolicy": "never",
+    "approvalsReviewer": "user",
+    "sandbox": {
+      "type": "readOnly",
+      "networkAccess": false
+    },
+    "activePermissionProfile": null,
+    "reasoningEffort": "low",
+    "multiAgentMode": "explicitRequestOnly"
+  },
+  "image_route": "dynamic tool response contentItems.inputImage (same as gameplay)",
+  "tool_calls": [
+    {
+      "tool": "vision_probe",
+      "arguments": {}
+    },
+    {
+      "tool": "vision_probe",
+      "arguments": {}
+    }
+  ],
+  "turn_status": "completed",
+  "response": "79517",
+  "duration_ms": 7694.312830999934
+}

@@ -1,0 +1,38 @@
+{
+  "requested_model": "gpt-5.6-luna",
+  "effort": "low",
+  "expected": "67604",
+  "png_sha256": "fcfda0a59cb4913e309c01e65ffd9a070880be39d591b9bd4e0150260fa9d7e4",
+  "passed": false,
+  "thread_settings": {
+    "model": "gpt-5.6-luna",
+    "modelProvider": "openai",
+    "serviceTier": "priority",
+    "cwd": "/tmp/chers-model-empty-xmwjwe5c",
+    "runtimeWorkspaceRoots": [],
+    "instructionSources": [],
+    "approvalPolicy": "never",
+    "approvalsReviewer": "user",
+    "sandbox": {
+      "type": "readOnly",
+      "networkAccess": false
+    },
+    "activePermissionProfile": null,
+    "reasoningEffort": "low",
+    "multiAgentMode": "explicitRequestOnly"
+  },
+  "image_route": "dynamic tool response contentItems.inputImage (same as gameplay)",
+  "tool_calls": [
+    {
+      "tool": "vision_probe",
+      "arguments": {}
+    },
+    {
+      "tool": "vision_probe",
+      "arguments": {}
+    }
+  ],
+  "turn_status": "completed",
+  "response": "72914",
+  "duration_ms": 12533.407987999908
+}

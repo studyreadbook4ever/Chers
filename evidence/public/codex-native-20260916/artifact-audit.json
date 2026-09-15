@@ -1,0 +1,86 @@
+{
+  "scope": "Ten selected eligible runs; independent artifact consistency check, not a provider or cryptographic attestation",
+  "checks": [
+    "Saved full PNG data match actual dynamic-tool response data URL hashes",
+    "640x360 RGBA PNG with valid chunk CRCs and no ancillary metadata",
+    "Model-facing text contains only local observation ID and previous action acknowledgement",
+    "No provider errors in selected runs",
+    "Re-ran independent scoring/timing replay with --require-timing",
+    "Dispatched keyboard action count equals engine input count",
+    "Original/v2 source hashes and release binary hashes matched execution manifests"
+  ],
+  "selected_runs": 10,
+  "native_images_verified": 112,
+  "runs": [
+    {
+      "directory": "retry-final/gpt-6-astra-low-1",
+      "native_images_verified": 15,
+      "input_count": 0,
+      "replay_with_required_timing_passed": true,
+      "run_json_sha256": "93f5c11a97a03d5953dbbdb279d6b54cbfbad4070a5b4dae2d2e05bd66239c0d"
+    },
+    {
+      "directory": "gpt-6-astra-ultra-1",
+      "native_images_verified": 15,
+      "input_count": 0,
+      "replay_with_required_timing_passed": true,
+      "run_json_sha256": "401de3b4b899f8c80f8da8dda18e570b50411652d51e95a3fdc6146fc234da2a"
+    },
+    {
+      "directory": "gpt-5.6-sol-low-1",
+      "native_images_verified": 16,
+      "input_count": 0,
+      "replay_with_required_timing_passed": true,
+      "run_json_sha256": "903db4c643b49498ee63ad274b1402474c0f023698c2d3ad9e9aadfdb82189a9"
+    },
+    {
+      "directory": "gpt-5.6-sol-ultra-1",
+      "native_images_verified": 6,
+      "input_count": 0,
+      "replay_with_required_timing_passed": true,
+      "run_json_sha256": "1bca94f63a86d92ac153b286d199537f5df030b091aafa9a0209a725601c68fd"
+    },
+    {
+      "directory": "gpt-5.6-terra-low-1",
+      "native_images_verified": 14,
+      "input_count": 0,
+      "replay_with_required_timing_passed": true,
+      "run_json_sha256": "f79a662b279706cf010cc5cd896cd97cec22aa51f37c1f5cdfb0ef42042758e9"
+    },
+    {
+      "directory": "gpt-5.6-terra-ultra-1",
+      "native_images_verified": 5,
+      "input_count": 0,
+      "replay_with_required_timing_passed": true,
+      "run_json_sha256": "7fbbcce3534143357b343d06d2d1f674d03b95975a86fdab6a0d3059359d374b"
+    },
+    {
+      "directory": "retry-final/gpt-5.6-luna-low-1",
+      "native_images_verified": 13,
+      "input_count": 0,
+      "replay_with_required_timing_passed": true,
+      "run_json_sha256": "1fae6d107717e46bc96142555e4e7f10acce2c5d4647f99ac9bbcc3322cf6648"
+    },
+    {
+      "directory": "retry-luna/gpt-5.6-luna-max-1",
+      "native_images_verified": 6,
+      "input_count": 0,
+      "replay_with_required_timing_passed": true,
+      "run_json_sha256": "b5a5ab0735d5c0ddea670038448a6a373d7554cfbc128ed89c06417c4aefedc8"
+    },
+    {
+      "directory": "gpt-5.5-low-1",
+      "native_images_verified": 15,
+      "input_count": 0,
+      "replay_with_required_timing_passed": true,
+      "run_json_sha256": "5458355bcd7af6961f1dfbecd2183bed844a62bc298928b8daebea6486a9a234"
+    },
+    {
+      "directory": "gpt-5.5-xhigh-1",
+      "native_images_verified": 7,
+      "input_count": 0,
+      "replay_with_required_timing_passed": true,
+      "run_json_sha256": "5c3a1a6514e4b79052283dd6a91fbda31d9bf93f7b30e36705d0380cf177816b"
+    }
+  ]
+}

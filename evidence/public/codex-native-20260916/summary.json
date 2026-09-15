@@ -1,0 +1,669 @@
+{
+  "catalog_observed_utc": "2026-09-15T23:13:13Z",
+  "client_version": "codex-cli 0.154.0",
+  "scope": "models visible through the evaluated account's Codex catalog",
+  "runs": [
+    {
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "status": "failed",
+      "directory": "gpt-6-astra-low-1",
+      "publishable": false,
+      "lanes": 8,
+      "density": 20,
+      "started_utc": "2026-09-15T23:13:20Z",
+      "error": "run not eligible for numeric publication"
+    },
+    {
+      "model": "gpt-6-astra",
+      "effort": "low",
+      "status": "completed",
+      "directory": "retry-final/gpt-6-astra-low-1",
+      "publishable": true,
+      "lanes": 8,
+      "density": 20,
+      "started_utc": "2026-09-15T23:27:12Z",
+      "score_percent": 0,
+      "notes": 1017,
+      "hits": 0,
+      "hit_rate": 0.0,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 1017,
+      "delaySum_ms": 0,
+      "hit_mean_ms": null,
+      "observation_to_tool_ms": {
+        "count": 14,
+        "mean": 4269.244479928571,
+        "median": 4382.252418,
+        "max": 8254.475399
+      },
+      "tool_calls": 15,
+      "actions_proposed": 136,
+      "actions_sent": 0,
+      "actions_dropped": 136,
+      "engine_timing_compliant": true,
+      "engine_max_publication_gap_ms": 14.466937,
+      "receiver_lifetime_max_gap_ms": 14.494271,
+      "receiver_lifetime_gaps_over_16ms": 0,
+      "service_tier": "priority",
+      "token_usage": {
+        "total": {
+          "totalTokens": 264352,
+          "inputTokens": 262530,
+          "cachedInputTokens": 238720,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 1822,
+          "reasoningOutputTokens": 35
+        },
+        "last": {
+          "totalTokens": 21627,
+          "inputTokens": 21507,
+          "cachedInputTokens": 20992,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 120,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      },
+      "tool_image_handoff_gaps_ms": {
+        "count": 14,
+        "max": 8243.959708,
+        "mean": 4263.3766023571425,
+        "over_16ms": 14
+      },
+      "action_batch_observation_to_tool_ms": {
+        "count": 11,
+        "mean": 4719.847047727272
+      }
+    },
+    {
+      "model": "gpt-6-astra",
+      "effort": "ultra",
+      "status": "completed",
+      "directory": "gpt-6-astra-ultra-1",
+      "publishable": true,
+      "lanes": 8,
+      "density": 20,
+      "started_utc": "2026-09-15T23:14:25Z",
+      "score_percent": 0,
+      "notes": 936,
+      "hits": 0,
+      "hit_rate": 0.0,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 936,
+      "delaySum_ms": 0,
+      "hit_mean_ms": null,
+      "observation_to_tool_ms": {
+        "count": 14,
+        "mean": 4322.248876928571,
+        "median": 3487.265062,
+        "max": 7677.128648
+      },
+      "tool_calls": 15,
+      "actions_proposed": 83,
+      "actions_sent": 0,
+      "actions_dropped": 83,
+      "engine_timing_compliant": true,
+      "engine_max_publication_gap_ms": 14.046247,
+      "receiver_lifetime_max_gap_ms": 14.087075,
+      "receiver_lifetime_gaps_over_16ms": 0,
+      "service_tier": "priority",
+      "token_usage": {
+        "total": {
+          "totalTokens": 274180,
+          "inputTokens": 272578,
+          "cachedInputTokens": 248192,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 1602,
+          "reasoningOutputTokens": 161
+        },
+        "last": {
+          "totalTokens": 22207,
+          "inputTokens": 22107,
+          "cachedInputTokens": 21760,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 100,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      },
+      "tool_image_handoff_gaps_ms": {
+        "count": 14,
+        "max": 7667.135765,
+        "mean": 4317.937854428571,
+        "over_16ms": 14
+      },
+      "action_batch_observation_to_tool_ms": {
+        "count": 12,
+        "mean": 4628.060958416667
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "effort": "low",
+      "status": "completed",
+      "directory": "gpt-5.6-sol-low-1",
+      "publishable": true,
+      "lanes": 8,
+      "density": 20,
+      "started_utc": "2026-09-15T23:15:41Z",
+      "score_percent": 0,
+      "notes": 990,
+      "hits": 0,
+      "hit_rate": 0.0,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 990,
+      "delaySum_ms": 0,
+      "hit_mean_ms": null,
+      "observation_to_tool_ms": {
+        "count": 15,
+        "mean": 3973.996641933333,
+        "median": 3023.839547,
+        "max": 9038.282253
+      },
+      "tool_calls": 16,
+      "actions_proposed": 57,
+      "actions_sent": 0,
+      "actions_dropped": 57,
+      "engine_timing_compliant": true,
+      "engine_max_publication_gap_ms": 14.864413,
+      "receiver_lifetime_max_gap_ms": 14.930743,
+      "receiver_lifetime_gaps_over_16ms": 0,
+      "service_tier": "priority",
+      "token_usage": {
+        "total": {
+          "totalTokens": 489171,
+          "inputTokens": 486451,
+          "cachedInputTokens": 445952,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 2720,
+          "reasoningOutputTokens": 1240
+        },
+        "last": {
+          "totalTokens": 37865,
+          "inputTokens": 37797,
+          "cachedInputTokens": 37376,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 68,
+          "reasoningOutputTokens": 10
+        },
+        "modelContextWindow": 258400
+      },
+      "tool_image_handoff_gaps_ms": {
+        "count": 15,
+        "max": 9034.547182,
+        "mean": 3967.3928379333333,
+        "over_16ms": 15
+      },
+      "action_batch_observation_to_tool_ms": {
+        "count": 3,
+        "mean": 7972.794986333333
+      }
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "effort": "ultra",
+      "status": "completed",
+      "directory": "gpt-5.6-sol-ultra-1",
+      "publishable": true,
+      "lanes": 8,
+      "density": 20,
+      "started_utc": "2026-09-15T23:16:47Z",
+      "score_percent": 0,
+      "notes": 1034,
+      "hits": 0,
+      "hit_rate": 0.0,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 1034,
+      "delaySum_ms": 0,
+      "hit_mean_ms": null,
+      "observation_to_tool_ms": {
+        "count": 5,
+        "mean": 12078.9456446,
+        "median": 12788.468282,
+        "max": 19244.743353
+      },
+      "tool_calls": 6,
+      "actions_proposed": 20,
+      "actions_sent": 0,
+      "actions_dropped": 20,
+      "engine_timing_compliant": true,
+      "engine_max_publication_gap_ms": 14.005516,
+      "receiver_lifetime_max_gap_ms": 14.012996,
+      "receiver_lifetime_gaps_over_16ms": 0,
+      "service_tier": "priority",
+      "token_usage": {
+        "total": {
+          "totalTokens": 80160,
+          "inputTokens": 76508,
+          "cachedInputTokens": 57600,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 3652,
+          "reasoningOutputTokens": 2810
+        },
+        "last": {
+          "totalTokens": 19199,
+          "inputTokens": 18104,
+          "cachedInputTokens": 16640,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 1095,
+          "reasoningOutputTokens": 805
+        },
+        "modelContextWindow": 258400
+      },
+      "tool_image_handoff_gaps_ms": {
+        "count": 5,
+        "max": 19240.808164,
+        "mean": 12074.3648282,
+        "over_16ms": 5
+      },
+      "action_batch_observation_to_tool_ms": {
+        "count": 1,
+        "mean": 17378.671318
+      }
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "effort": "low",
+      "status": "completed",
+      "directory": "gpt-5.6-terra-low-1",
+      "publishable": true,
+      "lanes": 8,
+      "density": 20,
+      "started_utc": "2026-09-15T23:18:02Z",
+      "score_percent": 0,
+      "notes": 958,
+      "hits": 0,
+      "hit_rate": 0.0,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 958,
+      "delaySum_ms": 0,
+      "hit_mean_ms": null,
+      "observation_to_tool_ms": {
+        "count": 13,
+        "mean": 4727.128254769231,
+        "median": 5176.289542,
+        "max": 8321.065243
+      },
+      "tool_calls": 14,
+      "actions_proposed": 161,
+      "actions_sent": 0,
+      "actions_dropped": 161,
+      "engine_timing_compliant": true,
+      "engine_max_publication_gap_ms": 15.199396,
+      "receiver_lifetime_max_gap_ms": 15.217409,
+      "receiver_lifetime_gaps_over_16ms": 0,
+      "service_tier": "priority",
+      "token_usage": {
+        "total": {
+          "totalTokens": 248830,
+          "inputTokens": 245320,
+          "cachedInputTokens": 195712,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 3510,
+          "reasoningOutputTokens": 1563
+        },
+        "last": {
+          "totalTokens": 23033,
+          "inputTokens": 22735,
+          "cachedInputTokens": 21504,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 298,
+          "reasoningOutputTokens": 110
+        },
+        "modelContextWindow": 258400
+      },
+      "tool_image_handoff_gaps_ms": {
+        "count": 13,
+        "max": 8312.090263,
+        "mean": 4720.1568595384615,
+        "over_16ms": 13
+      },
+      "action_batch_observation_to_tool_ms": {
+        "count": 8,
+        "mean": 6268.39582275
+      }
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "effort": "ultra",
+      "status": "completed",
+      "directory": "gpt-5.6-terra-ultra-1",
+      "publishable": true,
+      "lanes": 8,
+      "density": 20,
+      "started_utc": "2026-09-15T23:19:06Z",
+      "score_percent": 0,
+      "notes": 958,
+      "hits": 0,
+      "hit_rate": 0.0,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 958,
+      "delaySum_ms": 0,
+      "hit_mean_ms": null,
+      "observation_to_tool_ms": {
+        "count": 4,
+        "mean": 10979.40648925,
+        "median": 4021.601299,
+        "max": 33146.823947
+      },
+      "tool_calls": 5,
+      "actions_proposed": 17,
+      "actions_sent": 0,
+      "actions_dropped": 17,
+      "engine_timing_compliant": true,
+      "engine_max_publication_gap_ms": 13.213391,
+      "receiver_lifetime_max_gap_ms": 13.244498,
+      "receiver_lifetime_gaps_over_16ms": 0,
+      "service_tier": "priority",
+      "token_usage": {
+        "total": {
+          "totalTokens": 65376,
+          "inputTokens": 61991,
+          "cachedInputTokens": 41984,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 3385,
+          "reasoningOutputTokens": 2931
+        },
+        "last": {
+          "totalTokens": 20504,
+          "inputTokens": 17835,
+          "cachedInputTokens": 17152,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 2669,
+          "reasoningOutputTokens": 2446
+        },
+        "modelContextWindow": 258400
+      },
+      "tool_image_handoff_gaps_ms": {
+        "count": 4,
+        "max": 33137.675229,
+        "mean": 10971.53001425,
+        "over_16ms": 4
+      },
+      "action_batch_observation_to_tool_ms": {
+        "count": 1,
+        "mean": 33146.823947
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "effort": "low",
+      "status": "failed",
+      "directory": "retry-luna/gpt-5.6-luna-low-1",
+      "publishable": false,
+      "lanes": 8,
+      "density": 20,
+      "started_utc": "2026-09-15T23:23:08Z",
+      "error": "RuntimeError: observation evidence capacity exceeded"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "effort": "low",
+      "status": "completed",
+      "directory": "retry-final/gpt-5.6-luna-low-1",
+      "publishable": true,
+      "lanes": 8,
+      "density": 20,
+      "started_utc": "2026-09-15T23:29:38Z",
+      "score_percent": 0,
+      "notes": 963,
+      "hits": 0,
+      "hit_rate": 0.0,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 963,
+      "delaySum_ms": 0,
+      "hit_mean_ms": null,
+      "observation_to_tool_ms": {
+        "count": 12,
+        "mean": 5127.0924205,
+        "median": 4646.039111,
+        "max": 8546.530178
+      },
+      "tool_calls": 13,
+      "actions_proposed": 95,
+      "actions_sent": 0,
+      "actions_dropped": 95,
+      "engine_timing_compliant": true,
+      "engine_max_publication_gap_ms": 14.666047,
+      "receiver_lifetime_max_gap_ms": 14.67229,
+      "receiver_lifetime_gaps_over_16ms": 0,
+      "service_tier": "priority",
+      "token_usage": {
+        "total": {
+          "totalTokens": 344012,
+          "inputTokens": 340784,
+          "cachedInputTokens": 304896,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 3228,
+          "reasoningOutputTokens": 1549
+        },
+        "last": {
+          "totalTokens": 32235,
+          "inputTokens": 32003,
+          "cachedInputTokens": 30720,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 232,
+          "reasoningOutputTokens": 71
+        },
+        "modelContextWindow": 258400
+      },
+      "tool_image_handoff_gaps_ms": {
+        "count": 12,
+        "max": 8540.084294,
+        "mean": 5119.9531594166665,
+        "over_16ms": 12
+      },
+      "action_batch_observation_to_tool_ms": {
+        "count": 8,
+        "mean": 6188.7449722500005
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "effort": "max",
+      "status": "completed",
+      "directory": "retry-luna/gpt-5.6-luna-max-1",
+      "publishable": true,
+      "lanes": 8,
+      "density": 20,
+      "started_utc": "2026-09-15T23:23:46Z",
+      "score_percent": 0,
+      "notes": 1010,
+      "hits": 0,
+      "hit_rate": 0.0,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 1010,
+      "delaySum_ms": 0,
+      "hit_mean_ms": null,
+      "observation_to_tool_ms": {
+        "count": 5,
+        "mean": 12170.708501,
+        "median": 5635.796794,
+        "max": 25774.760957
+      },
+      "tool_calls": 6,
+      "actions_proposed": 0,
+      "actions_sent": 0,
+      "actions_dropped": 0,
+      "engine_timing_compliant": true,
+      "engine_max_publication_gap_ms": 13.394716,
+      "receiver_lifetime_max_gap_ms": 15.060443,
+      "receiver_lifetime_gaps_over_16ms": 0,
+      "service_tier": "priority",
+      "token_usage": {
+        "total": {
+          "totalTokens": 80265,
+          "inputTokens": 75802,
+          "cachedInputTokens": 52992,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 4463,
+          "reasoningOutputTokens": 4123
+        },
+        "last": {
+          "totalTokens": 21042,
+          "inputTokens": 19330,
+          "cachedInputTokens": 16128,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 1712,
+          "reasoningOutputTokens": 1655
+        },
+        "modelContextWindow": 258400
+      },
+      "tool_image_handoff_gaps_ms": {
+        "count": 5,
+        "max": 25763.910282,
+        "mean": 12162.7353122,
+        "over_16ms": 5
+      },
+      "action_batch_observation_to_tool_ms": {
+        "count": 0,
+        "mean": null
+      }
+    },
+    {
+      "model": "gpt-5.5",
+      "effort": "low",
+      "status": "completed",
+      "directory": "gpt-5.5-low-1",
+      "publishable": true,
+      "lanes": 8,
+      "density": 20,
+      "started_utc": "2026-09-15T23:20:26Z",
+      "score_percent": 0,
+      "notes": 1021,
+      "hits": 0,
+      "hit_rate": 0.0,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 1021,
+      "delaySum_ms": 0,
+      "hit_mean_ms": null,
+      "observation_to_tool_ms": {
+        "count": 14,
+        "mean": 4200.4306800714285,
+        "median": 3884.5258519999998,
+        "max": 6216.703538
+      },
+      "tool_calls": 15,
+      "actions_proposed": 199,
+      "actions_sent": 0,
+      "actions_dropped": 199,
+      "engine_timing_compliant": true,
+      "engine_max_publication_gap_ms": 14.695417,
+      "receiver_lifetime_max_gap_ms": 14.722786,
+      "receiver_lifetime_gaps_over_16ms": 0,
+      "service_tier": "priority",
+      "token_usage": {
+        "total": {
+          "totalTokens": 97174,
+          "inputTokens": 93934,
+          "cachedInputTokens": 70912,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 3240,
+          "reasoningOutputTokens": 1125
+        },
+        "last": {
+          "totalTokens": 10353,
+          "inputTokens": 10171,
+          "cachedInputTokens": 9216,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 182,
+          "reasoningOutputTokens": 8
+        },
+        "modelContextWindow": 258400
+      },
+      "tool_image_handoff_gaps_ms": {
+        "count": 14,
+        "max": 6212.588278,
+        "mean": 4193.9224105,
+        "over_16ms": 14
+      },
+      "action_batch_observation_to_tool_ms": {
+        "count": 13,
+        "mean": 4337.801601461539
+      }
+    },
+    {
+      "model": "gpt-5.5",
+      "effort": "xhigh",
+      "status": "completed",
+      "directory": "gpt-5.5-xhigh-1",
+      "publishable": true,
+      "lanes": 8,
+      "density": 20,
+      "started_utc": "2026-09-15T23:21:31Z",
+      "score_percent": 0,
+      "notes": 991,
+      "hits": 0,
+      "hit_rate": 0.0,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 991,
+      "delaySum_ms": 0,
+      "hit_mean_ms": null,
+      "observation_to_tool_ms": {
+        "count": 6,
+        "mean": 9252.64164,
+        "median": 9595.343184500001,
+        "max": 14316.015806
+      },
+      "tool_calls": 7,
+      "actions_proposed": 74,
+      "actions_sent": 0,
+      "actions_dropped": 74,
+      "engine_timing_compliant": true,
+      "engine_max_publication_gap_ms": 15.020232,
+      "receiver_lifetime_max_gap_ms": 15.035931,
+      "receiver_lifetime_gaps_over_16ms": 0,
+      "service_tier": "priority",
+      "token_usage": {
+        "total": {
+          "totalTokens": 36535,
+          "inputTokens": 32368,
+          "cachedInputTokens": 20224,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 4167,
+          "reasoningOutputTokens": 3356
+        },
+        "last": {
+          "totalTokens": 8584,
+          "inputTokens": 7492,
+          "cachedInputTokens": 5760,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 1092,
+          "reasoningOutputTokens": 846
+        },
+        "modelContextWindow": 258400
+      },
+      "tool_image_handoff_gaps_ms": {
+        "count": 6,
+        "max": 14310.405559,
+        "mean": 9245.584728833333,
+        "over_16ms": 6
+      },
+      "action_batch_observation_to_tool_ms": {
+        "count": 5,
+        "mean": 10569.6405398
+      }
+    }
+  ]
+}

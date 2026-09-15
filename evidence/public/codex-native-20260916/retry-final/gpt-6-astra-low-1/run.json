@@ -1,0 +1,921 @@
+{
+  "requested_model": "gpt-6-astra",
+  "effort": "low",
+  "lanes": 8,
+  "density": 20,
+  "evaluation_type": "native-full-frame-vision-with-XTest-keyboard",
+  "status": "completed",
+  "started_utc": "2026-09-15T23:27:12Z",
+  "prompt_sha256": "9b8de11f5b4da0ef69274da242f146e9666eb6d961b15d54f26b710fdb5fa23d",
+  "model_decisions": [
+    {
+      "received_local_ns": 2362462147173,
+      "arguments": {
+        "actions": []
+      },
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000001"
+    },
+    {
+      "received_local_ns": 2364315801981,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000001",
+      "observation_to_tool_ms": 1833.250057,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000002"
+    },
+    {
+      "received_local_ns": 2367996331240,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000002",
+      "observation_to_tool_ms": 3688.817947,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000003"
+    },
+    {
+      "received_local_ns": 2370411667229,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "A",
+            "delay_ms": 463
+          },
+          {
+            "lane": "F",
+            "delay_ms": 297
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000003",
+      "observation_to_tool_ms": 2416.511584,
+      "outcome": {
+        "accepted": 2,
+        "scheduled": 0,
+        "dropped_late": 2
+      },
+      "returned_observation_id": "obs-000004"
+    },
+    {
+      "received_local_ns": 2372736548939,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000004",
+      "observation_to_tool_ms": 2329.03719,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000005"
+    },
+    {
+      "received_local_ns": 2375901901032,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "C",
+            "delay_ms": 853
+          },
+          {
+            "lane": "E",
+            "delay_ms": 853
+          },
+          {
+            "lane": "H",
+            "delay_ms": 847
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000005",
+      "observation_to_tool_ms": 3169.39568,
+      "outcome": {
+        "accepted": 3,
+        "scheduled": 0,
+        "dropped_late": 3
+      },
+      "returned_observation_id": "obs-000006"
+    },
+    {
+      "received_local_ns": 2380298989389,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "B",
+            "delay_ms": 375
+          },
+          {
+            "lane": "B",
+            "delay_ms": 441
+          },
+          {
+            "lane": "F",
+            "delay_ms": 516
+          },
+          {
+            "lane": "A",
+            "delay_ms": 684
+          },
+          {
+            "lane": "B",
+            "delay_ms": 719
+          },
+          {
+            "lane": "C",
+            "delay_ms": 763
+          },
+          {
+            "lane": "A",
+            "delay_ms": 831
+          },
+          {
+            "lane": "B",
+            "delay_ms": 831
+          },
+          {
+            "lane": "G",
+            "delay_ms": 841
+          },
+          {
+            "lane": "G",
+            "delay_ms": 925
+          },
+          {
+            "lane": "C",
+            "delay_ms": 1000
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000006",
+      "observation_to_tool_ms": 4403.955959,
+      "outcome": {
+        "accepted": 11,
+        "scheduled": 0,
+        "dropped_late": 11
+      },
+      "returned_observation_id": "obs-000007"
+    },
+    {
+      "received_local_ns": 2384890184531,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "C",
+            "delay_ms": 344
+          },
+          {
+            "lane": "C",
+            "delay_ms": 441
+          },
+          {
+            "lane": "D",
+            "delay_ms": 444
+          },
+          {
+            "lane": "B",
+            "delay_ms": 588
+          },
+          {
+            "lane": "H",
+            "delay_ms": 606
+          },
+          {
+            "lane": "C",
+            "delay_ms": 616
+          },
+          {
+            "lane": "A",
+            "delay_ms": 625
+          },
+          {
+            "lane": "B",
+            "delay_ms": 669
+          },
+          {
+            "lane": "C",
+            "delay_ms": 669
+          },
+          {
+            "lane": "G",
+            "delay_ms": 697
+          },
+          {
+            "lane": "D",
+            "delay_ms": 709
+          },
+          {
+            "lane": "E",
+            "delay_ms": 866
+          },
+          {
+            "lane": "F",
+            "delay_ms": 881
+          },
+          {
+            "lane": "C",
+            "delay_ms": 934
+          },
+          {
+            "lane": "B",
+            "delay_ms": 944
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000007",
+      "observation_to_tool_ms": 4595.1205,
+      "outcome": {
+        "accepted": 15,
+        "scheduled": 0,
+        "dropped_late": 15
+      },
+      "returned_observation_id": "obs-000008"
+    },
+    {
+      "received_local_ns": 2389922753829,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "A",
+            "delay_ms": 175
+          },
+          {
+            "lane": "E",
+            "delay_ms": 147
+          },
+          {
+            "lane": "C",
+            "delay_ms": 231
+          },
+          {
+            "lane": "F",
+            "delay_ms": 231
+          },
+          {
+            "lane": "G",
+            "delay_ms": 250
+          },
+          {
+            "lane": "A",
+            "delay_ms": 272
+          },
+          {
+            "lane": "B",
+            "delay_ms": 284
+          },
+          {
+            "lane": "C",
+            "delay_ms": 372
+          },
+          {
+            "lane": "D",
+            "delay_ms": 403
+          },
+          {
+            "lane": "H",
+            "delay_ms": 431
+          },
+          {
+            "lane": "B",
+            "delay_ms": 441
+          },
+          {
+            "lane": "G",
+            "delay_ms": 450
+          },
+          {
+            "lane": "B",
+            "delay_ms": 488
+          },
+          {
+            "lane": "F",
+            "delay_ms": 600
+          },
+          {
+            "lane": "D",
+            "delay_ms": 616
+          },
+          {
+            "lane": "C",
+            "delay_ms": 778
+          },
+          {
+            "lane": "E",
+            "delay_ms": 778
+          },
+          {
+            "lane": "F",
+            "delay_ms": 853
+          },
+          {
+            "lane": "F",
+            "delay_ms": 900
+          },
+          {
+            "lane": "E",
+            "delay_ms": 944
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000008",
+      "observation_to_tool_ms": 5040.251016,
+      "outcome": {
+        "accepted": 20,
+        "scheduled": 0,
+        "dropped_late": 20
+      },
+      "returned_observation_id": "obs-000009"
+    },
+    {
+      "received_local_ns": 2394280588969,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "G",
+            "delay_ms": 266
+          },
+          {
+            "lane": "C",
+            "delay_ms": 281
+          },
+          {
+            "lane": "A",
+            "delay_ms": 319
+          },
+          {
+            "lane": "F",
+            "delay_ms": 391
+          },
+          {
+            "lane": "G",
+            "delay_ms": 431
+          },
+          {
+            "lane": "F",
+            "delay_ms": 497
+          },
+          {
+            "lane": "G",
+            "delay_ms": 509
+          },
+          {
+            "lane": "B",
+            "delay_ms": 519
+          },
+          {
+            "lane": "E",
+            "delay_ms": 528
+          },
+          {
+            "lane": "F",
+            "delay_ms": 697
+          },
+          {
+            "lane": "H",
+            "delay_ms": 913
+          },
+          {
+            "lane": "E",
+            "delay_ms": 956
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000009",
+      "observation_to_tool_ms": 4360.548877,
+      "outcome": {
+        "accepted": 12,
+        "scheduled": 0,
+        "dropped_late": 12
+      },
+      "returned_observation_id": "obs-000010"
+    },
+    {
+      "received_local_ns": 2402524450790,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "C",
+            "delay_ms": 163
+          },
+          {
+            "lane": "A",
+            "delay_ms": 184
+          },
+          {
+            "lane": "C",
+            "delay_ms": 213
+          },
+          {
+            "lane": "E",
+            "delay_ms": 234
+          },
+          {
+            "lane": "C",
+            "delay_ms": 259
+          },
+          {
+            "lane": "E",
+            "delay_ms": 369
+          },
+          {
+            "lane": "B",
+            "delay_ms": 434
+          },
+          {
+            "lane": "D",
+            "delay_ms": 500
+          },
+          {
+            "lane": "F",
+            "delay_ms": 497
+          },
+          {
+            "lane": "H",
+            "delay_ms": 550
+          },
+          {
+            "lane": "F",
+            "delay_ms": 553
+          },
+          {
+            "lane": "D",
+            "delay_ms": 563
+          },
+          {
+            "lane": "B",
+            "delay_ms": 656
+          },
+          {
+            "lane": "A",
+            "delay_ms": 672
+          },
+          {
+            "lane": "G",
+            "delay_ms": 731
+          },
+          {
+            "lane": "H",
+            "delay_ms": 753
+          },
+          {
+            "lane": "G",
+            "delay_ms": 781
+          },
+          {
+            "lane": "B",
+            "delay_ms": 863
+          },
+          {
+            "lane": "C",
+            "delay_ms": 981
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000010",
+      "observation_to_tool_ms": 8254.475399,
+      "outcome": {
+        "accepted": 19,
+        "scheduled": 0,
+        "dropped_late": 19
+      },
+      "returned_observation_id": "obs-000011"
+    },
+    {
+      "received_local_ns": 2407713273811,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "H",
+            "delay_ms": 244
+          },
+          {
+            "lane": "E",
+            "delay_ms": 269
+          },
+          {
+            "lane": "G",
+            "delay_ms": 394
+          },
+          {
+            "lane": "D",
+            "delay_ms": 459
+          },
+          {
+            "lane": "B",
+            "delay_ms": 519
+          },
+          {
+            "lane": "G",
+            "delay_ms": 525
+          },
+          {
+            "lane": "E",
+            "delay_ms": 544
+          },
+          {
+            "lane": "F",
+            "delay_ms": 550
+          },
+          {
+            "lane": "A",
+            "delay_ms": 553
+          },
+          {
+            "lane": "G",
+            "delay_ms": 613
+          },
+          {
+            "lane": "G",
+            "delay_ms": 722
+          },
+          {
+            "lane": "F",
+            "delay_ms": 769
+          },
+          {
+            "lane": "G",
+            "delay_ms": 913
+          },
+          {
+            "lane": "C",
+            "delay_ms": 919
+          },
+          {
+            "lane": "G",
+            "delay_ms": 975
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000011",
+      "observation_to_tool_ms": 5193.227361,
+      "outcome": {
+        "accepted": 15,
+        "scheduled": 0,
+        "dropped_late": 15
+      },
+      "returned_observation_id": "obs-000012"
+    },
+    {
+      "received_local_ns": 2413454893598,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "D",
+            "delay_ms": 203
+          },
+          {
+            "lane": "E",
+            "delay_ms": 222
+          },
+          {
+            "lane": "H",
+            "delay_ms": 247
+          },
+          {
+            "lane": "D",
+            "delay_ms": 266
+          },
+          {
+            "lane": "G",
+            "delay_ms": 306
+          },
+          {
+            "lane": "E",
+            "delay_ms": 356
+          },
+          {
+            "lane": "A",
+            "delay_ms": 431
+          },
+          {
+            "lane": "H",
+            "delay_ms": 434
+          },
+          {
+            "lane": "B",
+            "delay_ms": 450
+          },
+          {
+            "lane": "E",
+            "delay_ms": 481
+          },
+          {
+            "lane": "H",
+            "delay_ms": 613
+          },
+          {
+            "lane": "B",
+            "delay_ms": 684
+          },
+          {
+            "lane": "E",
+            "delay_ms": 925
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000012",
+      "observation_to_tool_ms": 5747.384177,
+      "outcome": {
+        "accepted": 13,
+        "scheduled": 0,
+        "dropped_late": 13
+      },
+      "returned_observation_id": "obs-000013"
+    },
+    {
+      "received_local_ns": 2418653230885,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "A",
+            "delay_ms": 403
+          },
+          {
+            "lane": "H",
+            "delay_ms": 475
+          },
+          {
+            "lane": "A",
+            "delay_ms": 553
+          },
+          {
+            "lane": "D",
+            "delay_ms": 559
+          },
+          {
+            "lane": "A",
+            "delay_ms": 606
+          },
+          {
+            "lane": "C",
+            "delay_ms": 609
+          },
+          {
+            "lane": "G",
+            "delay_ms": 650
+          },
+          {
+            "lane": "E",
+            "delay_ms": 663
+          },
+          {
+            "lane": "F",
+            "delay_ms": 716
+          },
+          {
+            "lane": "H",
+            "delay_ms": 738
+          },
+          {
+            "lane": "B",
+            "delay_ms": 744
+          },
+          {
+            "lane": "F",
+            "delay_ms": 769
+          },
+          {
+            "lane": "G",
+            "delay_ms": 809
+          },
+          {
+            "lane": "B",
+            "delay_ms": 884
+          },
+          {
+            "lane": "F",
+            "delay_ms": 922
+          },
+          {
+            "lane": "G",
+            "delay_ms": 963
+          },
+          {
+            "lane": "E",
+            "delay_ms": 1000
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000013",
+      "observation_to_tool_ms": 5208.166361,
+      "outcome": {
+        "accepted": 17,
+        "scheduled": 0,
+        "dropped_late": 17
+      },
+      "returned_observation_id": "obs-000014"
+    },
+    {
+      "received_local_ns": 2422174424224,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "D",
+            "delay_ms": 325
+          },
+          {
+            "lane": "E",
+            "delay_ms": 325
+          },
+          {
+            "lane": "H",
+            "delay_ms": 353
+          },
+          {
+            "lane": "F",
+            "delay_ms": 363
+          },
+          {
+            "lane": "G",
+            "delay_ms": 378
+          },
+          {
+            "lane": "E",
+            "delay_ms": 466
+          },
+          {
+            "lane": "F",
+            "delay_ms": 497
+          },
+          {
+            "lane": "B",
+            "delay_ms": 791
+          },
+          {
+            "lane": "E",
+            "delay_ms": 819
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000014",
+      "observation_to_tool_ms": 3529.280611,
+      "outcome": {
+        "accepted": 9,
+        "scheduled": 0,
+        "dropped_late": 9
+      },
+      "returned_observation_id": "obs-000015"
+    }
+  ],
+  "model_errors": [],
+  "turns": [
+    {
+      "id": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "started_local_ns": 2359328035915
+    }
+  ],
+  "continuation_prompts": 0,
+  "thread_settings": {
+    "model": "gpt-6-astra",
+    "modelProvider": "openai",
+    "serviceTier": "priority",
+    "cwd": "/tmp/chers-model-empty-xmwjwe5c",
+    "runtimeWorkspaceRoots": [],
+    "instructionSources": [],
+    "approvalPolicy": "never",
+    "approvalsReviewer": "user",
+    "sandbox": {
+      "type": "readOnly",
+      "networkAccess": false
+    },
+    "activePermissionProfile": null,
+    "reasoningEffort": "low",
+    "multiAgentMode": "explicitRequestOnly"
+  },
+  "start_key_return_local_ns": 2362462410293,
+  "token_usage": {
+    "total": {
+      "totalTokens": 264352,
+      "inputTokens": 262530,
+      "cachedInputTokens": 238720,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1822,
+      "reasoningOutputTokens": 35
+    },
+    "last": {
+      "totalTokens": 21627,
+      "inputTokens": 21507,
+      "cachedInputTokens": 20992,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 120,
+      "reasoningOutputTokens": 0
+    },
+    "modelContextWindow": 258400
+  },
+  "game_exit": 0,
+  "ended_utc": "2026-09-15T23:28:17Z",
+  "final_observation_unanswered_age_ms": 1939.619431,
+  "observation_to_tool_ms": {
+    "count": 14,
+    "mean": 4269.244479928571,
+    "median": 4382.252418,
+    "max": 8254.475399
+  },
+  "verification_passed": true,
+  "benchmark_result": "benchmark/20260916-082817-28163/result.json",
+  "benchmark": {
+    "benchmark": "CHERS",
+    "version": "0.2.0",
+    "completed": true,
+    "valid": true,
+    "invalid_reason": "",
+    "lanes": 8,
+    "density_attempts_per_second": 20,
+    "entropy_source": "CPU RDSEED hardware entropy (no PRNG expansion)",
+    "trial": {
+      "notes": 1017,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 1017,
+      "raw_score": 0,
+      "score": 0,
+      "delaySum_ms": 0,
+      "hit_delay_sum_ms": 0
+    },
+    "calibration": {
+      "notes": 83,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 83,
+      "raw_score": 0,
+      "score": 0,
+      "delaySum_ms": 0,
+      "hit_delay_sum_ms": 0
+    },
+    "generation": {
+      "attempts": 1017,
+      "emitted": 1017,
+      "dropped": 0,
+      "actual_notes_per_second": 20.34
+    },
+    "observation": {
+      "width": 640,
+      "height": 360,
+      "format": "RGBA8",
+      "target_fps": 80,
+      "target_max_gap_ms": 16,
+      "timing_compliant": true,
+      "publication_gaps": {
+        "count": 4883,
+        "mean_ms": 12.4999918052,
+        "p50_ms": 12.49966,
+        "p99_ms": 12.666128,
+        "max_ms": 14.466937,
+        "over_16ms": 0,
+        "over_2ms": 4883
+      },
+      "render_and_publish": {
+        "count": 4883,
+        "mean_ms": 0.161854885112,
+        "p50_ms": 0.147624,
+        "p99_ms": 0.253692,
+        "max_ms": 0.899065,
+        "over_16ms": 0,
+        "over_2ms": 0
+      }
+    },
+    "input_poll_gaps": {
+      "count": 61023,
+      "mean_ms": 1.00028637756,
+      "p50_ms": 0.999911,
+      "p99_ms": 1.04392,
+      "max_ms": 3.819115,
+      "over_16ms": 0,
+      "over_2ms": 22
+    },
+    "system": {
+      "kernel": "7.1.5-arch1-2",
+      "input_cpu": 15,
+      "model_cpu": 14,
+      "human_gui": true,
+      "compiler": "16.1.1 20260728",
+      "build_type": "Release",
+      "sanitizers": false
+    },
+    "timeline_ns": {
+      "calibration_start": 1000000000,
+      "calibration_end": 6000000000,
+      "scored_start": 11020000000,
+      "scored_end": 61020000000,
+      "finish": 61040000000
+    }
+  },
+  "publishable": true
+}

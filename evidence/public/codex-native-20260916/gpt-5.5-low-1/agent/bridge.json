@@ -1,0 +1,3122 @@
+{
+  "adapter": "native-full-frame-vision-explicit-keyboard-v1",
+  "input_mode": "keyboard",
+  "window_id": 83886134,
+  "lanes": 8,
+  "frame_shape": [
+    640,
+    360,
+    4
+  ],
+  "preprocessing": "lossless PNG encoding only; no image feature extraction",
+  "scheduler": {
+    "reference": "local observation receipt",
+    "max_delay_ms": 1000,
+    "drop_when_late_over_ms": 20,
+    "duplicates": "each dispatched separately"
+  },
+  "frames_received": 5058,
+  "receipt_gap_scope": "entire connected capture session; not scored-window compliance",
+  "receipt_gap_count": 5057,
+  "receipt_gap_mean_ms": 12.498486289499704,
+  "receipt_gap_max_ms": 14.722786,
+  "receipt_gaps_over_16ms": 0,
+  "observations_returned": 15,
+  "pending_actions": 0,
+  "started": true,
+  "closed": true,
+  "error": "disconnected",
+  "counts": {
+    "start": 1,
+    "observation": 15,
+    "action_proposed": 199,
+    "action_dropped": 199,
+    "error": 1
+  },
+  "events": [
+    {
+      "type": "start",
+      "local_ns": 1955529430640
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000001",
+      "local_receipt_ns": 1955553987656,
+      "local_return_ns": 1955556561269
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 1,
+      "observation_id": "obs-000001",
+      "lane": 5,
+      "delay_ms": 995.0,
+      "local_due_ns": 1956548987656,
+      "local_submit_ns": 1958543647694
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 1,
+      "reason": "late_at_submission",
+      "lateness_ms": 1994.660038
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000002",
+      "local_receipt_ns": 1958541501610,
+      "local_return_ns": 1958545595035
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 2,
+      "observation_id": "obs-000002",
+      "lane": 5,
+      "delay_ms": 24.0,
+      "local_due_ns": 1958565501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 2,
+      "reason": "late_at_submission",
+      "lateness_ms": 6044.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 3,
+      "observation_id": "obs-000002",
+      "lane": 6,
+      "delay_ms": 24.0,
+      "local_due_ns": 1958565501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 3,
+      "reason": "late_at_submission",
+      "lateness_ms": 6044.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 4,
+      "observation_id": "obs-000002",
+      "lane": 1,
+      "delay_ms": 76.0,
+      "local_due_ns": 1958617501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 4,
+      "reason": "late_at_submission",
+      "lateness_ms": 5992.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 5,
+      "observation_id": "obs-000002",
+      "lane": 5,
+      "delay_ms": 139.0,
+      "local_due_ns": 1958680501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 5,
+      "reason": "late_at_submission",
+      "lateness_ms": 5929.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 6,
+      "observation_id": "obs-000002",
+      "lane": 4,
+      "delay_ms": 161.0,
+      "local_due_ns": 1958702501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 6,
+      "reason": "late_at_submission",
+      "lateness_ms": 5907.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 7,
+      "observation_id": "obs-000002",
+      "lane": 4,
+      "delay_ms": 345.0,
+      "local_due_ns": 1958886501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 7,
+      "reason": "late_at_submission",
+      "lateness_ms": 5723.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 8,
+      "observation_id": "obs-000002",
+      "lane": 3,
+      "delay_ms": 388.0,
+      "local_due_ns": 1958929501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 8,
+      "reason": "late_at_submission",
+      "lateness_ms": 5680.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 9,
+      "observation_id": "obs-000002",
+      "lane": 1,
+      "delay_ms": 461.0,
+      "local_due_ns": 1959002501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 9,
+      "reason": "late_at_submission",
+      "lateness_ms": 5607.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 10,
+      "observation_id": "obs-000002",
+      "lane": 7,
+      "delay_ms": 567.0,
+      "local_due_ns": 1959108501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 10,
+      "reason": "late_at_submission",
+      "lateness_ms": 5501.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 11,
+      "observation_id": "obs-000002",
+      "lane": 6,
+      "delay_ms": 558.0,
+      "local_due_ns": 1959099501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 11,
+      "reason": "late_at_submission",
+      "lateness_ms": 5510.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 12,
+      "observation_id": "obs-000002",
+      "lane": 2,
+      "delay_ms": 576.0,
+      "local_due_ns": 1959117501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 12,
+      "reason": "late_at_submission",
+      "lateness_ms": 5492.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 13,
+      "observation_id": "obs-000002",
+      "lane": 4,
+      "delay_ms": 594.0,
+      "local_due_ns": 1959135501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 13,
+      "reason": "late_at_submission",
+      "lateness_ms": 5474.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 14,
+      "observation_id": "obs-000002",
+      "lane": 3,
+      "delay_ms": 603.0,
+      "local_due_ns": 1959144501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 14,
+      "reason": "late_at_submission",
+      "lateness_ms": 5465.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 15,
+      "observation_id": "obs-000002",
+      "lane": 6,
+      "delay_ms": 685.0,
+      "local_due_ns": 1959226501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 15,
+      "reason": "late_at_submission",
+      "lateness_ms": 5383.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 16,
+      "observation_id": "obs-000002",
+      "lane": 5,
+      "delay_ms": 685.0,
+      "local_due_ns": 1959226501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 16,
+      "reason": "late_at_submission",
+      "lateness_ms": 5383.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 17,
+      "observation_id": "obs-000002",
+      "lane": 2,
+      "delay_ms": 818.0,
+      "local_due_ns": 1959359501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 17,
+      "reason": "late_at_submission",
+      "lateness_ms": 5250.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 18,
+      "observation_id": "obs-000002",
+      "lane": 0,
+      "delay_ms": 833.0,
+      "local_due_ns": 1959374501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 18,
+      "reason": "late_at_submission",
+      "lateness_ms": 5235.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 19,
+      "observation_id": "obs-000002",
+      "lane": 5,
+      "delay_ms": 833.0,
+      "local_due_ns": 1959374501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 19,
+      "reason": "late_at_submission",
+      "lateness_ms": 5235.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 20,
+      "observation_id": "obs-000002",
+      "lane": 6,
+      "delay_ms": 903.0,
+      "local_due_ns": 1959444501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 20,
+      "reason": "late_at_submission",
+      "lateness_ms": 5165.672694
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 21,
+      "observation_id": "obs-000002",
+      "lane": 0,
+      "delay_ms": 930.0,
+      "local_due_ns": 1959471501610,
+      "local_submit_ns": 1964610174304
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 21,
+      "reason": "late_at_submission",
+      "lateness_ms": 5138.672694
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000003",
+      "local_receipt_ns": 1964603995470,
+      "local_return_ns": 1964612222278
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000004",
+      "local_receipt_ns": 1967016524713,
+      "local_return_ns": 1967020626937
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 22,
+      "observation_id": "obs-000004",
+      "lane": 6,
+      "delay_ms": 61.0,
+      "local_due_ns": 1967077524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 22,
+      "reason": "late_at_submission",
+      "lateness_ms": 4611.492583
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 23,
+      "observation_id": "obs-000004",
+      "lane": 2,
+      "delay_ms": 82.0,
+      "local_due_ns": 1967098524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 23,
+      "reason": "late_at_submission",
+      "lateness_ms": 4590.492583
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 24,
+      "observation_id": "obs-000004",
+      "lane": 4,
+      "delay_ms": 109.0,
+      "local_due_ns": 1967125524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 24,
+      "reason": "late_at_submission",
+      "lateness_ms": 4563.492583
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 25,
+      "observation_id": "obs-000004",
+      "lane": 6,
+      "delay_ms": 118.0,
+      "local_due_ns": 1967134524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 25,
+      "reason": "late_at_submission",
+      "lateness_ms": 4554.492583
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 26,
+      "observation_id": "obs-000004",
+      "lane": 5,
+      "delay_ms": 258.0,
+      "local_due_ns": 1967274524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 26,
+      "reason": "late_at_submission",
+      "lateness_ms": 4414.492583
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 27,
+      "observation_id": "obs-000004",
+      "lane": 7,
+      "delay_ms": 352.0,
+      "local_due_ns": 1967368524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 27,
+      "reason": "late_at_submission",
+      "lateness_ms": 4320.492583
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 28,
+      "observation_id": "obs-000004",
+      "lane": 2,
+      "delay_ms": 382.0,
+      "local_due_ns": 1967398524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 28,
+      "reason": "late_at_submission",
+      "lateness_ms": 4290.492583
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 29,
+      "observation_id": "obs-000004",
+      "lane": 3,
+      "delay_ms": 415.0,
+      "local_due_ns": 1967431524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 29,
+      "reason": "late_at_submission",
+      "lateness_ms": 4257.492583
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 30,
+      "observation_id": "obs-000004",
+      "lane": 6,
+      "delay_ms": 436.0,
+      "local_due_ns": 1967452524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 30,
+      "reason": "late_at_submission",
+      "lateness_ms": 4236.492583
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 31,
+      "observation_id": "obs-000004",
+      "lane": 2,
+      "delay_ms": 491.0,
+      "local_due_ns": 1967507524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 31,
+      "reason": "late_at_submission",
+      "lateness_ms": 4181.492583
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 32,
+      "observation_id": "obs-000004",
+      "lane": 5,
+      "delay_ms": 491.0,
+      "local_due_ns": 1967507524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 32,
+      "reason": "late_at_submission",
+      "lateness_ms": 4181.492583
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 33,
+      "observation_id": "obs-000004",
+      "lane": 0,
+      "delay_ms": 648.0,
+      "local_due_ns": 1967664524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 33,
+      "reason": "late_at_submission",
+      "lateness_ms": 4024.492583
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 34,
+      "observation_id": "obs-000004",
+      "lane": 6,
+      "delay_ms": 897.0,
+      "local_due_ns": 1967913524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 34,
+      "reason": "late_at_submission",
+      "lateness_ms": 3775.492583
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 35,
+      "observation_id": "obs-000004",
+      "lane": 7,
+      "delay_ms": 988.0,
+      "local_due_ns": 1968004524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 35,
+      "reason": "late_at_submission",
+      "lateness_ms": 3684.492583
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 36,
+      "observation_id": "obs-000004",
+      "lane": 1,
+      "delay_ms": 1000.0,
+      "local_due_ns": 1968016524713,
+      "local_submit_ns": 1971689017296
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 36,
+      "reason": "late_at_submission",
+      "lateness_ms": 3672.492583
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000005",
+      "local_receipt_ns": 1971678968401,
+      "local_return_ns": 1971691022332
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 37,
+      "observation_id": "obs-000005",
+      "lane": 4,
+      "delay_ms": 1000.0,
+      "local_due_ns": 1972678968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 37,
+      "reason": "late_at_submission",
+      "lateness_ms": 5156.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 38,
+      "observation_id": "obs-000005",
+      "lane": 0,
+      "delay_ms": 770.0,
+      "local_due_ns": 1972448968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 38,
+      "reason": "late_at_submission",
+      "lateness_ms": 5386.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 39,
+      "observation_id": "obs-000005",
+      "lane": 7,
+      "delay_ms": 770.0,
+      "local_due_ns": 1972448968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 39,
+      "reason": "late_at_submission",
+      "lateness_ms": 5386.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 40,
+      "observation_id": "obs-000005",
+      "lane": 2,
+      "delay_ms": 680.0,
+      "local_due_ns": 1972358968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 40,
+      "reason": "late_at_submission",
+      "lateness_ms": 5476.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 41,
+      "observation_id": "obs-000005",
+      "lane": 6,
+      "delay_ms": 665.0,
+      "local_due_ns": 1972343968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 41,
+      "reason": "late_at_submission",
+      "lateness_ms": 5491.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 42,
+      "observation_id": "obs-000005",
+      "lane": 5,
+      "delay_ms": 585.0,
+      "local_due_ns": 1972263968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 42,
+      "reason": "late_at_submission",
+      "lateness_ms": 5571.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 43,
+      "observation_id": "obs-000005",
+      "lane": 3,
+      "delay_ms": 520.0,
+      "local_due_ns": 1972198968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 43,
+      "reason": "late_at_submission",
+      "lateness_ms": 5636.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 44,
+      "observation_id": "obs-000005",
+      "lane": 2,
+      "delay_ms": 475.0,
+      "local_due_ns": 1972153968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 44,
+      "reason": "late_at_submission",
+      "lateness_ms": 5681.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 45,
+      "observation_id": "obs-000005",
+      "lane": 3,
+      "delay_ms": 420.0,
+      "local_due_ns": 1972098968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 45,
+      "reason": "late_at_submission",
+      "lateness_ms": 5736.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 46,
+      "observation_id": "obs-000005",
+      "lane": 0,
+      "delay_ms": 410.0,
+      "local_due_ns": 1972088968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 46,
+      "reason": "late_at_submission",
+      "lateness_ms": 5746.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 47,
+      "observation_id": "obs-000005",
+      "lane": 1,
+      "delay_ms": 435.0,
+      "local_due_ns": 1972113968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 47,
+      "reason": "late_at_submission",
+      "lateness_ms": 5721.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 48,
+      "observation_id": "obs-000005",
+      "lane": 6,
+      "delay_ms": 390.0,
+      "local_due_ns": 1972068968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 48,
+      "reason": "late_at_submission",
+      "lateness_ms": 5766.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 49,
+      "observation_id": "obs-000005",
+      "lane": 7,
+      "delay_ms": 390.0,
+      "local_due_ns": 1972068968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 49,
+      "reason": "late_at_submission",
+      "lateness_ms": 5766.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 50,
+      "observation_id": "obs-000005",
+      "lane": 3,
+      "delay_ms": 315.0,
+      "local_due_ns": 1971993968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 50,
+      "reason": "late_at_submission",
+      "lateness_ms": 5841.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 51,
+      "observation_id": "obs-000005",
+      "lane": 4,
+      "delay_ms": 300.0,
+      "local_due_ns": 1971978968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 51,
+      "reason": "late_at_submission",
+      "lateness_ms": 5856.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 52,
+      "observation_id": "obs-000005",
+      "lane": 2,
+      "delay_ms": 220.0,
+      "local_due_ns": 1971898968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 52,
+      "reason": "late_at_submission",
+      "lateness_ms": 5936.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 53,
+      "observation_id": "obs-000005",
+      "lane": 5,
+      "delay_ms": 210.0,
+      "local_due_ns": 1971888968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 53,
+      "reason": "late_at_submission",
+      "lateness_ms": 5946.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 54,
+      "observation_id": "obs-000005",
+      "lane": 1,
+      "delay_ms": 190.0,
+      "local_due_ns": 1971868968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 54,
+      "reason": "late_at_submission",
+      "lateness_ms": 5966.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 55,
+      "observation_id": "obs-000005",
+      "lane": 3,
+      "delay_ms": 185.0,
+      "local_due_ns": 1971863968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 55,
+      "reason": "late_at_submission",
+      "lateness_ms": 5971.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 56,
+      "observation_id": "obs-000005",
+      "lane": 4,
+      "delay_ms": 185.0,
+      "local_due_ns": 1971863968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 56,
+      "reason": "late_at_submission",
+      "lateness_ms": 5971.226865
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 57,
+      "observation_id": "obs-000005",
+      "lane": 7,
+      "delay_ms": 160.0,
+      "local_due_ns": 1971838968401,
+      "local_submit_ns": 1977835195266
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 57,
+      "reason": "late_at_submission",
+      "lateness_ms": 5996.226865
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000006",
+      "local_receipt_ns": 1977828970715,
+      "local_return_ns": 1977837195330
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 58,
+      "observation_id": "obs-000006",
+      "lane": 7,
+      "delay_ms": 1000.0,
+      "local_due_ns": 1978828970715,
+      "local_submit_ns": 1982795838377
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 58,
+      "reason": "late_at_submission",
+      "lateness_ms": 3966.867662
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 59,
+      "observation_id": "obs-000006",
+      "lane": 5,
+      "delay_ms": 950.0,
+      "local_due_ns": 1978778970715,
+      "local_submit_ns": 1982795838377
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 59,
+      "reason": "late_at_submission",
+      "lateness_ms": 4016.867662
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 60,
+      "observation_id": "obs-000006",
+      "lane": 6,
+      "delay_ms": 950.0,
+      "local_due_ns": 1978778970715,
+      "local_submit_ns": 1982795838377
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 60,
+      "reason": "late_at_submission",
+      "lateness_ms": 4016.867662
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 61,
+      "observation_id": "obs-000006",
+      "lane": 6,
+      "delay_ms": 880.0,
+      "local_due_ns": 1978708970715,
+      "local_submit_ns": 1982795838377
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 61,
+      "reason": "late_at_submission",
+      "lateness_ms": 4086.867662
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 62,
+      "observation_id": "obs-000006",
+      "lane": 0,
+      "delay_ms": 760.0,
+      "local_due_ns": 1978588970715,
+      "local_submit_ns": 1982795838377
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 62,
+      "reason": "late_at_submission",
+      "lateness_ms": 4206.867662
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 63,
+      "observation_id": "obs-000006",
+      "lane": 2,
+      "delay_ms": 760.0,
+      "local_due_ns": 1978588970715,
+      "local_submit_ns": 1982795838377
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 63,
+      "reason": "late_at_submission",
+      "lateness_ms": 4206.867662
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 64,
+      "observation_id": "obs-000006",
+      "lane": 3,
+      "delay_ms": 760.0,
+      "local_due_ns": 1978588970715,
+      "local_submit_ns": 1982795838377
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 64,
+      "reason": "late_at_submission",
+      "lateness_ms": 4206.867662
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 65,
+      "observation_id": "obs-000006",
+      "lane": 7,
+      "delay_ms": 750.0,
+      "local_due_ns": 1978578970715,
+      "local_submit_ns": 1982795838377
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 65,
+      "reason": "late_at_submission",
+      "lateness_ms": 4216.867662
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 66,
+      "observation_id": "obs-000006",
+      "lane": 1,
+      "delay_ms": 670.0,
+      "local_due_ns": 1978498970715,
+      "local_submit_ns": 1982795838377
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 66,
+      "reason": "late_at_submission",
+      "lateness_ms": 4296.867662
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 67,
+      "observation_id": "obs-000006",
+      "lane": 2,
+      "delay_ms": 650.0,
+      "local_due_ns": 1978478970715,
+      "local_submit_ns": 1982795838377
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 67,
+      "reason": "late_at_submission",
+      "lateness_ms": 4316.867662
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 68,
+      "observation_id": "obs-000006",
+      "lane": 3,
+      "delay_ms": 670.0,
+      "local_due_ns": 1978498970715,
+      "local_submit_ns": 1982795838377
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 68,
+      "reason": "late_at_submission",
+      "lateness_ms": 4296.867662
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 69,
+      "observation_id": "obs-000006",
+      "lane": 4,
+      "delay_ms": 720.0,
+      "local_due_ns": 1978548970715,
+      "local_submit_ns": 1982795838377
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 69,
+      "reason": "late_at_submission",
+      "lateness_ms": 4246.867662
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000007",
+      "local_receipt_ns": 1982791488027,
+      "local_return_ns": 1982797788747
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 70,
+      "observation_id": "obs-000007",
+      "lane": 2,
+      "delay_ms": 1000.0,
+      "local_due_ns": 1983791488027,
+      "local_submit_ns": 1989008229755
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 70,
+      "reason": "late_at_submission",
+      "lateness_ms": 5216.741728
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 71,
+      "observation_id": "obs-000007",
+      "lane": 3,
+      "delay_ms": 880.0,
+      "local_due_ns": 1983671488027,
+      "local_submit_ns": 1989008229755
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 71,
+      "reason": "late_at_submission",
+      "lateness_ms": 5336.741728
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 72,
+      "observation_id": "obs-000007",
+      "lane": 6,
+      "delay_ms": 760.0,
+      "local_due_ns": 1983551488027,
+      "local_submit_ns": 1989008229755
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 72,
+      "reason": "late_at_submission",
+      "lateness_ms": 5456.741728
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 73,
+      "observation_id": "obs-000007",
+      "lane": 7,
+      "delay_ms": 700.0,
+      "local_due_ns": 1983491488027,
+      "local_submit_ns": 1989008229755
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 73,
+      "reason": "late_at_submission",
+      "lateness_ms": 5516.741728
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 74,
+      "observation_id": "obs-000007",
+      "lane": 0,
+      "delay_ms": 590.0,
+      "local_due_ns": 1983381488027,
+      "local_submit_ns": 1989008229755
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 74,
+      "reason": "late_at_submission",
+      "lateness_ms": 5626.741728
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 75,
+      "observation_id": "obs-000007",
+      "lane": 3,
+      "delay_ms": 520.0,
+      "local_due_ns": 1983311488027,
+      "local_submit_ns": 1989008229755
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 75,
+      "reason": "late_at_submission",
+      "lateness_ms": 5696.741728
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 76,
+      "observation_id": "obs-000007",
+      "lane": 1,
+      "delay_ms": 500.0,
+      "local_due_ns": 1983291488027,
+      "local_submit_ns": 1989008229755
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 76,
+      "reason": "late_at_submission",
+      "lateness_ms": 5716.741728
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 77,
+      "observation_id": "obs-000007",
+      "lane": 3,
+      "delay_ms": 420.0,
+      "local_due_ns": 1983211488027,
+      "local_submit_ns": 1989008229755
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 77,
+      "reason": "late_at_submission",
+      "lateness_ms": 5796.741728
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000008",
+      "local_receipt_ns": 1989003973064,
+      "local_return_ns": 1989010377025
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 78,
+      "observation_id": "obs-000008",
+      "lane": 0,
+      "delay_ms": 1000.0,
+      "local_due_ns": 1990003973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 78,
+      "reason": "late_at_submission",
+      "lateness_ms": 3184.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 79,
+      "observation_id": "obs-000008",
+      "lane": 2,
+      "delay_ms": 1000.0,
+      "local_due_ns": 1990003973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 79,
+      "reason": "late_at_submission",
+      "lateness_ms": 3184.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 80,
+      "observation_id": "obs-000008",
+      "lane": 3,
+      "delay_ms": 1000.0,
+      "local_due_ns": 1990003973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 80,
+      "reason": "late_at_submission",
+      "lateness_ms": 3184.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 81,
+      "observation_id": "obs-000008",
+      "lane": 6,
+      "delay_ms": 1000.0,
+      "local_due_ns": 1990003973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 81,
+      "reason": "late_at_submission",
+      "lateness_ms": 3184.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 82,
+      "observation_id": "obs-000008",
+      "lane": 5,
+      "delay_ms": 900.0,
+      "local_due_ns": 1989903973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 82,
+      "reason": "late_at_submission",
+      "lateness_ms": 3284.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 83,
+      "observation_id": "obs-000008",
+      "lane": 0,
+      "delay_ms": 870.0,
+      "local_due_ns": 1989873973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 83,
+      "reason": "late_at_submission",
+      "lateness_ms": 3314.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 84,
+      "observation_id": "obs-000008",
+      "lane": 2,
+      "delay_ms": 850.0,
+      "local_due_ns": 1989853973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 84,
+      "reason": "late_at_submission",
+      "lateness_ms": 3334.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 85,
+      "observation_id": "obs-000008",
+      "lane": 3,
+      "delay_ms": 820.0,
+      "local_due_ns": 1989823973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 85,
+      "reason": "late_at_submission",
+      "lateness_ms": 3364.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 86,
+      "observation_id": "obs-000008",
+      "lane": 4,
+      "delay_ms": 750.0,
+      "local_due_ns": 1989753973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 86,
+      "reason": "late_at_submission",
+      "lateness_ms": 3434.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 87,
+      "observation_id": "obs-000008",
+      "lane": 1,
+      "delay_ms": 700.0,
+      "local_due_ns": 1989703973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 87,
+      "reason": "late_at_submission",
+      "lateness_ms": 3484.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 88,
+      "observation_id": "obs-000008",
+      "lane": 4,
+      "delay_ms": 700.0,
+      "local_due_ns": 1989703973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 88,
+      "reason": "late_at_submission",
+      "lateness_ms": 3484.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 89,
+      "observation_id": "obs-000008",
+      "lane": 5,
+      "delay_ms": 560.0,
+      "local_due_ns": 1989563973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 89,
+      "reason": "late_at_submission",
+      "lateness_ms": 3624.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 90,
+      "observation_id": "obs-000008",
+      "lane": 4,
+      "delay_ms": 550.0,
+      "local_due_ns": 1989553973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 90,
+      "reason": "late_at_submission",
+      "lateness_ms": 3634.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 91,
+      "observation_id": "obs-000008",
+      "lane": 4,
+      "delay_ms": 480.0,
+      "local_due_ns": 1989483973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 91,
+      "reason": "late_at_submission",
+      "lateness_ms": 3704.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 92,
+      "observation_id": "obs-000008",
+      "lane": 5,
+      "delay_ms": 400.0,
+      "local_due_ns": 1989403973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 92,
+      "reason": "late_at_submission",
+      "lateness_ms": 3784.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 93,
+      "observation_id": "obs-000008",
+      "lane": 6,
+      "delay_ms": 400.0,
+      "local_due_ns": 1989403973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 93,
+      "reason": "late_at_submission",
+      "lateness_ms": 3784.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 94,
+      "observation_id": "obs-000008",
+      "lane": 4,
+      "delay_ms": 340.0,
+      "local_due_ns": 1989343973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 94,
+      "reason": "late_at_submission",
+      "lateness_ms": 3844.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 95,
+      "observation_id": "obs-000008",
+      "lane": 2,
+      "delay_ms": 300.0,
+      "local_due_ns": 1989303973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 95,
+      "reason": "late_at_submission",
+      "lateness_ms": 3884.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 96,
+      "observation_id": "obs-000008",
+      "lane": 3,
+      "delay_ms": 250.0,
+      "local_due_ns": 1989253973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 96,
+      "reason": "late_at_submission",
+      "lateness_ms": 3934.8101
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 97,
+      "observation_id": "obs-000008",
+      "lane": 7,
+      "delay_ms": 180.0,
+      "local_due_ns": 1989183973064,
+      "local_submit_ns": 1993188783164
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 97,
+      "reason": "late_at_submission",
+      "lateness_ms": 4004.8101
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000009",
+      "local_receipt_ns": 1993178961878,
+      "local_return_ns": 1993191123313
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 98,
+      "observation_id": "obs-000009",
+      "lane": 7,
+      "delay_ms": 1000.0,
+      "local_due_ns": 1994178961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 98,
+      "reason": "late_at_submission",
+      "lateness_ms": 2907.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 99,
+      "observation_id": "obs-000009",
+      "lane": 4,
+      "delay_ms": 970.0,
+      "local_due_ns": 1994148961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 99,
+      "reason": "late_at_submission",
+      "lateness_ms": 2937.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 100,
+      "observation_id": "obs-000009",
+      "lane": 5,
+      "delay_ms": 960.0,
+      "local_due_ns": 1994138961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 100,
+      "reason": "late_at_submission",
+      "lateness_ms": 2947.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 101,
+      "observation_id": "obs-000009",
+      "lane": 7,
+      "delay_ms": 940.0,
+      "local_due_ns": 1994118961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 101,
+      "reason": "late_at_submission",
+      "lateness_ms": 2967.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 102,
+      "observation_id": "obs-000009",
+      "lane": 0,
+      "delay_ms": 900.0,
+      "local_due_ns": 1994078961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 102,
+      "reason": "late_at_submission",
+      "lateness_ms": 3007.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 103,
+      "observation_id": "obs-000009",
+      "lane": 2,
+      "delay_ms": 810.0,
+      "local_due_ns": 1993988961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 103,
+      "reason": "late_at_submission",
+      "lateness_ms": 3097.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 104,
+      "observation_id": "obs-000009",
+      "lane": 5,
+      "delay_ms": 760.0,
+      "local_due_ns": 1993938961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 104,
+      "reason": "late_at_submission",
+      "lateness_ms": 3147.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 105,
+      "observation_id": "obs-000009",
+      "lane": 5,
+      "delay_ms": 700.0,
+      "local_due_ns": 1993878961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 105,
+      "reason": "late_at_submission",
+      "lateness_ms": 3207.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 106,
+      "observation_id": "obs-000009",
+      "lane": 7,
+      "delay_ms": 620.0,
+      "local_due_ns": 1993798961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 106,
+      "reason": "late_at_submission",
+      "lateness_ms": 3287.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 107,
+      "observation_id": "obs-000009",
+      "lane": 0,
+      "delay_ms": 560.0,
+      "local_due_ns": 1993738961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 107,
+      "reason": "late_at_submission",
+      "lateness_ms": 3347.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 108,
+      "observation_id": "obs-000009",
+      "lane": 7,
+      "delay_ms": 560.0,
+      "local_due_ns": 1993738961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 108,
+      "reason": "late_at_submission",
+      "lateness_ms": 3347.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 109,
+      "observation_id": "obs-000009",
+      "lane": 5,
+      "delay_ms": 500.0,
+      "local_due_ns": 1993678961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 109,
+      "reason": "late_at_submission",
+      "lateness_ms": 3407.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 110,
+      "observation_id": "obs-000009",
+      "lane": 6,
+      "delay_ms": 500.0,
+      "local_due_ns": 1993678961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 110,
+      "reason": "late_at_submission",
+      "lateness_ms": 3407.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 111,
+      "observation_id": "obs-000009",
+      "lane": 4,
+      "delay_ms": 430.0,
+      "local_due_ns": 1993608961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 111,
+      "reason": "late_at_submission",
+      "lateness_ms": 3477.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 112,
+      "observation_id": "obs-000009",
+      "lane": 1,
+      "delay_ms": 370.0,
+      "local_due_ns": 1993548961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 112,
+      "reason": "late_at_submission",
+      "lateness_ms": 3537.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 113,
+      "observation_id": "obs-000009",
+      "lane": 3,
+      "delay_ms": 370.0,
+      "local_due_ns": 1993548961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 113,
+      "reason": "late_at_submission",
+      "lateness_ms": 3537.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 114,
+      "observation_id": "obs-000009",
+      "lane": 5,
+      "delay_ms": 370.0,
+      "local_due_ns": 1993548961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 114,
+      "reason": "late_at_submission",
+      "lateness_ms": 3537.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 115,
+      "observation_id": "obs-000009",
+      "lane": 4,
+      "delay_ms": 260.0,
+      "local_due_ns": 1993438961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 115,
+      "reason": "late_at_submission",
+      "lateness_ms": 3647.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 116,
+      "observation_id": "obs-000009",
+      "lane": 3,
+      "delay_ms": 120.0,
+      "local_due_ns": 1993298961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 116,
+      "reason": "late_at_submission",
+      "lateness_ms": 3787.395414
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 117,
+      "observation_id": "obs-000009",
+      "lane": 6,
+      "delay_ms": 60.0,
+      "local_due_ns": 1993238961878,
+      "local_submit_ns": 1997086357292
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 117,
+      "reason": "late_at_submission",
+      "lateness_ms": 3847.395414
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000010",
+      "local_receipt_ns": 1997079086582,
+      "local_return_ns": 1997088341817
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 118,
+      "observation_id": "obs-000010",
+      "lane": 0,
+      "delay_ms": 1000.0,
+      "local_due_ns": 1998079086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 118,
+      "reason": "late_at_submission",
+      "lateness_ms": 2862.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 119,
+      "observation_id": "obs-000010",
+      "lane": 2,
+      "delay_ms": 970.0,
+      "local_due_ns": 1998049086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 119,
+      "reason": "late_at_submission",
+      "lateness_ms": 2892.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 120,
+      "observation_id": "obs-000010",
+      "lane": 3,
+      "delay_ms": 970.0,
+      "local_due_ns": 1998049086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 120,
+      "reason": "late_at_submission",
+      "lateness_ms": 2892.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 121,
+      "observation_id": "obs-000010",
+      "lane": 5,
+      "delay_ms": 960.0,
+      "local_due_ns": 1998039086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 121,
+      "reason": "late_at_submission",
+      "lateness_ms": 2902.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 122,
+      "observation_id": "obs-000010",
+      "lane": 6,
+      "delay_ms": 830.0,
+      "local_due_ns": 1997909086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 122,
+      "reason": "late_at_submission",
+      "lateness_ms": 3032.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 123,
+      "observation_id": "obs-000010",
+      "lane": 5,
+      "delay_ms": 760.0,
+      "local_due_ns": 1997839086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 123,
+      "reason": "late_at_submission",
+      "lateness_ms": 3102.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 124,
+      "observation_id": "obs-000010",
+      "lane": 0,
+      "delay_ms": 660.0,
+      "local_due_ns": 1997739086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 124,
+      "reason": "late_at_submission",
+      "lateness_ms": 3202.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 125,
+      "observation_id": "obs-000010",
+      "lane": 3,
+      "delay_ms": 620.0,
+      "local_due_ns": 1997699086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 125,
+      "reason": "late_at_submission",
+      "lateness_ms": 3242.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 126,
+      "observation_id": "obs-000010",
+      "lane": 1,
+      "delay_ms": 590.0,
+      "local_due_ns": 1997669086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 126,
+      "reason": "late_at_submission",
+      "lateness_ms": 3272.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 127,
+      "observation_id": "obs-000010",
+      "lane": 3,
+      "delay_ms": 590.0,
+      "local_due_ns": 1997669086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 127,
+      "reason": "late_at_submission",
+      "lateness_ms": 3272.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 128,
+      "observation_id": "obs-000010",
+      "lane": 4,
+      "delay_ms": 550.0,
+      "local_due_ns": 1997629086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 128,
+      "reason": "late_at_submission",
+      "lateness_ms": 3312.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 129,
+      "observation_id": "obs-000010",
+      "lane": 2,
+      "delay_ms": 490.0,
+      "local_due_ns": 1997569086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 129,
+      "reason": "late_at_submission",
+      "lateness_ms": 3372.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 130,
+      "observation_id": "obs-000010",
+      "lane": 3,
+      "delay_ms": 450.0,
+      "local_due_ns": 1997529086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 130,
+      "reason": "late_at_submission",
+      "lateness_ms": 3412.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 131,
+      "observation_id": "obs-000010",
+      "lane": 7,
+      "delay_ms": 440.0,
+      "local_due_ns": 1997519086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 131,
+      "reason": "late_at_submission",
+      "lateness_ms": 3422.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 132,
+      "observation_id": "obs-000010",
+      "lane": 5,
+      "delay_ms": 360.0,
+      "local_due_ns": 1997439086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 132,
+      "reason": "late_at_submission",
+      "lateness_ms": 3502.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 133,
+      "observation_id": "obs-000010",
+      "lane": 3,
+      "delay_ms": 260.0,
+      "local_due_ns": 1997339086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 133,
+      "reason": "late_at_submission",
+      "lateness_ms": 3602.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 134,
+      "observation_id": "obs-000010",
+      "lane": 5,
+      "delay_ms": 270.0,
+      "local_due_ns": 1997349086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 134,
+      "reason": "late_at_submission",
+      "lateness_ms": 3592.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 135,
+      "observation_id": "obs-000010",
+      "lane": 1,
+      "delay_ms": 170.0,
+      "local_due_ns": 1997249086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 135,
+      "reason": "late_at_submission",
+      "lateness_ms": 3692.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 136,
+      "observation_id": "obs-000010",
+      "lane": 3,
+      "delay_ms": 160.0,
+      "local_due_ns": 1997239086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 136,
+      "reason": "late_at_submission",
+      "lateness_ms": 3702.038954
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 137,
+      "observation_id": "obs-000010",
+      "lane": 4,
+      "delay_ms": 170.0,
+      "local_due_ns": 1997249086582,
+      "local_submit_ns": 2000941125536
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 137,
+      "reason": "late_at_submission",
+      "lateness_ms": 3692.038954
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000011",
+      "local_receipt_ns": 2000928999936,
+      "local_return_ns": 2000943259140
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 138,
+      "observation_id": "obs-000011",
+      "lane": 2,
+      "delay_ms": 1000.0,
+      "local_due_ns": 2001928999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 138,
+      "reason": "late_at_submission",
+      "lateness_ms": 2286.121306
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 139,
+      "observation_id": "obs-000011",
+      "lane": 7,
+      "delay_ms": 940.0,
+      "local_due_ns": 2001868999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 139,
+      "reason": "late_at_submission",
+      "lateness_ms": 2346.121306
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 140,
+      "observation_id": "obs-000011",
+      "lane": 0,
+      "delay_ms": 880.0,
+      "local_due_ns": 2001808999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 140,
+      "reason": "late_at_submission",
+      "lateness_ms": 2406.121306
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 141,
+      "observation_id": "obs-000011",
+      "lane": 2,
+      "delay_ms": 790.0,
+      "local_due_ns": 2001718999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 141,
+      "reason": "late_at_submission",
+      "lateness_ms": 2496.121306
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 142,
+      "observation_id": "obs-000011",
+      "lane": 1,
+      "delay_ms": 770.0,
+      "local_due_ns": 2001698999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 142,
+      "reason": "late_at_submission",
+      "lateness_ms": 2516.121306
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 143,
+      "observation_id": "obs-000011",
+      "lane": 0,
+      "delay_ms": 650.0,
+      "local_due_ns": 2001578999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 143,
+      "reason": "late_at_submission",
+      "lateness_ms": 2636.121306
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 144,
+      "observation_id": "obs-000011",
+      "lane": 2,
+      "delay_ms": 680.0,
+      "local_due_ns": 2001608999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 144,
+      "reason": "late_at_submission",
+      "lateness_ms": 2606.121306
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 145,
+      "observation_id": "obs-000011",
+      "lane": 4,
+      "delay_ms": 630.0,
+      "local_due_ns": 2001558999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 145,
+      "reason": "late_at_submission",
+      "lateness_ms": 2656.121306
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 146,
+      "observation_id": "obs-000011",
+      "lane": 1,
+      "delay_ms": 490.0,
+      "local_due_ns": 2001418999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 146,
+      "reason": "late_at_submission",
+      "lateness_ms": 2796.121306
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 147,
+      "observation_id": "obs-000011",
+      "lane": 7,
+      "delay_ms": 450.0,
+      "local_due_ns": 2001378999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 147,
+      "reason": "late_at_submission",
+      "lateness_ms": 2836.121306
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 148,
+      "observation_id": "obs-000011",
+      "lane": 4,
+      "delay_ms": 280.0,
+      "local_due_ns": 2001208999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 148,
+      "reason": "late_at_submission",
+      "lateness_ms": 3006.121306
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 149,
+      "observation_id": "obs-000011",
+      "lane": 5,
+      "delay_ms": 250.0,
+      "local_due_ns": 2001178999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 149,
+      "reason": "late_at_submission",
+      "lateness_ms": 3036.121306
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 150,
+      "observation_id": "obs-000011",
+      "lane": 1,
+      "delay_ms": 220.0,
+      "local_due_ns": 2001148999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 150,
+      "reason": "late_at_submission",
+      "lateness_ms": 3066.121306
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 151,
+      "observation_id": "obs-000011",
+      "lane": 7,
+      "delay_ms": 260.0,
+      "local_due_ns": 2001188999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 151,
+      "reason": "late_at_submission",
+      "lateness_ms": 3026.121306
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 152,
+      "observation_id": "obs-000011",
+      "lane": 4,
+      "delay_ms": 0.0,
+      "local_due_ns": 2000928999936,
+      "local_submit_ns": 2004215121242
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 152,
+      "reason": "late_at_submission",
+      "lateness_ms": 3286.121306
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000012",
+      "local_receipt_ns": 2004204088171,
+      "local_return_ns": 2004217137438
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 153,
+      "observation_id": "obs-000012",
+      "lane": 1,
+      "delay_ms": 1000.0,
+      "local_due_ns": 2005204088171,
+      "local_submit_ns": 2007011102197
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 153,
+      "reason": "late_at_submission",
+      "lateness_ms": 1807.014026
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 154,
+      "observation_id": "obs-000012",
+      "lane": 1,
+      "delay_ms": 900.0,
+      "local_due_ns": 2005104088171,
+      "local_submit_ns": 2007011102197
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 154,
+      "reason": "late_at_submission",
+      "lateness_ms": 1907.014026
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 155,
+      "observation_id": "obs-000012",
+      "lane": 0,
+      "delay_ms": 780.0,
+      "local_due_ns": 2004984088171,
+      "local_submit_ns": 2007011102197
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 155,
+      "reason": "late_at_submission",
+      "lateness_ms": 2027.014026
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 156,
+      "observation_id": "obs-000012",
+      "lane": 5,
+      "delay_ms": 780.0,
+      "local_due_ns": 2004984088171,
+      "local_submit_ns": 2007011102197
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 156,
+      "reason": "late_at_submission",
+      "lateness_ms": 2027.014026
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 157,
+      "observation_id": "obs-000012",
+      "lane": 6,
+      "delay_ms": 760.0,
+      "local_due_ns": 2004964088171,
+      "local_submit_ns": 2007011102197
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 157,
+      "reason": "late_at_submission",
+      "lateness_ms": 2047.014026
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 158,
+      "observation_id": "obs-000012",
+      "lane": 5,
+      "delay_ms": 650.0,
+      "local_due_ns": 2004854088171,
+      "local_submit_ns": 2007011102197
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 158,
+      "reason": "late_at_submission",
+      "lateness_ms": 2157.014026
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 159,
+      "observation_id": "obs-000012",
+      "lane": 0,
+      "delay_ms": 360.0,
+      "local_due_ns": 2004564088171,
+      "local_submit_ns": 2007011102197
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 159,
+      "reason": "late_at_submission",
+      "lateness_ms": 2447.014026
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 160,
+      "observation_id": "obs-000012",
+      "lane": 1,
+      "delay_ms": 400.0,
+      "local_due_ns": 2004604088171,
+      "local_submit_ns": 2007011102197
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 160,
+      "reason": "late_at_submission",
+      "lateness_ms": 2407.014026
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 161,
+      "observation_id": "obs-000012",
+      "lane": 6,
+      "delay_ms": 180.0,
+      "local_due_ns": 2004384088171,
+      "local_submit_ns": 2007011102197
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 161,
+      "reason": "late_at_submission",
+      "lateness_ms": 2627.014026
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 162,
+      "observation_id": "obs-000012",
+      "lane": 4,
+      "delay_ms": 140.0,
+      "local_due_ns": 2004344088171,
+      "local_submit_ns": 2007011102197
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 162,
+      "reason": "late_at_submission",
+      "lateness_ms": 2667.014026
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 163,
+      "observation_id": "obs-000012",
+      "lane": 5,
+      "delay_ms": 40.0,
+      "local_due_ns": 2004244088171,
+      "local_submit_ns": 2007011102197
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 163,
+      "reason": "late_at_submission",
+      "lateness_ms": 2767.014026
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000013",
+      "local_receipt_ns": 2007004027088,
+      "local_return_ns": 2007013247394
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 164,
+      "observation_id": "obs-000013",
+      "lane": 4,
+      "delay_ms": 1000.0,
+      "local_due_ns": 2008004027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 164,
+      "reason": "late_at_submission",
+      "lateness_ms": 2747.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 165,
+      "observation_id": "obs-000013",
+      "lane": 0,
+      "delay_ms": 930.0,
+      "local_due_ns": 2007934027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 165,
+      "reason": "late_at_submission",
+      "lateness_ms": 2817.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 166,
+      "observation_id": "obs-000013",
+      "lane": 3,
+      "delay_ms": 950.0,
+      "local_due_ns": 2007954027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 166,
+      "reason": "late_at_submission",
+      "lateness_ms": 2797.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 167,
+      "observation_id": "obs-000013",
+      "lane": 1,
+      "delay_ms": 910.0,
+      "local_due_ns": 2007914027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 167,
+      "reason": "late_at_submission",
+      "lateness_ms": 2837.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 168,
+      "observation_id": "obs-000013",
+      "lane": 5,
+      "delay_ms": 920.0,
+      "local_due_ns": 2007924027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 168,
+      "reason": "late_at_submission",
+      "lateness_ms": 2827.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 169,
+      "observation_id": "obs-000013",
+      "lane": 4,
+      "delay_ms": 880.0,
+      "local_due_ns": 2007884027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 169,
+      "reason": "late_at_submission",
+      "lateness_ms": 2867.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 170,
+      "observation_id": "obs-000013",
+      "lane": 1,
+      "delay_ms": 780.0,
+      "local_due_ns": 2007784027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 170,
+      "reason": "late_at_submission",
+      "lateness_ms": 2967.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 171,
+      "observation_id": "obs-000013",
+      "lane": 6,
+      "delay_ms": 780.0,
+      "local_due_ns": 2007784027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 171,
+      "reason": "late_at_submission",
+      "lateness_ms": 2967.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 172,
+      "observation_id": "obs-000013",
+      "lane": 7,
+      "delay_ms": 720.0,
+      "local_due_ns": 2007724027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 172,
+      "reason": "late_at_submission",
+      "lateness_ms": 3027.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 173,
+      "observation_id": "obs-000013",
+      "lane": 0,
+      "delay_ms": 690.0,
+      "local_due_ns": 2007694027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 173,
+      "reason": "late_at_submission",
+      "lateness_ms": 3057.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 174,
+      "observation_id": "obs-000013",
+      "lane": 3,
+      "delay_ms": 620.0,
+      "local_due_ns": 2007624027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 174,
+      "reason": "late_at_submission",
+      "lateness_ms": 3127.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 175,
+      "observation_id": "obs-000013",
+      "lane": 4,
+      "delay_ms": 600.0,
+      "local_due_ns": 2007604027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 175,
+      "reason": "late_at_submission",
+      "lateness_ms": 3147.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 176,
+      "observation_id": "obs-000013",
+      "lane": 5,
+      "delay_ms": 630.0,
+      "local_due_ns": 2007634027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 176,
+      "reason": "late_at_submission",
+      "lateness_ms": 3117.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 177,
+      "observation_id": "obs-000013",
+      "lane": 5,
+      "delay_ms": 430.0,
+      "local_due_ns": 2007434027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 177,
+      "reason": "late_at_submission",
+      "lateness_ms": 3317.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 178,
+      "observation_id": "obs-000013",
+      "lane": 7,
+      "delay_ms": 210.0,
+      "local_due_ns": 2007214027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 178,
+      "reason": "late_at_submission",
+      "lateness_ms": 3537.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 179,
+      "observation_id": "obs-000013",
+      "lane": 3,
+      "delay_ms": 140.0,
+      "local_due_ns": 2007144027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 179,
+      "reason": "late_at_submission",
+      "lateness_ms": 3607.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 180,
+      "observation_id": "obs-000013",
+      "lane": 1,
+      "delay_ms": 20.0,
+      "local_due_ns": 2007024027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 180,
+      "reason": "late_at_submission",
+      "lateness_ms": 3727.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 181,
+      "observation_id": "obs-000013",
+      "lane": 6,
+      "delay_ms": 0.0,
+      "local_due_ns": 2007004027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 181,
+      "reason": "late_at_submission",
+      "lateness_ms": 3747.21311
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 182,
+      "observation_id": "obs-000013",
+      "lane": 7,
+      "delay_ms": 20.0,
+      "local_due_ns": 2007024027088,
+      "local_submit_ns": 2010751240198
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 182,
+      "reason": "late_at_submission",
+      "lateness_ms": 3727.21311
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000014",
+      "local_receipt_ns": 2010741463870,
+      "local_return_ns": 2010753292489
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 183,
+      "observation_id": "obs-000014",
+      "lane": 0,
+      "delay_ms": 950.0,
+      "local_due_ns": 2011691463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 183,
+      "reason": "late_at_submission",
+      "lateness_ms": 2577.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 184,
+      "observation_id": "obs-000014",
+      "lane": 7,
+      "delay_ms": 900.0,
+      "local_due_ns": 2011641463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 184,
+      "reason": "late_at_submission",
+      "lateness_ms": 2627.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 185,
+      "observation_id": "obs-000014",
+      "lane": 4,
+      "delay_ms": 870.0,
+      "local_due_ns": 2011611463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 185,
+      "reason": "late_at_submission",
+      "lateness_ms": 2657.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 186,
+      "observation_id": "obs-000014",
+      "lane": 5,
+      "delay_ms": 840.0,
+      "local_due_ns": 2011581463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 186,
+      "reason": "late_at_submission",
+      "lateness_ms": 2687.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 187,
+      "observation_id": "obs-000014",
+      "lane": 7,
+      "delay_ms": 800.0,
+      "local_due_ns": 2011541463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 187,
+      "reason": "late_at_submission",
+      "lateness_ms": 2727.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 188,
+      "observation_id": "obs-000014",
+      "lane": 7,
+      "delay_ms": 670.0,
+      "local_due_ns": 2011411463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 188,
+      "reason": "late_at_submission",
+      "lateness_ms": 2857.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 189,
+      "observation_id": "obs-000014",
+      "lane": 0,
+      "delay_ms": 580.0,
+      "local_due_ns": 2011321463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 189,
+      "reason": "late_at_submission",
+      "lateness_ms": 2947.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 190,
+      "observation_id": "obs-000014",
+      "lane": 3,
+      "delay_ms": 580.0,
+      "local_due_ns": 2011321463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 190,
+      "reason": "late_at_submission",
+      "lateness_ms": 2947.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 191,
+      "observation_id": "obs-000014",
+      "lane": 5,
+      "delay_ms": 540.0,
+      "local_due_ns": 2011281463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 191,
+      "reason": "late_at_submission",
+      "lateness_ms": 2987.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 192,
+      "observation_id": "obs-000014",
+      "lane": 4,
+      "delay_ms": 480.0,
+      "local_due_ns": 2011221463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 192,
+      "reason": "late_at_submission",
+      "lateness_ms": 3047.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 193,
+      "observation_id": "obs-000014",
+      "lane": 5,
+      "delay_ms": 450.0,
+      "local_due_ns": 2011191463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 193,
+      "reason": "late_at_submission",
+      "lateness_ms": 3077.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 194,
+      "observation_id": "obs-000014",
+      "lane": 7,
+      "delay_ms": 430.0,
+      "local_due_ns": 2011171463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 194,
+      "reason": "late_at_submission",
+      "lateness_ms": 3097.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 195,
+      "observation_id": "obs-000014",
+      "lane": 1,
+      "delay_ms": 380.0,
+      "local_due_ns": 2011121463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 195,
+      "reason": "late_at_submission",
+      "lateness_ms": 3147.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 196,
+      "observation_id": "obs-000014",
+      "lane": 4,
+      "delay_ms": 300.0,
+      "local_due_ns": 2011041463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 196,
+      "reason": "late_at_submission",
+      "lateness_ms": 3227.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 197,
+      "observation_id": "obs-000014",
+      "lane": 0,
+      "delay_ms": 240.0,
+      "local_due_ns": 2010981463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 197,
+      "reason": "late_at_submission",
+      "lateness_ms": 3287.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 198,
+      "observation_id": "obs-000014",
+      "lane": 6,
+      "delay_ms": 230.0,
+      "local_due_ns": 2010971463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 198,
+      "reason": "late_at_submission",
+      "lateness_ms": 3297.965875
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 199,
+      "observation_id": "obs-000014",
+      "lane": 4,
+      "delay_ms": 30.0,
+      "local_due_ns": 2010771463870,
+      "local_submit_ns": 2014269429745
+    },
+    {
+      "type": "action_dropped",
+      "action_id": 199,
+      "reason": "late_at_submission",
+      "lateness_ms": 3497.965875
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000015",
+      "local_receipt_ns": 2014266459079,
+      "local_return_ns": 2014271475016
+    },
+    {
+      "type": "error",
+      "local_ns": 2017090683291,
+      "message": "disconnected"
+    }
+  ]
+}

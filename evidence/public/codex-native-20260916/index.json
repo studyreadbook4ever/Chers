@@ -1,0 +1,70 @@
+[
+  {
+    "model": "gpt-6-astra",
+    "effort": "low",
+    "repeat": 1,
+    "directory": "gpt-6-astra-low-1",
+    "status": "failed",
+    "verification_passed": true
+  },
+  {
+    "model": "gpt-6-astra",
+    "effort": "ultra",
+    "repeat": 1,
+    "directory": "gpt-6-astra-ultra-1",
+    "status": "completed",
+    "verification_passed": true
+  },
+  {
+    "model": "gpt-5.6-sol",
+    "effort": "low",
+    "repeat": 1,
+    "directory": "gpt-5.6-sol-low-1",
+    "status": "completed",
+    "verification_passed": true
+  },
+  {
+    "model": "gpt-5.6-sol",
+    "effort": "ultra",
+    "repeat": 1,
+    "directory": "gpt-5.6-sol-ultra-1",
+    "status": "completed",
+    "verification_passed": true
+  },
+  {
+    "model": "gpt-5.6-terra",
+    "effort": "low",
+    "repeat": 1,
+    "directory": "gpt-5.6-terra-low-1",
+    "status": "completed",
+    "verification_passed": true
+  },
+  {
+    "model": "gpt-5.6-terra",
+    "effort": "ultra",
+    "repeat": 1,
+    "directory": "gpt-5.6-terra-ultra-1",
+    "status": "completed",
+    "verification_passed": true
+  },
+  {
+    "model": "gpt-5.6-luna",
+    "status": "image_preflight_failed"
+  },
+  {
+    "model": "gpt-5.5",
+    "effort": "low",
+    "repeat": 1,
+    "directory": "gpt-5.5-low-1",
+    "status": "completed",
+    "verification_passed": true
+  },
+  {
+    "model": "gpt-5.5",
+    "effort": "xhigh",
+    "repeat": 1,
+    "directory": "gpt-5.5-xhigh-1",
+    "status": "completed",
+    "verification_passed": true
+  }
+]

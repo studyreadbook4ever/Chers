@@ -1,0 +1,5 @@
+CHERS: 2 lanes, 4 attempts/s; CPU RDSEED hardware entropy (no PRNG expansion)
+ENDPOINT /tmp/chers-kbd-preflight-14236-2.sock
+READY: Space/Enter or client START
+RESULT /tmp/chers-native-keyboard-preflight/2lane-4/benchmark/20260916-080600-14244
+Score: 0%  delaySum: 0 ms  P/G/E/M: 0/0/0/192  frame p99/max: 12.5974/12.6272 ms

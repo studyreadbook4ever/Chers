@@ -1,0 +1,295 @@
+{
+  "requested_model": "gpt-5.6-terra",
+  "effort": "ultra",
+  "lanes": 8,
+  "density": 20,
+  "evaluation_type": "native-full-frame-vision-with-XTest-keyboard",
+  "status": "completed",
+  "started_utc": "2026-09-15T23:19:06Z",
+  "prompt_sha256": "9b8de11f5b4da0ef69274da242f146e9666eb6d961b15d54f26b710fdb5fa23d",
+  "model_decisions": [
+    {
+      "received_local_ns": 1876555606870,
+      "arguments": {
+        "actions": []
+      },
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000001"
+    },
+    {
+      "received_local_ns": 1879297864675,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000001",
+      "observation_to_tool_ms": 2727.599412,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000002"
+    },
+    {
+      "received_local_ns": 1882954227373,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000002",
+      "observation_to_tool_ms": 3658.979201,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000003"
+    },
+    {
+      "received_local_ns": 1887329514027,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000003",
+      "observation_to_tool_ms": 4384.223397,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000004"
+    },
+    {
+      "received_local_ns": 1920467203631,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "A",
+            "delay_ms": 391
+          },
+          {
+            "lane": "F",
+            "delay_ms": 416
+          },
+          {
+            "lane": "B",
+            "delay_ms": 428
+          },
+          {
+            "lane": "G",
+            "delay_ms": 428
+          },
+          {
+            "lane": "A",
+            "delay_ms": 463
+          },
+          {
+            "lane": "D",
+            "delay_ms": 475
+          },
+          {
+            "lane": "A",
+            "delay_ms": 559
+          },
+          {
+            "lane": "G",
+            "delay_ms": 566
+          },
+          {
+            "lane": "F",
+            "delay_ms": 591
+          },
+          {
+            "lane": "H",
+            "delay_ms": 731
+          },
+          {
+            "lane": "B",
+            "delay_ms": 856
+          },
+          {
+            "lane": "H",
+            "delay_ms": 859
+          },
+          {
+            "lane": "G",
+            "delay_ms": 872
+          },
+          {
+            "lane": "F",
+            "delay_ms": 884
+          },
+          {
+            "lane": "D",
+            "delay_ms": 897
+          },
+          {
+            "lane": "B",
+            "delay_ms": 931
+          },
+          {
+            "lane": "D",
+            "delay_ms": 991
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000004",
+      "observation_to_tool_ms": 33146.823947,
+      "outcome": {
+        "accepted": 17,
+        "scheduled": 0,
+        "dropped_late": 17
+      },
+      "returned_observation_id": "obs-000005"
+    }
+  ],
+  "model_errors": [],
+  "turns": [
+    {
+      "id": "01a0a75d-f30f-73c0-b9d5-1f1cfb00bdea",
+      "started_local_ns": 1873647795049
+    }
+  ],
+  "continuation_prompts": 0,
+  "thread_settings": {
+    "model": "gpt-5.6-terra",
+    "modelProvider": "openai",
+    "serviceTier": "priority",
+    "cwd": "/tmp/chers-model-empty-5sp5y4av",
+    "runtimeWorkspaceRoots": [],
+    "instructionSources": [],
+    "approvalPolicy": "never",
+    "approvalsReviewer": "user",
+    "sandbox": {
+      "type": "readOnly",
+      "networkAccess": false
+    },
+    "activePermissionProfile": null,
+    "reasoningEffort": "ultra",
+    "multiAgentMode": "explicitRequestOnly"
+  },
+  "start_key_return_local_ns": 1876555925859,
+  "token_usage": {
+    "total": {
+      "totalTokens": 65376,
+      "inputTokens": 61991,
+      "cachedInputTokens": 41984,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3385,
+      "reasoningOutputTokens": 2931
+    },
+    "last": {
+      "totalTokens": 20504,
+      "inputTokens": 17835,
+      "cachedInputTokens": 17152,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 2669,
+      "reasoningOutputTokens": 2446
+    },
+    "modelContextWindow": 258400
+  },
+  "game_exit": 0,
+  "ended_utc": "2026-09-15T23:20:11Z",
+  "final_observation_unanswered_age_ms": 17714.946177,
+  "observation_to_tool_ms": {
+    "count": 4,
+    "mean": 10979.40648925,
+    "median": 4021.601299,
+    "max": 33146.823947
+  },
+  "verification_passed": true,
+  "benchmark_result": "benchmark/20260916-082011-23347/result.json",
+  "benchmark": {
+    "benchmark": "CHERS",
+    "version": "0.2.0",
+    "completed": true,
+    "valid": true,
+    "invalid_reason": "",
+    "lanes": 8,
+    "density_attempts_per_second": 20,
+    "entropy_source": "CPU RDSEED hardware entropy (no PRNG expansion)",
+    "trial": {
+      "notes": 958,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 958,
+      "raw_score": 0,
+      "score": 0,
+      "delaySum_ms": 0,
+      "hit_delay_sum_ms": 0
+    },
+    "calibration": {
+      "notes": 92,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 92,
+      "raw_score": 0,
+      "score": 0,
+      "delaySum_ms": 0,
+      "hit_delay_sum_ms": 0
+    },
+    "generation": {
+      "attempts": 958,
+      "emitted": 958,
+      "dropped": 0,
+      "actual_notes_per_second": 19.16
+    },
+    "observation": {
+      "width": 640,
+      "height": 360,
+      "format": "RGBA8",
+      "target_fps": 80,
+      "target_max_gap_ms": 16,
+      "timing_compliant": true,
+      "publication_gaps": {
+        "count": 4884,
+        "mean_ms": 12.4999876022,
+        "p50_ms": 12.499681,
+        "p99_ms": 12.649239,
+        "max_ms": 13.213391,
+        "over_16ms": 0,
+        "over_2ms": 4884
+      },
+      "render_and_publish": {
+        "count": 4884,
+        "mean_ms": 0.165821209869,
+        "p50_ms": 0.147577,
+        "p99_ms": 0.248257,
+        "max_ms": 0.445755,
+        "over_16ms": 0,
+        "over_2ms": 0
+      }
+    },
+    "input_poll_gaps": {
+      "count": 61024,
+      "mean_ms": 1.00026263911,
+      "p50_ms": 0.99992,
+      "p99_ms": 1.038606,
+      "max_ms": 3.668328,
+      "over_16ms": 0,
+      "over_2ms": 17
+    },
+    "system": {
+      "kernel": "7.1.5-arch1-2",
+      "input_cpu": 15,
+      "model_cpu": 14,
+      "human_gui": true,
+      "compiler": "16.1.1 20260728",
+      "build_type": "Release",
+      "sanitizers": false
+    },
+    "timeline_ns": {
+      "calibration_start": 1000000000,
+      "calibration_end": 6000000000,
+      "scored_start": 11020000000,
+      "scored_end": 61020000000,
+      "finish": 61040000000
+    }
+  },
+  "publishable": true
+}

@@ -1,0 +1,38 @@
+{
+  "requested_model": "gpt-5.6-sol",
+  "effort": "low",
+  "expected": "82510",
+  "png_sha256": "8ca7f6deb14ab2736be21b29a7ec8e2895f28a2d56ff12d0f3e8b3e5c67dc621",
+  "passed": true,
+  "thread_settings": {
+    "model": "gpt-5.6-sol",
+    "modelProvider": "openai",
+    "serviceTier": "priority",
+    "cwd": "/tmp/chers-model-empty-5sp5y4av",
+    "runtimeWorkspaceRoots": [],
+    "instructionSources": [],
+    "approvalPolicy": "never",
+    "approvalsReviewer": "user",
+    "sandbox": {
+      "type": "readOnly",
+      "networkAccess": false
+    },
+    "activePermissionProfile": null,
+    "reasoningEffort": "low",
+    "multiAgentMode": "explicitRequestOnly"
+  },
+  "image_route": "dynamic tool response contentItems.inputImage (same as gameplay)",
+  "tool_calls": [
+    {
+      "tool": "vision_probe",
+      "arguments": {}
+    },
+    {
+      "tool": "vision_probe",
+      "arguments": {}
+    }
+  ],
+  "turn_status": "completed",
+  "response": "82510",
+  "duration_ms": 9311.561040000015
+}

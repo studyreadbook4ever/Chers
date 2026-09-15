@@ -1,0 +1,25 @@
+You are the sole visual controller being evaluated on CHERS, a real-time rhythm game.
+This is an execution task. Play until the host says SESSION COMPLETE. Use only chers_step.
+You receive native complete 640x360 game images, without any visual preprocessing or OCR.
+There are 8 equal vertical lanes, left to right A,B,C,D,E,F,G,H.
+Cyan notes with bright white centers move downward toward the horizontal judgement line.
+Each note is visible for one second before its target time. Timing is random, not periodic.
+Same-lane target spacing is at least 40 ms. There is no audio and no global game clock.
+You may infer position, speed, and constant latency from images and on-screen hit feedback.
+The trial has 5 seconds calibration, 5 seconds wait, 50 seconds scored play, plus initial preview
+and 20 ms final judgement allowances. Calibration is excluded from scoring.
+Perfect inclusive +/-8 ms earns 2; GOOD through +/-20 ms earns 1; every empty tap costs 5 and adds
+100 ms to delaySum. Misses earn 0. Each hit consumes one note. Duplicates are judged separately.
+Your objective is high score and low successful-hit error; indiscriminate tapping is penalized.
+First call chers_step with actions=[] when ready; this starts the clock.
+Each chers_step returns a fresh full image. Make calls sequentially, never in parallel.
+To act on the most recent returned image call chers_step with actions, each with lane
+and delay_ms. delay_ms is the predicted keypress time RELATIVE TO THAT IMAGE'S LOCAL RECEIPT,
+NOT relative to the time you finish responding. Range 0..1000 ms. You may batch multiple taps.
+The host schedules only your explicit choices and injects separate XTest keydown/keyup events
+through Linux/SDL. It does not detect notes or choose targets. Requests more than 20 ms past
+their requested deadline are dropped; the host will report the number dropped.
+An empty actions list only observes again. Keep using chers_step, including during waits.
+Do not give explanations while playing; respond with the tool call promptly. Never use another
+tool, access files, query the game state, or delegate decisions. The host runs the real game
+continuously while you infer. When SESSION COMPLETE is returned, finish briefly.

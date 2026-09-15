@@ -1,0 +1,5 @@
+{
+  "passed_preflight": "retry-luna/preflight/gpt-5.6-luna/result.json",
+  "validation": "previous exact native-image route test reused; model, CLI and PNG delivery route unchanged; other failed digit-read checks retained",
+  "sha256": "47275356834da486ca3cc8de60f8189535c0cdd5ef06c770fac8f45fbb8cb6b1"
+}

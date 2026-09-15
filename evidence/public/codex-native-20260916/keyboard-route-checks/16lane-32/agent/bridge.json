@@ -1,0 +1,104 @@
+{
+  "adapter": "native-full-frame-vision-explicit-keyboard-v1",
+  "input_mode": "keyboard",
+  "window_id": 83886134,
+  "lanes": 16,
+  "frame_shape": [
+    640,
+    360,
+    4
+  ],
+  "preprocessing": "lossless PNG encoding only; no image feature extraction",
+  "scheduler": {
+    "reference": "local observation receipt",
+    "max_delay_ms": 1000,
+    "drop_when_late_over_ms": 20,
+    "duplicates": "each dispatched separately"
+  },
+  "frames_received": 178,
+  "receipt_gap_scope": "entire connected capture session; not scored-window compliance",
+  "receipt_gap_count": 177,
+  "receipt_gap_mean_ms": 12.455680468926554,
+  "receipt_gap_max_ms": 13.12072,
+  "receipt_gaps_over_16ms": 0,
+  "observations_returned": 2,
+  "pending_actions": 0,
+  "started": true,
+  "closed": true,
+  "error": null,
+  "counts": {
+    "observation": 2,
+    "start": 1,
+    "action_proposed": 3,
+    "action_sent": 3
+  },
+  "events": [
+    {
+      "type": "observation",
+      "observation_id": "obs-000001",
+      "local_receipt_ns": 1087101551383,
+      "local_return_ns": 1087104929840
+    },
+    {
+      "type": "start",
+      "local_ns": 1087105286160
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000002",
+      "local_receipt_ns": 1088593678479,
+      "local_return_ns": 1088607434863
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 1,
+      "observation_id": "obs-000002",
+      "lane": 0,
+      "delay_ms": 100.0,
+      "local_due_ns": 1088693678479,
+      "local_submit_ns": 1088607478818
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 2,
+      "observation_id": "obs-000002",
+      "lane": 0,
+      "delay_ms": 100.0,
+      "local_due_ns": 1088693678479,
+      "local_submit_ns": 1088607478818
+    },
+    {
+      "type": "action_proposed",
+      "action_id": 3,
+      "observation_id": "obs-000002",
+      "lane": 15,
+      "delay_ms": 100.0,
+      "local_due_ns": 1088693678479,
+      "local_submit_ns": 1088607478818
+    },
+    {
+      "type": "action_sent",
+      "action_id": 1,
+      "lane": 0,
+      "local_send_ns": 1088693818289,
+      "local_return_ns": 1088693964678,
+      "lateness_ms": 0.13981
+    },
+    {
+      "type": "action_sent",
+      "action_id": 2,
+      "lane": 0,
+      "local_send_ns": 1088693968992,
+      "local_return_ns": 1088694074046,
+      "lateness_ms": 0.290513
+    },
+    {
+      "type": "action_sent",
+      "action_id": 3,
+      "lane": 15,
+      "local_send_ns": 1088694077687,
+      "local_return_ns": 1088694133562,
+      "lateness_ms": 0.399208
+    }
+  ]
+}

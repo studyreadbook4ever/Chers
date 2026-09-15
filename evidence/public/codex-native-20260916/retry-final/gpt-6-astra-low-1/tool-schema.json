@@ -1,0 +1,48 @@
+[
+  {
+    "type": "function",
+    "name": "chers_step",
+    "description": "Schedule your explicit lane taps against the most recent returned image's local receipt, then observe a fresh full game image. First empty call starts the game. Call sequentially.",
+    "inputSchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "actions": {
+          "type": "array",
+          "maxItems": 128,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "lane": {
+                "type": "string",
+                "enum": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E",
+                  "F",
+                  "G",
+                  "H"
+                ]
+              },
+              "delay_ms": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1000
+              }
+            },
+            "required": [
+              "lane",
+              "delay_ms"
+            ]
+          }
+        }
+      },
+      "required": [
+        "actions"
+      ]
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "lanes": 2,
+  "density": 4,
+  "window_id": 83886134,
+  "game_pid": 14244,
+  "observed_input_lanes": [
+    0,
+    0,
+    1
+  ],
+  "duplicate_lane0_count": 2,
+  "keyboard_events_sent": 3,
+  "submission": {
+    "accepted": 3,
+    "scheduled": 3,
+    "dropped_late": 0
+  },
+  "exit_code": 2,
+  "result_file": "/tmp/chers-native-keyboard-preflight/2lane-4/benchmark/20260916-080600-14244/result.json",
+  "bridge_file": "/tmp/chers-native-keyboard-preflight/2lane-4/agent/bridge.json",
+  "source_field_available": false,
+  "source_evidence": "XTest keyboard sink used; transport tap method never called",
+  "aborted_by_design": true,
+  "model_score": false,
+  "purpose": "Owned X11 GUI keyboard route preflight with fresh hardware entropy"
+}

@@ -1,0 +1,81 @@
+{
+  "adapter": "native-full-frame-vision-explicit-keyboard-v1",
+  "input_mode": "keyboard",
+  "window_id": 83886134,
+  "lanes": 8,
+  "frame_shape": [
+    640,
+    360,
+    4
+  ],
+  "preprocessing": "lossless PNG encoding only; no image feature extraction",
+  "scheduler": {
+    "reference": "local observation receipt",
+    "max_delay_ms": 1000,
+    "drop_when_late_over_ms": 20,
+    "duplicates": "each dispatched separately"
+  },
+  "frames_received": 5191,
+  "receipt_gap_scope": "entire connected capture session; not scored-window compliance",
+  "receipt_gap_count": 5190,
+  "receipt_gap_mean_ms": 12.498671519845859,
+  "receipt_gap_max_ms": 15.060443,
+  "receipt_gaps_over_16ms": 0,
+  "observations_returned": 6,
+  "pending_actions": 0,
+  "started": true,
+  "closed": true,
+  "error": "disconnected",
+  "counts": {
+    "start": 1,
+    "observation": 6,
+    "error": 1
+  },
+  "events": [
+    {
+      "type": "start",
+      "local_ns": 2156505728847
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000001",
+      "local_receipt_ns": 2156518401297,
+      "local_return_ns": 2156533179372
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000002",
+      "local_receipt_ns": 2159005916313,
+      "local_return_ns": 2159009056053
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000003",
+      "local_receipt_ns": 2163755935743,
+      "local_return_ns": 2163760982324
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000004",
+      "local_receipt_ns": 2169380947762,
+      "local_return_ns": 2169393892015
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000005",
+      "local_receipt_ns": 2195143384157,
+      "local_return_ns": 2195157802297
+    },
+    {
+      "type": "observation",
+      "observation_id": "obs-000006",
+      "local_receipt_ns": 2217343461807,
+      "local_return_ns": 2217346855933
+    },
+    {
+      "type": "error",
+      "local_ns": 2218066846269,
+      "message": "disconnected"
+    }
+  ]
+}

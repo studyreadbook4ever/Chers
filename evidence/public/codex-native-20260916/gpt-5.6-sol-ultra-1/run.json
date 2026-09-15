@@ -1,0 +1,321 @@
+{
+  "requested_model": "gpt-5.6-sol",
+  "effort": "ultra",
+  "lanes": 8,
+  "density": 20,
+  "evaluation_type": "native-full-frame-vision-with-XTest-keyboard",
+  "status": "completed",
+  "started_utc": "2026-09-15T23:16:47Z",
+  "prompt_sha256": "9b8de11f5b4da0ef69274da242f146e9666eb6d961b15d54f26b710fdb5fa23d",
+  "model_decisions": [
+    {
+      "received_local_ns": 1738308552298,
+      "arguments": {
+        "actions": []
+      },
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000001"
+    },
+    {
+      "received_local_ns": 1744217608861,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000001",
+      "observation_to_tool_ms": 5890.567374,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000002"
+    },
+    {
+      "received_local_ns": 1757003019937,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000002",
+      "observation_to_tool_ms": 12788.468282,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000003"
+    },
+    {
+      "received_local_ns": 1762094257176,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000003",
+      "observation_to_tool_ms": 5092.277896,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000004"
+    },
+    {
+      "received_local_ns": 1781334182328,
+      "arguments": {
+        "actions": []
+      },
+      "reference_observation_id": "obs-000004",
+      "observation_to_tool_ms": 19244.743353,
+      "outcome": {
+        "accepted": 0,
+        "scheduled": 0,
+        "dropped_late": 0
+      },
+      "returned_observation_id": "obs-000005"
+    },
+    {
+      "received_local_ns": 1798705724946,
+      "arguments": {
+        "actions": [
+          {
+            "lane": "A",
+            "delay_ms": 30
+          },
+          {
+            "lane": "B",
+            "delay_ms": 12
+          },
+          {
+            "lane": "B",
+            "delay_ms": 45
+          },
+          {
+            "lane": "E",
+            "delay_ms": 97
+          },
+          {
+            "lane": "F",
+            "delay_ms": 320
+          },
+          {
+            "lane": "B",
+            "delay_ms": 382
+          },
+          {
+            "lane": "E",
+            "delay_ms": 443
+          },
+          {
+            "lane": "C",
+            "delay_ms": 487
+          },
+          {
+            "lane": "F",
+            "delay_ms": 493
+          },
+          {
+            "lane": "E",
+            "delay_ms": 557
+          },
+          {
+            "lane": "B",
+            "delay_ms": 637
+          },
+          {
+            "lane": "F",
+            "delay_ms": 667
+          },
+          {
+            "lane": "E",
+            "delay_ms": 707
+          },
+          {
+            "lane": "C",
+            "delay_ms": 720
+          },
+          {
+            "lane": "G",
+            "delay_ms": 737
+          },
+          {
+            "lane": "B",
+            "delay_ms": 760
+          },
+          {
+            "lane": "F",
+            "delay_ms": 780
+          },
+          {
+            "lane": "D",
+            "delay_ms": 813
+          },
+          {
+            "lane": "E",
+            "delay_ms": 887
+          },
+          {
+            "lane": "C",
+            "delay_ms": 940
+          }
+        ]
+      },
+      "reference_observation_id": "obs-000005",
+      "observation_to_tool_ms": 17378.671318,
+      "outcome": {
+        "accepted": 20,
+        "scheduled": 0,
+        "dropped_late": 20
+      },
+      "returned_observation_id": "obs-000006"
+    }
+  ],
+  "model_errors": [],
+  "turns": [
+    {
+      "id": "01a0a75b-d3fd-7923-9d66-17934dfb8433",
+      "started_local_ns": 1734621279884
+    }
+  ],
+  "continuation_prompts": 0,
+  "thread_settings": {
+    "model": "gpt-5.6-sol",
+    "modelProvider": "openai",
+    "serviceTier": "priority",
+    "cwd": "/tmp/chers-model-empty-5sp5y4av",
+    "runtimeWorkspaceRoots": [],
+    "instructionSources": [],
+    "approvalPolicy": "never",
+    "approvalsReviewer": "user",
+    "sandbox": {
+      "type": "readOnly",
+      "networkAccess": false
+    },
+    "activePermissionProfile": null,
+    "reasoningEffort": "ultra",
+    "multiAgentMode": "explicitRequestOnly"
+  },
+  "start_key_return_local_ns": 1738308772300,
+  "token_usage": {
+    "total": {
+      "totalTokens": 80160,
+      "inputTokens": 76508,
+      "cachedInputTokens": 57600,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 3652,
+      "reasoningOutputTokens": 2810
+    },
+    "last": {
+      "totalTokens": 19199,
+      "inputTokens": 18104,
+      "cachedInputTokens": 16640,
+      "cacheWriteInputTokens": 0,
+      "outputTokens": 1095,
+      "reasoningOutputTokens": 805
+    },
+    "modelContextWindow": 258400
+  },
+  "game_exit": 0,
+  "ended_utc": "2026-09-15T23:17:53Z",
+  "final_observation_unanswered_age_ms": 1249.433149,
+  "observation_to_tool_ms": {
+    "count": 5,
+    "mean": 12078.9456446,
+    "median": 12788.468282,
+    "max": 19244.743353
+  },
+  "verification_passed": true,
+  "benchmark_result": "benchmark/20260916-081752-21916/result.json",
+  "benchmark": {
+    "benchmark": "CHERS",
+    "version": "0.2.0",
+    "completed": true,
+    "valid": true,
+    "invalid_reason": "",
+    "lanes": 8,
+    "density_attempts_per_second": 20,
+    "entropy_source": "CPU RDSEED hardware entropy (no PRNG expansion)",
+    "trial": {
+      "notes": 1034,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 1034,
+      "raw_score": 0,
+      "score": 0,
+      "delaySum_ms": 0,
+      "hit_delay_sum_ms": 0
+    },
+    "calibration": {
+      "notes": 92,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 92,
+      "raw_score": 0,
+      "score": 0,
+      "delaySum_ms": 0,
+      "hit_delay_sum_ms": 0
+    },
+    "generation": {
+      "attempts": 1034,
+      "emitted": 1034,
+      "dropped": 0,
+      "actual_notes_per_second": 20.68
+    },
+    "observation": {
+      "width": 640,
+      "height": 360,
+      "format": "RGBA8",
+      "target_fps": 80,
+      "target_max_gap_ms": 16,
+      "timing_compliant": true,
+      "publication_gaps": {
+        "count": 4883,
+        "mean_ms": 12.4999934286,
+        "p50_ms": 12.499693,
+        "p99_ms": 12.660956,
+        "max_ms": 14.005516,
+        "over_16ms": 0,
+        "over_2ms": 4883
+      },
+      "render_and_publish": {
+        "count": 4883,
+        "mean_ms": 0.16497802908,
+        "p50_ms": 0.15173,
+        "p99_ms": 0.268371,
+        "max_ms": 0.638151,
+        "over_16ms": 0,
+        "over_2ms": 0
+      }
+    },
+    "input_poll_gaps": {
+      "count": 61027,
+      "mean_ms": 1.00021406232,
+      "p50_ms": 0.999868,
+      "p99_ms": 1.044326,
+      "max_ms": 3.743601,
+      "over_16ms": 0,
+      "over_2ms": 14
+    },
+    "system": {
+      "kernel": "7.1.5-arch1-2",
+      "input_cpu": 15,
+      "model_cpu": 14,
+      "human_gui": true,
+      "compiler": "16.1.1 20260728",
+      "build_type": "Release",
+      "sanitizers": false
+    },
+    "timeline_ns": {
+      "calibration_start": 1000000000,
+      "calibration_end": 6000000000,
+      "scored_start": 11020000000,
+      "scored_end": 61020000000,
+      "finish": 61040000000
+    }
+  },
+  "publishable": true
+}

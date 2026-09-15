@@ -1,0 +1,75 @@
+{
+  "directory": "/tmp/chers-readme-20260916/evidence/public/codex-native-20260916/gpt-5.6-terra-low-1/benchmark/20260916-081905-22588",
+  "passed": true,
+  "artifacts_consistent": true,
+  "completed": true,
+  "run_valid": true,
+  "timing_compliant": true,
+  "require_timing": false,
+  "errors": [],
+  "limits": [
+    "Timing summaries are recomputed from recorded duration samples; these are producer measurements, not an independent wall-clock attestation.",
+    "Discarded attempts and hardware entropy provenance are declared evidence; the emitted chart cannot independently prove them.",
+    "Replay detects inconsistent records, not coordinated replacement of all artifacts; it is not a cryptographic attestation."
+  ],
+  "invalid_reason": "",
+  "recomputed": {
+    "trial": {
+      "notes": 958,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 958,
+      "raw_score": 0,
+      "delay_sum_ns": 0,
+      "hit_delay_sum_ns": 0,
+      "score": 0.0,
+      "delaySum_ms": 0.0,
+      "hit_delay_sum_ms": 0.0
+    },
+    "calibration": {
+      "notes": 92,
+      "perfect": 0,
+      "good": 0,
+      "empty": 0,
+      "missed": 92,
+      "raw_score": 0,
+      "delay_sum_ns": 0,
+      "hit_delay_sum_ns": 0,
+      "score": 0.0,
+      "delaySum_ms": 0.0,
+      "hit_delay_sum_ms": 0.0
+    }
+  },
+  "replayed_notes": 1050,
+  "replayed_inputs": 0,
+  "recomputed_timing": {
+    "frame_gap": {
+      "count": 4883,
+      "mean_ms": 12.499977439893508,
+      "p50_ms": 12.499709,
+      "p99_ms": 12.691972,
+      "max_ms": 15.199396,
+      "over_16ms": 0,
+      "over_2ms": 4883
+    },
+    "render": {
+      "count": 4883,
+      "mean_ms": 0.16505016526725372,
+      "p50_ms": 0.15026,
+      "p99_ms": 0.2868,
+      "max_ms": 0.590774,
+      "over_16ms": 0,
+      "over_2ms": 0
+    },
+    "poll": {
+      "count": 61016,
+      "mean_ms": 1.0003933896682837,
+      "p50_ms": 0.999929,
+      "p99_ms": 1.103087,
+      "max_ms": 3.58753,
+      "over_16ms": 0,
+      "over_2ms": 32
+    }
+  }
+}

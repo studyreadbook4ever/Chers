@@ -1,0 +1,5 @@
+CHERS: 8 lanes, 20 attempts/s; CPU RDSEED hardware entropy (no PRNG expansion)
+ENDPOINT /run/user/1000/chers-codex-19439.sock
+READY: Space/Enter or client START
+RESULT /tmp/chers-readme-20260916/evidence/public/codex-native-20260916/gpt-6-astra-ultra-1/benchmark/20260916-081531-20412
+Score: 0%  delaySum: 0 ms  P/G/E/M: 0/0/0/936  frame p99/max: 12.6657/14.0462 ms

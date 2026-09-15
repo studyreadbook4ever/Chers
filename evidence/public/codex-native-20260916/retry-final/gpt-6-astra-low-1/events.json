@@ -1,0 +1,1524 @@
+[
+  {
+    "received_local_ns": 2360432573301,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "userMessage",
+        "id": "01a0a765-6091-79f1-9672-1127e604cfa3",
+        "clientId": null,
+        "content": [
+          {
+            "type": "text",
+            "text": "The game is ready. Call chers_step with empty actions to START, then play continuously using the full images.",
+            "text_elements": []
+          }
+        ]
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514834065
+    },
+    "emittedAtMs": 1789514834065
+  },
+  {
+    "received_local_ns": 2362490514783,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-d09a94ac-be01-4f3c-89c1-3646579a98a0",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": []
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000001\", \"previous_actions\": {\"accepted\": 0, \"scheduled\": 0, \"dropped_late\": 0}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "24e949afd31b532b41721b4b7843f6100484c498d11d98521a5d719528fdc08e"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 28
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514836123
+    },
+    "emittedAtMs": 1789514836123
+  },
+  {
+    "received_local_ns": 2362491628382,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 5463,
+          "inputTokens": 5437,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 26,
+          "reasoningOutputTokens": 0
+        },
+        "last": {
+          "totalTokens": 5463,
+          "inputTokens": 5437,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 26,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514836124
+  },
+  {
+    "received_local_ns": 2364318584477,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-ec6435e2-25bc-46ee-93e6-d3368a8ada65",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": []
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000002\", \"previous_actions\": {\"accepted\": 0, \"scheduled\": 0, \"dropped_late\": 0}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "952e481ef3cde83c756167f9c59a2454d19ac447e665337b9569e04f8934291a"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 2
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514837951
+    },
+    "emittedAtMs": 1789514837951
+  },
+  {
+    "received_local_ns": 2364348571976,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 11001,
+          "inputTokens": 10949,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 52,
+          "reasoningOutputTokens": 0
+        },
+        "last": {
+          "totalTokens": 5538,
+          "inputTokens": 5512,
+          "cachedInputTokens": 5248,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 26,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514837981
+  },
+  {
+    "received_local_ns": 2367999292469,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-de3d0e75-d182-4fe7-881d-1b39ee6aec51",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": []
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000003\", \"previous_actions\": {\"accepted\": 0, \"scheduled\": 0, \"dropped_late\": 0}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "9d400d1d857cf62908f082bf1616d53cda66fde520a93cca4546f12cafcfa687"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 3
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514841631
+    },
+    "emittedAtMs": 1789514841632
+  },
+  {
+    "received_local_ns": 2368060395716,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 28545,
+          "inputTokens": 28454,
+          "cachedInputTokens": 10624,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 91,
+          "reasoningOutputTokens": 0
+        },
+        "last": {
+          "totalTokens": 17544,
+          "inputTokens": 17505,
+          "cachedInputTokens": 5376,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 39,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514841693
+  },
+  {
+    "received_local_ns": 2370414732838,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-9493efb1-d1b8-47ea-99ab-147f859cc966",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": [
+            {
+              "lane": "A",
+              "delay_ms": 463
+            },
+            {
+              "lane": "F",
+              "delay_ms": 297
+            }
+          ]
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000004\", \"previous_actions\": {\"accepted\": 2, \"scheduled\": 0, \"dropped_late\": 2}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "0d782b8d29a5d84ab1805363b1811ca43a21f4a90a8e36bcc1118aa6bd925d8c"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 3
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514844047
+    },
+    "emittedAtMs": 1789514844047
+  },
+  {
+    "received_local_ns": 2370434532514,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 46458,
+          "inputTokens": 46310,
+          "cachedInputTokens": 27904,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 148,
+          "reasoningOutputTokens": 0
+        },
+        "last": {
+          "totalTokens": 17913,
+          "inputTokens": 17856,
+          "cachedInputTokens": 17280,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 57,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514844067
+  },
+  {
+    "received_local_ns": 2372739160777,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-07b9eea3-b22f-4b80-990e-929bea3e02e2",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": []
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000005\", \"previous_actions\": {\"accepted\": 0, \"scheduled\": 0, \"dropped_late\": 0}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "a837083445559472e9d5af1eb081d94f332631deac1a4433233f7885645b3720"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 2
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514846371
+    },
+    "emittedAtMs": 1789514846371
+  },
+  {
+    "received_local_ns": 2372764080273,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 64485,
+          "inputTokens": 64298,
+          "cachedInputTokens": 45568,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 187,
+          "reasoningOutputTokens": 0
+        },
+        "last": {
+          "totalTokens": 18027,
+          "inputTokens": 17988,
+          "cachedInputTokens": 17664,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 39,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514846396
+  },
+  {
+    "received_local_ns": 2375904904300,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-20739d57-c63d-4190-8e76-9a51aae63d2f",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": [
+            {
+              "lane": "C",
+              "delay_ms": 853
+            },
+            {
+              "lane": "E",
+              "delay_ms": 853
+            },
+            {
+              "lane": "H",
+              "delay_ms": 847
+            }
+          ]
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000006\", \"previous_actions\": {\"accepted\": 3, \"scheduled\": 0, \"dropped_late\": 3}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "d33b0bb248a15f5fb027df27f2106c07838c0983650c32a7351a356f938c0dd6"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 3
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514849537
+    },
+    "emittedAtMs": 1789514849537
+  },
+  {
+    "received_local_ns": 2375938558785,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 82663,
+          "inputTokens": 82410,
+          "cachedInputTokens": 63488,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 253,
+          "reasoningOutputTokens": 0
+        },
+        "last": {
+          "totalTokens": 18178,
+          "inputTokens": 18112,
+          "cachedInputTokens": 17920,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 66,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514849571
+  },
+  {
+    "received_local_ns": 2380301842566,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-209bd5f9-1e61-4b6f-80a7-889410e55f8a",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": [
+            {
+              "lane": "B",
+              "delay_ms": 375
+            },
+            {
+              "lane": "B",
+              "delay_ms": 441
+            },
+            {
+              "lane": "F",
+              "delay_ms": 516
+            },
+            {
+              "lane": "A",
+              "delay_ms": 684
+            },
+            {
+              "lane": "B",
+              "delay_ms": 719
+            },
+            {
+              "lane": "C",
+              "delay_ms": 763
+            },
+            {
+              "lane": "A",
+              "delay_ms": 831
+            },
+            {
+              "lane": "B",
+              "delay_ms": 831
+            },
+            {
+              "lane": "G",
+              "delay_ms": 841
+            },
+            {
+              "lane": "G",
+              "delay_ms": 925
+            },
+            {
+              "lane": "C",
+              "delay_ms": 1000
+            }
+          ]
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000007\", \"previous_actions\": {\"accepted\": 11, \"scheduled\": 0, \"dropped_late\": 11}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "28ef595509d7fc1c545485fc38ca31e406e050eda90b02e597006b446b106a1f"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 2
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514853934
+    },
+    "emittedAtMs": 1789514853934
+  },
+  {
+    "received_local_ns": 2380332774492,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 101329,
+          "inputTokens": 100900,
+          "cachedInputTokens": 81536,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 429,
+          "reasoningOutputTokens": 35
+        },
+        "last": {
+          "totalTokens": 18666,
+          "inputTokens": 18490,
+          "cachedInputTokens": 18048,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 176,
+          "reasoningOutputTokens": 35
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514853965
+  },
+  {
+    "received_local_ns": 2384893155255,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-57047dd9-fa5d-4ac6-a65a-6ae079f96d8c",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": [
+            {
+              "lane": "C",
+              "delay_ms": 344
+            },
+            {
+              "lane": "C",
+              "delay_ms": 441
+            },
+            {
+              "lane": "D",
+              "delay_ms": 444
+            },
+            {
+              "lane": "B",
+              "delay_ms": 588
+            },
+            {
+              "lane": "H",
+              "delay_ms": 606
+            },
+            {
+              "lane": "C",
+              "delay_ms": 616
+            },
+            {
+              "lane": "A",
+              "delay_ms": 625
+            },
+            {
+              "lane": "B",
+              "delay_ms": 669
+            },
+            {
+              "lane": "C",
+              "delay_ms": 669
+            },
+            {
+              "lane": "G",
+              "delay_ms": 697
+            },
+            {
+              "lane": "D",
+              "delay_ms": 709
+            },
+            {
+              "lane": "E",
+              "delay_ms": 866
+            },
+            {
+              "lane": "F",
+              "delay_ms": 881
+            },
+            {
+              "lane": "C",
+              "delay_ms": 934
+            },
+            {
+              "lane": "B",
+              "delay_ms": 944
+            }
+          ]
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000008\", \"previous_actions\": {\"accepted\": 15, \"scheduled\": 0, \"dropped_late\": 15}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "e2c27cd148a0dc8d27251341a7fccc029ff89efb2f3f130f1fa2630b9e064257"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 3
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514858525
+    },
+    "emittedAtMs": 1789514858525
+  },
+  {
+    "received_local_ns": 2384913178018,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 120332,
+          "inputTokens": 119729,
+          "cachedInputTokens": 99840,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 603,
+          "reasoningOutputTokens": 35
+        },
+        "last": {
+          "totalTokens": 19003,
+          "inputTokens": 18829,
+          "cachedInputTokens": 18304,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 174,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514858545
+  },
+  {
+    "received_local_ns": 2389925764862,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-6b1791d5-615e-4520-9996-e034e0d02bef",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": [
+            {
+              "lane": "A",
+              "delay_ms": 175
+            },
+            {
+              "lane": "E",
+              "delay_ms": 147
+            },
+            {
+              "lane": "C",
+              "delay_ms": 231
+            },
+            {
+              "lane": "F",
+              "delay_ms": 231
+            },
+            {
+              "lane": "G",
+              "delay_ms": 250
+            },
+            {
+              "lane": "A",
+              "delay_ms": 272
+            },
+            {
+              "lane": "B",
+              "delay_ms": 284
+            },
+            {
+              "lane": "C",
+              "delay_ms": 372
+            },
+            {
+              "lane": "D",
+              "delay_ms": 403
+            },
+            {
+              "lane": "H",
+              "delay_ms": 431
+            },
+            {
+              "lane": "B",
+              "delay_ms": 441
+            },
+            {
+              "lane": "G",
+              "delay_ms": 450
+            },
+            {
+              "lane": "B",
+              "delay_ms": 488
+            },
+            {
+              "lane": "F",
+              "delay_ms": 600
+            },
+            {
+              "lane": "D",
+              "delay_ms": 616
+            },
+            {
+              "lane": "C",
+              "delay_ms": 778
+            },
+            {
+              "lane": "E",
+              "delay_ms": 778
+            },
+            {
+              "lane": "F",
+              "delay_ms": 853
+            },
+            {
+              "lane": "F",
+              "delay_ms": 900
+            },
+            {
+              "lane": "E",
+              "delay_ms": 944
+            }
+          ]
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000009\", \"previous_actions\": {\"accepted\": 20, \"scheduled\": 0, \"dropped_late\": 20}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "9fad49153e7ebc6d571d4537666117cf979daa0c873052e78e00999dce11f495"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 3
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514863558
+    },
+    "emittedAtMs": 1789514863558
+  },
+  {
+    "received_local_ns": 2389927473942,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 139735,
+          "inputTokens": 138913,
+          "cachedInputTokens": 118528,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 822,
+          "reasoningOutputTokens": 35
+        },
+        "last": {
+          "totalTokens": 19403,
+          "inputTokens": 19184,
+          "cachedInputTokens": 18688,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 219,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514863560
+  },
+  {
+    "received_local_ns": 2394283944226,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-df46feb9-e0f7-4cf4-903c-e7c8773fe627",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": [
+            {
+              "lane": "G",
+              "delay_ms": 266
+            },
+            {
+              "lane": "C",
+              "delay_ms": 281
+            },
+            {
+              "lane": "A",
+              "delay_ms": 319
+            },
+            {
+              "lane": "F",
+              "delay_ms": 391
+            },
+            {
+              "lane": "G",
+              "delay_ms": 431
+            },
+            {
+              "lane": "F",
+              "delay_ms": 497
+            },
+            {
+              "lane": "G",
+              "delay_ms": 509
+            },
+            {
+              "lane": "B",
+              "delay_ms": 519
+            },
+            {
+              "lane": "E",
+              "delay_ms": 528
+            },
+            {
+              "lane": "F",
+              "delay_ms": 697
+            },
+            {
+              "lane": "H",
+              "delay_ms": 913
+            },
+            {
+              "lane": "E",
+              "delay_ms": 956
+            }
+          ]
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000010\", \"previous_actions\": {\"accepted\": 12, \"scheduled\": 0, \"dropped_late\": 12}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "e59fc9127190ef266e0e82659aff3a849102b489bff7ee4b2e4a0e6700bd0c51"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 3
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514867916
+    },
+    "emittedAtMs": 1789514867916
+  },
+  {
+    "received_local_ns": 2394326673957,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 159597,
+          "inputTokens": 158628,
+          "cachedInputTokens": 137472,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 969,
+          "reasoningOutputTokens": 35
+        },
+        "last": {
+          "totalTokens": 19862,
+          "inputTokens": 19715,
+          "cachedInputTokens": 18944,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 147,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514867959
+  },
+  {
+    "received_local_ns": 2402527751634,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-3432d74f-d852-4166-8fc9-6acf000900c9",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": [
+            {
+              "lane": "C",
+              "delay_ms": 163
+            },
+            {
+              "lane": "A",
+              "delay_ms": 184
+            },
+            {
+              "lane": "C",
+              "delay_ms": 213
+            },
+            {
+              "lane": "E",
+              "delay_ms": 234
+            },
+            {
+              "lane": "C",
+              "delay_ms": 259
+            },
+            {
+              "lane": "E",
+              "delay_ms": 369
+            },
+            {
+              "lane": "B",
+              "delay_ms": 434
+            },
+            {
+              "lane": "D",
+              "delay_ms": 500
+            },
+            {
+              "lane": "F",
+              "delay_ms": 497
+            },
+            {
+              "lane": "H",
+              "delay_ms": 550
+            },
+            {
+              "lane": "F",
+              "delay_ms": 553
+            },
+            {
+              "lane": "D",
+              "delay_ms": 563
+            },
+            {
+              "lane": "B",
+              "delay_ms": 656
+            },
+            {
+              "lane": "A",
+              "delay_ms": 672
+            },
+            {
+              "lane": "G",
+              "delay_ms": 731
+            },
+            {
+              "lane": "H",
+              "delay_ms": 753
+            },
+            {
+              "lane": "G",
+              "delay_ms": 781
+            },
+            {
+              "lane": "B",
+              "delay_ms": 863
+            },
+            {
+              "lane": "C",
+              "delay_ms": 981
+            }
+          ]
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000011\", \"previous_actions\": {\"accepted\": 19, \"scheduled\": 0, \"dropped_late\": 19}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "9659941ea06e37a4c4d38866f4abfea9ba875d08d816689e7abdbe094ac6b63c"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 3
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514876160
+    },
+    "emittedAtMs": 1789514876160
+  },
+  {
+    "received_local_ns": 2402547167469,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 179813,
+          "inputTokens": 178634,
+          "cachedInputTokens": 157056,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 1179,
+          "reasoningOutputTokens": 35
+        },
+        "last": {
+          "totalTokens": 20216,
+          "inputTokens": 20006,
+          "cachedInputTokens": 19584,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 210,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514876179
+  },
+  {
+    "received_local_ns": 2407717744816,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-465cd629-65a6-4584-8ac1-4561e1996dcf",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": [
+            {
+              "lane": "H",
+              "delay_ms": 244
+            },
+            {
+              "lane": "E",
+              "delay_ms": 269
+            },
+            {
+              "lane": "G",
+              "delay_ms": 394
+            },
+            {
+              "lane": "D",
+              "delay_ms": 459
+            },
+            {
+              "lane": "B",
+              "delay_ms": 519
+            },
+            {
+              "lane": "G",
+              "delay_ms": 525
+            },
+            {
+              "lane": "E",
+              "delay_ms": 544
+            },
+            {
+              "lane": "F",
+              "delay_ms": 550
+            },
+            {
+              "lane": "A",
+              "delay_ms": 553
+            },
+            {
+              "lane": "G",
+              "delay_ms": 613
+            },
+            {
+              "lane": "G",
+              "delay_ms": 722
+            },
+            {
+              "lane": "F",
+              "delay_ms": 769
+            },
+            {
+              "lane": "G",
+              "delay_ms": 913
+            },
+            {
+              "lane": "C",
+              "delay_ms": 919
+            },
+            {
+              "lane": "G",
+              "delay_ms": 975
+            }
+          ]
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000012\", \"previous_actions\": {\"accepted\": 15, \"scheduled\": 0, \"dropped_late\": 15}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "3b2be8c957367283c0298a7b5e4f9a6a598e6352bd8010d7de36b37d3d4f5362"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 4
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514881350
+    },
+    "emittedAtMs": 1789514881350
+  },
+  {
+    "received_local_ns": 2407757520572,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 200357,
+          "inputTokens": 199004,
+          "cachedInputTokens": 176896,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 1353,
+          "reasoningOutputTokens": 35
+        },
+        "last": {
+          "totalTokens": 20544,
+          "inputTokens": 20370,
+          "cachedInputTokens": 19840,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 174,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514881390
+  },
+  {
+    "received_local_ns": 2413458500288,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-f09300ba-3da6-4369-8186-003f8d35b15f",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": [
+            {
+              "lane": "D",
+              "delay_ms": 203
+            },
+            {
+              "lane": "E",
+              "delay_ms": 222
+            },
+            {
+              "lane": "H",
+              "delay_ms": 247
+            },
+            {
+              "lane": "D",
+              "delay_ms": 266
+            },
+            {
+              "lane": "G",
+              "delay_ms": 306
+            },
+            {
+              "lane": "E",
+              "delay_ms": 356
+            },
+            {
+              "lane": "A",
+              "delay_ms": 431
+            },
+            {
+              "lane": "H",
+              "delay_ms": 434
+            },
+            {
+              "lane": "B",
+              "delay_ms": 450
+            },
+            {
+              "lane": "E",
+              "delay_ms": 481
+            },
+            {
+              "lane": "H",
+              "delay_ms": 613
+            },
+            {
+              "lane": "B",
+              "delay_ms": 684
+            },
+            {
+              "lane": "E",
+              "delay_ms": 925
+            }
+          ]
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000013\", \"previous_actions\": {\"accepted\": 13, \"scheduled\": 0, \"dropped_late\": 13}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "7e3dcf0af788e4edf9a215c82c1068eb6b9d37a6e63cf47c68dfcdc5562dbf3b"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 3
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514887090
+    },
+    "emittedAtMs": 1789514887091
+  },
+  {
+    "received_local_ns": 2413475366990,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 221369,
+          "inputTokens": 219860,
+          "cachedInputTokens": 197120,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 1509,
+          "reasoningOutputTokens": 35
+        },
+        "last": {
+          "totalTokens": 21012,
+          "inputTokens": 20856,
+          "cachedInputTokens": 20224,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 156,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514887108
+  },
+  {
+    "received_local_ns": 2418656560419,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-f0b5ae4d-e807-4b6f-b958-933908cae28e",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": [
+            {
+              "lane": "A",
+              "delay_ms": 403
+            },
+            {
+              "lane": "H",
+              "delay_ms": 475
+            },
+            {
+              "lane": "A",
+              "delay_ms": 553
+            },
+            {
+              "lane": "D",
+              "delay_ms": 559
+            },
+            {
+              "lane": "A",
+              "delay_ms": 606
+            },
+            {
+              "lane": "C",
+              "delay_ms": 609
+            },
+            {
+              "lane": "G",
+              "delay_ms": 650
+            },
+            {
+              "lane": "E",
+              "delay_ms": 663
+            },
+            {
+              "lane": "F",
+              "delay_ms": 716
+            },
+            {
+              "lane": "H",
+              "delay_ms": 738
+            },
+            {
+              "lane": "B",
+              "delay_ms": 744
+            },
+            {
+              "lane": "F",
+              "delay_ms": 769
+            },
+            {
+              "lane": "G",
+              "delay_ms": 809
+            },
+            {
+              "lane": "B",
+              "delay_ms": 884
+            },
+            {
+              "lane": "F",
+              "delay_ms": 922
+            },
+            {
+              "lane": "G",
+              "delay_ms": 963
+            },
+            {
+              "lane": "E",
+              "delay_ms": 1000
+            }
+          ]
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000014\", \"previous_actions\": {\"accepted\": 17, \"scheduled\": 0, \"dropped_late\": 17}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "28c408ff3be7ca4d8720f0530a510433d4acb86d3a20bc2031504434363f84b8"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 3
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514892289
+    },
+    "emittedAtMs": 1789514892289
+  },
+  {
+    "received_local_ns": 2418680853338,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 242725,
+          "inputTokens": 241023,
+          "cachedInputTokens": 217728,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 1702,
+          "reasoningOutputTokens": 35
+        },
+        "last": {
+          "totalTokens": 21356,
+          "inputTokens": 21163,
+          "cachedInputTokens": 20608,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 193,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514892313
+  },
+  {
+    "received_local_ns": 2422177927308,
+    "method": "item/completed",
+    "params": {
+      "item": {
+        "type": "dynamicToolCall",
+        "id": "exec-1d02ab3d-0a73-4763-8247-699cfce27cdd",
+        "namespace": null,
+        "tool": "chers_step",
+        "arguments": {
+          "actions": [
+            {
+              "lane": "D",
+              "delay_ms": 325
+            },
+            {
+              "lane": "E",
+              "delay_ms": 325
+            },
+            {
+              "lane": "H",
+              "delay_ms": 353
+            },
+            {
+              "lane": "F",
+              "delay_ms": 363
+            },
+            {
+              "lane": "G",
+              "delay_ms": 378
+            },
+            {
+              "lane": "E",
+              "delay_ms": 466
+            },
+            {
+              "lane": "F",
+              "delay_ms": 497
+            },
+            {
+              "lane": "B",
+              "delay_ms": 791
+            },
+            {
+              "lane": "E",
+              "delay_ms": 819
+            }
+          ]
+        },
+        "status": "completed",
+        "contentItems": [
+          {
+            "type": "inputText",
+            "text": "{\"observation_id\": \"obs-000015\", \"previous_actions\": {\"accepted\": 9, \"scheduled\": 0, \"dropped_late\": 9}}"
+          },
+          {
+            "type": "inputImage",
+            "imageUrl": {
+              "image_data_omitted": true,
+              "data_url_sha256": "90d127bfe9d876bd47506074f408e7e03dfd57e3eecc9149134e6ae20906b9c7"
+            }
+          }
+        ],
+        "success": true,
+        "durationMs": 3
+      },
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "completedAtMs": 1789514895810
+    },
+    "emittedAtMs": 1789514895810
+  },
+  {
+    "received_local_ns": 2422203302324,
+    "method": "thread/tokenUsage/updated",
+    "params": {
+      "threadId": "01a0a765-5b4e-7d30-b598-fec323f7c69a",
+      "turnId": "01a0a765-5c3f-75f3-ad40-78d2a0c7dd08",
+      "tokenUsage": {
+        "total": {
+          "totalTokens": 264352,
+          "inputTokens": 262530,
+          "cachedInputTokens": 238720,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 1822,
+          "reasoningOutputTokens": 35
+        },
+        "last": {
+          "totalTokens": 21627,
+          "inputTokens": 21507,
+          "cachedInputTokens": 20992,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 120,
+          "reasoningOutputTokens": 0
+        },
+        "modelContextWindow": 258400
+      }
+    },
+    "emittedAtMs": 1789514895836
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "model": "gpt-6-astra",
+    "effort": "low",
+    "repeat": 1,
+    "directory": "gpt-6-astra-low-1",
+    "status": "completed",
+    "verification_passed": true
+  },
+  {
+    "model": "gpt-5.6-luna",
+    "status": "image_preflight_failed"
+  }
+]
