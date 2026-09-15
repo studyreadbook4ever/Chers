@@ -1,5 +1,19 @@
 # CHERS
 
+> **실행 환경에 따라 결과가 크게 달라질 수 있습니다.**
+> CHERS는 실시간 벤치마크로, 측정값은 모델과 실행 환경을 합친 전체 시스템의
+> 성능을 반영합니다. 같은 모델도 하드웨어, OS 스케줄링, 화면 전달 방식,
+> 네트워크·모델 서비스 지연, 추론 설정, 입력 경로에 따라 결과가 달라집니다.
+> 결과를 공유하거나 비교할 때는 이러한 조건을 함께 명시해야 하며,
+> 점수를 모델 자체의 고정된 능력이나 환경을 초월한 순위로 해석해서는 안 됩니다.
+
+**Results depend on the execution environment.** CHERS measures the complete
+model-and-runtime system. The same model can produce substantially different
+results with different hardware, OS scheduling, observation delivery, network
+and model-service latency, inference settings, or input paths. Report these
+conditions alongside results; scores are not an environment-independent model
+ranking.
+
 **화면만 보고 타이밍에 맞게 버튼을 치는 Linux 리듬 벤치마크.** 음악 없이 2–16개의
 레인과 불규칙한 하드웨어 난수 채보로 시각 인식·예측·입력 타이밍을 측정합니다.
 벤치와 외부 에이전트는 별도 프로세스이며, 연결 라이브러리는 화면 픽셀과
