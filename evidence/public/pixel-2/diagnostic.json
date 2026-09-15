@@ -1,0 +1,18 @@
+{
+  "agent": "deterministic pixel-only diagnostic",
+  "mode": "pixel",
+  "observation": "only full RGBA pixels from public C ABI",
+  "timing_method": "note position plus local receipt time; repeated trajectories; visual calibration",
+  "phase_method": "visible labels; scored inferred from observed WAIT then intact unlabeled playfield; completion from FINISHED",
+  "completed_visually": true,
+  "transport_error": false,
+  "lanes": 2,
+  "frames": 4884,
+  "phase_ocr_failures": 0,
+  "visual_tracks": 413,
+  "tap_commands": 413,
+  "calibration_samples": 42,
+  "calibration_correction_ms": -0.9,
+  "receipt_gap_max_ms": 15.1593,
+  "receipt_gaps_over16ms": 0
+}

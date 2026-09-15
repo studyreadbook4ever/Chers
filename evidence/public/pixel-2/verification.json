@@ -1,0 +1,75 @@
+{
+  "directory": "evidence/public/pixel-2",
+  "passed": true,
+  "artifacts_consistent": true,
+  "completed": true,
+  "run_valid": true,
+  "timing_compliant": true,
+  "require_timing": true,
+  "errors": [],
+  "limits": [
+    "Timing summaries are recomputed from recorded duration samples; these are producer measurements, not an independent wall-clock attestation.",
+    "Discarded attempts and hardware entropy provenance are declared evidence; the emitted chart cannot independently prove them.",
+    "Replay detects inconsistent records, not coordinated replacement of all artifacts; it is not a cryptographic attestation."
+  ],
+  "invalid_reason": "",
+  "recomputed": {
+    "trial": {
+      "notes": 366,
+      "perfect": 366,
+      "good": 0,
+      "empty": 0,
+      "missed": 0,
+      "raw_score": 732,
+      "delay_sum_ns": 103932988,
+      "hit_delay_sum_ns": 103932988,
+      "score": 1.0,
+      "delaySum_ms": 103.932988,
+      "hit_delay_sum_ms": 103.932988
+    },
+    "calibration": {
+      "notes": 47,
+      "perfect": 47,
+      "good": 0,
+      "empty": 0,
+      "missed": 0,
+      "raw_score": 94,
+      "delay_sum_ns": 39148895,
+      "hit_delay_sum_ns": 39148895,
+      "score": 1.0,
+      "delaySum_ms": 39.148895,
+      "hit_delay_sum_ms": 39.148895
+    }
+  },
+  "replayed_notes": 413,
+  "replayed_inputs": 413,
+  "recomputed_timing": {
+    "frame_gap": {
+      "count": 4883,
+      "mean_ms": 12.49998787323367,
+      "p50_ms": 12.499521,
+      "p99_ms": 12.706029,
+      "max_ms": 15.083197,
+      "over_16ms": 0,
+      "over_2ms": 4883
+    },
+    "render": {
+      "count": 4883,
+      "mean_ms": 0.1676364622158509,
+      "p50_ms": 0.153596,
+      "p99_ms": 0.309753,
+      "max_ms": 0.61156,
+      "over_16ms": 0,
+      "over_2ms": 0
+    },
+    "poll": {
+      "count": 61031,
+      "mean_ms": 1.000155882666186,
+      "p50_ms": 0.999991,
+      "p99_ms": 1.038261,
+      "max_ms": 3.803723,
+      "over_16ms": 0,
+      "over_2ms": 12
+    }
+  }
+}

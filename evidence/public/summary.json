@@ -1,0 +1,60 @@
+{
+  "verified_date": "2026-09-15",
+  "client": "Separate deterministic pixel-only diagnostic; no hidden game time or chart input.",
+  "sessions": [
+    {
+      "profile": "pixel-2",
+      "lanes": 2,
+      "density": 8,
+      "notes": 366,
+      "perfect": 366,
+      "good": 0,
+      "empty": 0,
+      "missed": 0,
+      "score": 1.0,
+      "delaySum_ms": 103.932988,
+      "average_ms": 0.283969912568306,
+      "producer_max_gap_ms": 15.083197,
+      "client_max_gap_ms": 15.1593,
+      "producer_timing_compliant": true,
+      "client_over_16ms": 0,
+      "notes_sha256": "7797125d7f8968de58bbb74c99bd69e4fbf37c9990526bbc4af98217d009ba6f"
+    },
+    {
+      "profile": "pixel-16",
+      "lanes": 16,
+      "density": 384,
+      "notes": 16251,
+      "perfect": 16251,
+      "good": 0,
+      "empty": 0,
+      "missed": 0,
+      "score": 1.0,
+      "delaySum_ms": 4250.860698,
+      "average_ms": 0.2615753306258077,
+      "producer_max_gap_ms": 14.609557,
+      "client_max_gap_ms": 14.6102,
+      "producer_timing_compliant": true,
+      "client_over_16ms": 0,
+      "notes_sha256": "8495fc1f43fa75ce533135cd2535719369c7d4c449be8761b4c3807cc0069613"
+    },
+    {
+      "profile": "pixel-8",
+      "lanes": 8,
+      "density": 20,
+      "notes": 1002,
+      "perfect": 1002,
+      "good": 0,
+      "empty": 0,
+      "missed": 0,
+      "score": 1.0,
+      "delaySum_ms": 270.630988,
+      "average_ms": 0.27009080638722555,
+      "producer_max_gap_ms": 15.339113,
+      "client_max_gap_ms": 15.3688,
+      "producer_timing_compliant": true,
+      "client_over_16ms": 0,
+      "notes_sha256": "d4ec1c503ef8a2f2aa7c985b99717c4e83b8e994dacfde4fe1142c14d831d63e"
+    }
+  ]
+}

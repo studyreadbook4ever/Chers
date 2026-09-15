@@ -1,0 +1,15 @@
+/build*/
+/runs/
+/media/
+/captures/
+/recordings/
+/evidence/*
+!/evidence/public/
+__pycache__/
+*.pyc
+*.ppm
+*.sock
+*.mp4
+*.mkv
+*.webm
+.DS_Store

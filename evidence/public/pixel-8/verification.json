@@ -1,0 +1,75 @@
+{
+  "directory": "evidence/public/pixel-8",
+  "passed": true,
+  "artifacts_consistent": true,
+  "completed": true,
+  "run_valid": true,
+  "timing_compliant": true,
+  "require_timing": true,
+  "errors": [],
+  "limits": [
+    "Timing summaries are recomputed from recorded duration samples; these are producer measurements, not an independent wall-clock attestation.",
+    "Discarded attempts and hardware entropy provenance are declared evidence; the emitted chart cannot independently prove them.",
+    "Replay detects inconsistent records, not coordinated replacement of all artifacts; it is not a cryptographic attestation."
+  ],
+  "invalid_reason": "",
+  "recomputed": {
+    "trial": {
+      "notes": 1002,
+      "perfect": 1002,
+      "good": 0,
+      "empty": 0,
+      "missed": 0,
+      "raw_score": 2004,
+      "delay_sum_ns": 270630988,
+      "hit_delay_sum_ns": 270630988,
+      "score": 1.0,
+      "delaySum_ms": 270.630988,
+      "hit_delay_sum_ms": 270.630988
+    },
+    "calibration": {
+      "notes": 91,
+      "perfect": 91,
+      "good": 0,
+      "empty": 0,
+      "missed": 0,
+      "raw_score": 182,
+      "delay_sum_ns": 72470020,
+      "hit_delay_sum_ns": 72470020,
+      "score": 1.0,
+      "delaySum_ms": 72.47002,
+      "hit_delay_sum_ms": 72.47002
+    }
+  },
+  "replayed_notes": 1093,
+  "replayed_inputs": 1093,
+  "recomputed_timing": {
+    "frame_gap": {
+      "count": 4884,
+      "mean_ms": 12.49999971109746,
+      "p50_ms": 12.502474,
+      "p99_ms": 13.229915,
+      "max_ms": 15.339113,
+      "over_16ms": 0,
+      "over_2ms": 4884
+    },
+    "render": {
+      "count": 4884,
+      "mean_ms": 0.24693116543816546,
+      "p50_ms": 0.173542,
+      "p99_ms": 0.741806,
+      "max_ms": 1.054053,
+      "over_16ms": 0,
+      "over_2ms": 0
+    },
+    "poll": {
+      "count": 60918,
+      "mean_ms": 1.0020149882136642,
+      "p50_ms": 0.999882,
+      "p99_ms": 1.463462,
+      "max_ms": 3.829091,
+      "over_16ms": 0,
+      "over_2ms": 198
+    }
+  }
+}

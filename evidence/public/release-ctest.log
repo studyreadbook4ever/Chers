@@ -1,0 +1,104 @@
+Start testing: Sep 15 22:08 KST
+----------------------------------------------------------
+1/6 Testing: core
+1/6 Test: core
+Command: "$PROJECT_ROOT/build/core_tests"
+Directory: $PROJECT_ROOT/build
+"core" start time: Sep 15 22:08 KST
+Output:
+----------------------------------------------------------
+CHERS core: 263997 checks passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"core" end time: Sep 15 22:08 KST
+"core" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: render
+2/6 Test: render
+Command: "$PROJECT_ROOT/build/render_tests"
+Directory: $PROJECT_ROOT/build
+"render" start time: Sep 15 22:08 KST
+Output:
+----------------------------------------------------------
+renderer tests passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"render" end time: Sep 15 22:08 KST
+"render" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: ipc
+3/6 Test: ipc
+Command: "$PROJECT_ROOT/build/ipc_tests"
+Directory: $PROJECT_ROOT/build
+"ipc" start time: Sep 15 22:08 KST
+Output:
+----------------------------------------------------------
+IPC: fork/exec C ABI, immutable leases, latest frames, readonly FD, input order,
+timeouts, reconnect, exclusive client, malformed/overflow rejection, cleanup passed
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"ipc" end time: Sep 15 22:08 KST
+"ipc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: pixel_agent
+4/6 Test: pixel_agent
+Command: "$PROJECT_ROOT/build/pixel_agent_tests"
+Directory: $PROJECT_ROOT/build
+"pixel_agent" start time: Sep 15 22:08 KST
+Output:
+----------------------------------------------------------
+pixel diagnostic tests passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"pixel_agent" end time: Sep 15 22:08 KST
+"pixel_agent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: verifier
+5/6 Test: verifier
+Command: "/home/baemo_pc/.local/bin/python3.12" "$PROJECT_ROOT/tests/verifier_tests.py"
+Directory: $PROJECT_ROOT/build
+"verifier" start time: Sep 15 22:08 KST
+Output:
+----------------------------------------------------------
+..................................
+----------------------------------------------------------------------
+Ran 34 tests in 0.085s
+
+OK
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"verifier" end time: Sep 15 22:08 KST
+"verifier" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: cli
+6/6 Test: cli
+Command: "/home/baemo_pc/.local/bin/python3.12" "$PROJECT_ROOT/tests/main_cli_tests.py" "$PROJECT_ROOT/build/chers"
+Directory: $PROJECT_ROOT/build
+"cli" start time: Sep 15 22:08 KST
+Output:
+----------------------------------------------------------
+CLI: invalid arguments, parameter boundaries, live/file endpoint collisions, GUI failure cleanup, signal shutdown, invalid abort artifacts passed
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"cli" end time: Sep 15 22:08 KST
+"cli" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 15 22:08 KST
