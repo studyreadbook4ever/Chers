@@ -11,51 +11,6 @@ line, and sends individual lane taps. The rules are public and there is no audio
 This repository includes the engine, a C client library, an independent result
 verifier, and a deterministic pixel diagnostic player.
 
-## Native vision model results — EP.1
-
-**2026-09-16 (KST) · 8 lanes · 20 total attempts/s · 50 scored seconds.**
-This ChatGPT Pro account exposed five image-capable models through Codex CLI
-0.154.0. Each was tested at `low` and its maximum advertised reasoning effort,
-using the `priority` tier. These are **ten single-run model + adapter pilots**,
-covering that account's Codex catalog, not the complete ChatGPT web model menu.
-
-모델에 전체 게임 이미지를 직접 전달하고 Linux 키보드 입력 경로를 연결해 실측했습니다.
-이번 구성에서는 모두 성공 타격이 0회였습니다. 응답·전송 지연과 아래의 입력 예약
-정책을 포함한 결과이며, 모델 자체의 시각 인식 능력만을 평가한 순위는 아닙니다.
-
-| Model | Effort | Score | Hits / notes | delaySum (ms) | Hit mean (ms) |
-| --- | --- | ---: | ---: | ---: | ---: |
-| [gpt-6-astra](evidence/public/codex-native-20260916/retry-final/gpt-6-astra-low-1/run.json) | low | 0.000% | 0 / 1017 | 0.000 | N/A |
-| [gpt-6-astra](evidence/public/codex-native-20260916/gpt-6-astra-ultra-1/run.json) | ultra | 0.000% | 0 / 936 | 0.000 | N/A |
-| [gpt-5.6-sol](evidence/public/codex-native-20260916/gpt-5.6-sol-low-1/run.json) | low | 0.000% | 0 / 990 | 0.000 | N/A |
-| [gpt-5.6-sol](evidence/public/codex-native-20260916/gpt-5.6-sol-ultra-1/run.json) | ultra | 0.000% | 0 / 1034 | 0.000 | N/A |
-| [gpt-5.6-terra](evidence/public/codex-native-20260916/gpt-5.6-terra-low-1/run.json) | low | 0.000% | 0 / 958 | 0.000 | N/A |
-| [gpt-5.6-terra](evidence/public/codex-native-20260916/gpt-5.6-terra-ultra-1/run.json) | ultra | 0.000% | 0 / 958 | 0.000 | N/A |
-| [gpt-5.6-luna](evidence/public/codex-native-20260916/retry-final/gpt-5.6-luna-low-1/run.json) | low | 0.000% | 0 / 963 | 0.000 | N/A |
-| [gpt-5.6-luna](evidence/public/codex-native-20260916/retry-luna/gpt-5.6-luna-max-1/run.json) | max | 0.000% | 0 / 1010 | 0.000 | N/A |
-| [gpt-5.5](evidence/public/codex-native-20260916/gpt-5.5-low-1/run.json) | low | 0.000% | 0 / 1021 | 0.000 | N/A |
-| [gpt-5.5](evidence/public/codex-native-20260916/gpt-5.5-xhigh-1/run.json) | xhigh | 0.000% | 0 / 991 | 0.000 | N/A |
-
-**How to read these results:** native 640×360 images were supplied without OCR,
-note detection or cropping. Every proposed tap arrived more than 20 ms after
-its requested deadline and was discarded by the adapter; Luna at `max`
-requested observations without proposing taps. Consequently **no lane taps
-reached the game**, all notes were missed, and no empty-tap penalties accrued.
-A zero delaySum here does **not** mean perfect timing; the successful-hit mean
-is **N/A**. The keyboard route was separately exercised with duplicate taps at
-2 and 16 lanes.
-
-All ten selected engine runs completed with valid scores, passed independent
-replay, and met the measured ≤16 ms frame-publication goal. This measures the
-engine's image stream, not how frequently the model interpreted images. Each
-trial used a fresh RDSEED chart. The first eligible run per configuration is
-shown; failed attempts and the adapter capacity/fresh-frame fix used by the
-final Astra-low and Luna-low retries are retained and disclosed.
-
-[Full results and attempts](evidence/public/codex-native-20260916/REPORT.md) ·
-[Selection record](evidence/public/codex-native-20260916/selection.json) ·
-[Protocol, limitations and reproduction](docs/CODEX-EVALUATION.md)
-
 ## Demo
 
 [![Watch the CHERS demo: 8 lanes, 20 total attempts per second](docs/assets/chers-demo-poster.jpg)](https://youtu.be/eflUBbF9UCc)
@@ -122,8 +77,8 @@ The C example is [`examples/client.c`](examples/client.c).
 
 The [Codex native vision adapter](docs/CODEX-EVALUATION.md) sends complete PNG
 images to subscription-accessible Codex models and executes their explicit
-choices through Linux keyboard events. Its source, prompts and recorded pilot
-results are included for reproduction.
+choices through Linux keyboard events. See the adapter documentation for setup
+and reproduction details.
 
 1. Connect to the endpoint printed by the benchmark.
 2. Read complete **640×360 RGBA8** frames. Equal lanes fill the entire frame.
